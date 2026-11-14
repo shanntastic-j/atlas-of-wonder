@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="An atlas of the world's most extraordinary festivals, rituals, pageantry and art, with photos and films.">
+<style>
+:root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",sans-serif}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<title>Atlas of Wonder</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a night-sky atlas. Pinned world map as the opener, then region drawers of photo cards; each card opens a full "journal page" with gallery, story, films and the practical sheet. */
+:root{
+  --paper:#EDF0F4; --surface:#FFFFFF; --sunk:#E2E7EE; --ink:#16213A; --muted:#58627A; --line:#D3D9E3;
+  --marigold:#E9A21E; --marigold-ink:#8F5300; --on-marigold:#1B1405;
+  --ocean:#DCE3EC; --land:#C3CCDA; --pin:#C2410C; --pin-new:#E9A21E;
+  --yes:#1F7A4D; --maybe:#8F5300; --no:#7A8194;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --text:"Newsreader", "Iowan Old Style", Georgia, serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0D1424; --surface:#151E33; --sunk:#111A2C; --ink:#E8ECF3; --muted:#9AA4B8; --line:#26314A;
+  --marigold:#F2B440; --marigold-ink:#F2B440; --on-marigold:#1B1405;
+  --ocean:#0A1120; --land:#22304B; --pin:#FF7A45; --pin-new:#F2B440;
+  --yes:#4CC38A; --maybe:#F2B440; --no:#8A93A8; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0D1424; --surface:#151E33; --sunk:#111A2C; --ink:#E8ECF3; --muted:#9AA4B8; --line:#26314A;
+  --marigold:#F2B440; --marigold-ink:#F2B440; --on-marigold:#1B1405;
+  --ocean:#0A1120; --land:#22304B; --pin:#FF7A45; --pin-new:#F2B440;
+  --yes:#4CC38A; --maybe:#F2B440; --no:#8A93A8; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--marigold);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.08}
+
+/* Masthead + map */
+header.mast{padding-block:28px 8px}
+.mast-row{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between}
+h1{font-size:clamp(40px,7vw,76px);font-weight:800;letter-spacing:-.025em}
+h1 em{font-style:normal;color:var(--marigold-ink)}
+.lede{font-size:19px;max-width:60ch;color:var(--muted);margin:10px 0 0}
+.mast-actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;font-family:var(--display);font-weight:600;font-size:15px}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--marigold);color:var(--on-marigold);border-color:var(--marigold)}
+.mapbox{position:relative;margin-top:20px;border-radius:14px;overflow:hidden;background:var(--ocean);aspect-ratio:2.05/1;max-width:100%}
+.mapbox svg{display:block;width:100%;height:100%}
+.mapbox .land{fill:var(--land)}
+.mapbox .grat{fill:none;stroke:var(--line);stroke-width:.5;opacity:.6}
+.pin{fill:var(--pin);stroke:var(--ocean);stroke-width:1.2;cursor:pointer;transition:r .15s}
+.pin.new{fill:var(--pin-new)}
+.pin.dim{opacity:.18}
+.pin:hover{r:7}
+.ring{fill:none;stroke:var(--pin-new);stroke-width:1.5;animation:ring 2.4s ease-out infinite;pointer-events:none}
+@keyframes ring{from{r:4;opacity:.9}to{r:16;opacity:0}}
+@media (prefers-reduced-motion:reduce){.ring{animation:none;opacity:.6}}
+.maptip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-family:var(--display);font-size:14px;white-space:nowrap;transform:translate(-50%,-130%)}
+.maplegend{position:absolute;left:12px;bottom:10px;display:flex;gap:14px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.maplegend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+/* What's new */
+.news{margin-top:28px;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:18px}
+.news-head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.news h2{font-size:26px}
+.news .log{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin:6px 0 0}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(220px,260px);gap:14px;overflow-x:auto;padding:14px 2px 6px;scroll-snap-type:x mandatory}
+.strip > *{scroll-snap-align:start}
+.news-empty{color:var(--muted);margin:10px 0 0}
+
+/* Toolbar */
+.toolbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding-block:14px 10px;margin-top:22px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.tab{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:6px 14px;font-family:var(--display);font-weight:600;font-size:15px;white-space:nowrap}
+.tab .n{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:6px;font-weight:400}
+.tab[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tab[aria-pressed="true"] .n{color:inherit;opacity:.7}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.filters input,.filters select{font-family:var(--display);font-size:15px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:7px 10px;min-width:0}
+.filters input{flex:1 1 200px}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+
+/* Region + country sections */
+main{padding-block:10px 80px}
+.region{margin-top:36px}
+.region-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:8px}
+.region-head h2{font-size:clamp(30px,4.4vw,46px);font-weight:800;letter-spacing:-.02em}
+.region-head .meta{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.country{margin-top:20px}
+.country h3{font-size:18px;font-weight:600;display:flex;gap:10px;align-items:baseline}
+.country h3 .meta{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin-top:10px}
+
+/* Card */
+.card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-align:left;padding:0;min-width:0;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-2px);border-color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+.card .ph{position:relative;aspect-ratio:3/2;background:var(--sunk);overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph-fallback{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:44px;color:var(--line)}
+.badge-new{position:absolute;top:10px;left:10px;background:var(--marigold);color:var(--on-marigold);font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.08em;padding:3px 8px;border-radius:4px}
+.react-dot{position:absolute;top:10px;right:10px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--surface);font-size:13px;font-family:var(--display);font-weight:800}
+.card .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card .when{font-family:var(--mono);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.card h4{font-family:var(--display);font-size:19px;font-weight:600;margin:0;line-height:1.15;text-wrap:balance}
+.card .place{font-size:15px;color:var(--muted);margin:0}
+.card .tag{font-size:15.5px;margin:2px 0 0;line-height:1.4}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.03em;border:1px solid var(--line);border-radius:4px;padding:2px 7px;color:var(--muted)}
+.chip.hot{border-color:var(--marigold);color:var(--marigold-ink)}
+.chip.media{border-style:dashed}
+
+/* Detail overlay */
+.sheet{position:fixed;inset:0;z-index:20;background:var(--paper);overflow-y:auto;overscroll-behavior:contain}
+.sheet-bar{position:sticky;top:0;z-index:2;background:var(--paper);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.sheet-bar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;padding-block:10px}
+.gallery{position:relative;background:var(--sunk);aspect-ratio:16/8;max-height:68vh;width:100%;overflow:hidden}
+.gallery img{width:100%;height:100%;object-fit:cover;display:block}
+.gallery .credit{position:absolute;right:10px;bottom:10px;max-width:80%;background:rgba(10,14,24,.72);color:#F1F3F7;font-family:var(--mono);font-size:11px;padding:4px 8px;border-radius:4px}
+.gallery .credit a{color:#F1F3F7}
+.gallery .cap{position:absolute;left:10px;bottom:10px;max-width:55%;background:rgba(10,14,24,.72);color:#F1F3F7;font-family:var(--display);font-size:14px;padding:4px 10px;border-radius:4px}
+.gnav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:rgba(10,14,24,.6);color:#F1F3F7;font-size:22px;display:grid;place-items:center}
+.gnav.prev{left:12px}.gnav.next{right:12px}
+.thumbs{display:flex;gap:8px;padding-block:10px;overflow-x:auto}
+.thumbs button{flex:none;width:96px;aspect-ratio:3/2;border:2px solid transparent;border-radius:6px;overflow:hidden;padding:0;background:var(--sunk)}
+.thumbs button[aria-current="true"]{border-color:var(--marigold)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.detail{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:40px;padding-block:18px 60px}
+@media (max-width:900px){.detail{grid-template-columns:minmax(0,1fr)}}
+.d-title{font-size:clamp(34px,5vw,58px);font-weight:800;letter-spacing:-.02em;margin-top:6px}
+.d-tag{font-size:22px;font-style:italic;color:var(--muted);margin:10px 0 0;max-width:40ch}
+.wonder{margin:24px 0;padding:16px 18px;border-left:4px solid var(--marigold);background:var(--surface);border-radius:0 var(--r) var(--r) 0}
+.wonder .eyebrow{color:var(--marigold-ink)}
+.wonder p{margin:6px 0 0;font-size:19px}
+.story p{max-width:65ch;margin:0 0 14px}
+.sec{margin-top:34px}
+.sec h3{font-size:22px;font-weight:600;display:flex;align-items:baseline;gap:10px}
+.sec h3 .meta{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:400}
+.films{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:12px}
+.film{display:flex;gap:12px;align-items:flex-start;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px;min-width:0}
+.film:hover{border-color:var(--ink)}
+.play{flex:none;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center}
+.play svg{width:14px;height:14px;margin-left:2px;fill:currentColor}
+.film .ft{font-family:var(--display);font-weight:600;font-size:15.5px;line-height:1.25;margin:0;overflow-wrap:anywhere}
+.film .fm{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin:4px 0 0}
+.film .fn{font-size:14.5px;color:var(--muted);margin:4px 0 0;line-height:1.35}
+.film .fo{font-size:13.5px;font-style:italic;color:var(--muted);margin:3px 0 0;line-height:1.3;overflow-wrap:anywhere}
+.lang{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--line);border-radius:3px;padding:1px 5px;margin-right:6px;color:var(--muted);white-space:nowrap}
+.en{font-weight:400;color:var(--muted)}
+.d-title .en{font-size:.55em;font-weight:600;letter-spacing:0}
+.film .badge-new{position:static;display:inline-block;margin-bottom:4px}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.links a{font-family:var(--display);font-size:14.5px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;text-decoration:none;background:var(--surface)}
+.links a:hover{border-color:var(--ink)}
+aside.facts{display:flex;flex-direction:column;gap:18px;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.panel h4{font-family:var(--display);font-size:16px;margin:0 0 10px}
+dl.kv{margin:0;display:grid;gap:10px}
+dl.kv dt{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+dl.kv dd{margin:2px 0 0;font-size:15.5px;line-height:1.4}
+.voter{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-block:6px}
+.voter + .voter{border-top:1px solid var(--line)}
+.voter .who{font-family:var(--display);font-weight:600;font-size:16px}
+.voter .who small{display:block;font-family:var(--mono);font-weight:400;font-size:11px;color:var(--muted);letter-spacing:.03em}
+.stars{display:flex;gap:2px}
+.stars button{border:none;background:none;padding:4px;font-size:28px;line-height:1;color:var(--line)}
+.stars button.on{color:var(--marigold)}
+.stars button:hover{transform:scale(1.12)}
+@media (prefers-reduced-motion:reduce){.stars button:hover{transform:none}}
+.vote-hint{font-family:var(--mono);font-size:11px;color:var(--muted);margin:6px 0 0}
+.votes{display:flex;flex-wrap:wrap;gap:4px 12px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.votes b{color:var(--marigold-ink);font-weight:500;letter-spacing:1px}
+.votes i{font-style:normal;letter-spacing:1px;opacity:.55}
+.react-dot{color:var(--marigold-ink)}
+textarea#note{width:100%;min-height:90px;margin-top:10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:15.5px;padding:8px 10px;resize:vertical}
+.saved{font-family:var(--mono);font-size:11px;color:var(--muted);min-height:1em;margin-top:4px}
+.empty{padding:40px 0;color:var(--muted);font-size:18px}
+.syncnote{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px}
+footer{border-top:1px solid var(--line);padding-block:20px 40px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="mast-row">
+      <div>
+        <div class="eyebrow" id="mastEyebrow">Festivals &#xB7; rituals &#xB7; strange beauty</div>
+        <h1>Atlas of <em>Wonder</em></h1>
+        <p class="lede">The world's most extraordinary pageants, art and landscapes, gathered for future trips. Browse by region, watch the films, and give each one your stars.</p>
+      </div>
+      <div class="mast-actions">
+        <button class="btn primary" id="surprise" type="button">Surprise me</button>
+        <button class="btn" id="showMine" type="button">Our top picks</button>
+      </div>
+    </div>
+    <div class="mapbox" id="mapbox" role="img" aria-label="World map with a pin for each experience">
+      <svg id="map" viewBox="0 0 960 468" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="maptip" id="maptip" hidden></div>
+      <div class="maplegend"><span><i style="background:var(--pin)"></i>experience</span><span><i style="background:var(--pin-new)"></i>new since last visit</span></div>
+    </div>
+  </header>
+
+  <section class="news" id="news" aria-labelledby="newsTitle">
+    <div class="news-head">
+      <div>
+        <div class="eyebrow" id="newsSince">What's new</div>
+        <h2 id="newsTitle">Loading the atlas&#x2026;</h2>
+        <p class="log" id="newsLog"></p>
+      </div>
+      <button class="btn" id="markSeen" type="button" hidden>Mark all as seen</button>
+    </div>
+    <div class="strip" id="newsStrip"></div>
+  </section>
+
+  <div class="toolbar">
+    <div class="tabs" id="tabs" role="toolbar" aria-label="World regions"></div>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search masks, lanterns, Japan, fire&#x2026;" aria-label="Search experiences">
+      <select id="fMonth" aria-label="Month"><option value="">Any month</option></select>
+      <select id="fMine" aria-label="Votes">
+        <option value="">All votes</option><option value="top">Three stars from either</option><option value="both">Both voted</option><option value="need-shannon">Waiting on Shannon</option><option value="need-david">Waiting on David</option><option value="none">Nobody voted yet</option>
+      </select>
+      <select id="fSort" aria-label="Sort">
+        <option value="region">By country</option><option value="month">By month</option><option value="stars">Highest rated</option><option value="new">Newest first</option>
+      </select>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <main id="list"><p class="empty">Gathering experiences from around the world&#x2026;</p></main>
+  <footer class="wrap" id="foot">Photos from Wikimedia Commons, credited on each image. Videos and streaming titles open on their own sites.</footer>
+</div>
+
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="dTitle"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+(() => {
+const REGIONS = ["Europe","Asia","North America","Central America & Mexico","South America","Africa","Middle East","Oceania"];
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const VOTERS = [["shannon","Shannon"],["david","David"]];
+const STAR = "\u2605", HOLLOW = "\u2606";
+let ratings = {};          // {expId: {shannon: 1-3, david: 1-3}}
+let ratingsStore = null;   // db collection when available
+const LSR = "atlas-ratings-v1";
+try { ratings = JSON.parse(localStorage.getItem(LSR)) || {} } catch {}
+const vote = (id, who) => ratings[id]?.[who] || 0;
+const total = id => vote(id,"shannon") + vote(id,"david");
+const isTop = id => vote(id,"shannon") === 3 || vote(id,"david") === 3;
+let ratingWrites = Promise.resolve();
+function setVote(id, who, n){
+  const cur = {...(ratings[id] || {})};
+  if (cur[who] === n) delete cur[who]; else cur[who] = n;
+  ratings = {...ratings, [id]: cur};
+  try { localStorage.setItem(LSR, JSON.stringify(ratings)) } catch {}
+  if (ratingsStore){
+    const body = {shannon: cur.shannon || 0, david: cur.david || 0, updatedAt: new Date().toISOString()};
+    ratingWrites = ratingWrites.then(() => ratingsStore.doc(id).set(body)).then(() => flash("Vote saved")).catch(e => { console.warn("vote save failed", e); flash("Saved on this device only") });
+  } else if (sheet) sheetPost({id, [who]: cur[who] || 0});
+  else flash("Saved on this device");
+}
+
+/* ---------- Google Sheet storage: used when the page is not on claude.ai (e.g. GitHub Pages) ---------- */
+const VOTE_URL = "";   // Apps Script web app URL ending in /exec
+const ON_CLAUDE = !!(window.claude && window.claude.use);
+const SHEET_MODE = !ON_CLAUDE;   // off claude.ai, votes are private behind the family code
+const LSC = "atlas-family-code";
+let sheet = null;          // {code} once unlocked on this device
+let sheetNotes = {};       // shared notes from the sheet
+let sheetWrites = Promise.resolve();
+async function sheetLoad(code){
+  if (!VOTE_URL) throw new Error("offline");
+  const r = await fetch(VOTE_URL + "?code=" + encodeURIComponent(code), {cache: "no-store"});
+  const d = await r.json();
+  if (!d.ok) throw new Error(d.error || "failed");
+  const next = {}, notes = {};
+  Object.entries(d.votes || {}).forEach(([id, o]) => { const x = {}; if (o.shannon) x.shannon = o.shannon; if (o.david) x.david = o.david; next[id] = x; if (o.notes) notes[id] = o.notes });
+  ratings = next; sheetNotes = notes;
+  try { localStorage.setItem(LSR, JSON.stringify(ratings)) } catch {}
+}
+function sheetPost(body){
+  sheetWrites = sheetWrites
+    .then(() => fetch(VOTE_URL, {method: "POST", headers: {"Content-Type": "text/plain;charset=utf-8"}, body: JSON.stringify({code: sheet.code, ...body})}))
+    .then(r => r.json()).then(d => { if (!d.ok) throw new Error(d.error); flash("Saved to our sheet") })
+    .catch(e => { console.warn("sheet save failed", e); flash("Couldn't save. Check your connection and try again.") });
+}
+function applyLock(){
+  const locked = SHEET_MODE && !sheet;
+  $("#showMine").hidden = locked;
+  $("#fMine").hidden = locked;
+}
+async function initSheet(){
+  if (!SHEET_MODE) return;
+  ratings = {};  // votes stay private until unlocked
+  applyLock();
+  let code = ""; try { code = localStorage.getItem(LSC) || "" } catch {}
+  if (code){
+    try { await sheetLoad(code); sheet = {code} } catch (e) { console.warn("saved family code rejected", e) }
+  }
+  applyLock(); renderList(); drawPins(); if (current) openDetail(current, true);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && sheet) sheetLoad(sheet.code).then(() => { renderList(); if (current) renderVotePanel(current) }).catch(() => {}) });
+}
+async function unlock(code){
+  const msg = document.getElementById("unlockMsg");
+  try {
+    msg.textContent = "Checking\u2026";
+    await sheetLoad(code.trim());
+    sheet = {code: code.trim()};
+    try { localStorage.setItem(LSC, sheet.code) } catch {}
+    applyLock(); renderList(); drawPins(); if (current) openDetail(current, true);
+  } catch (e) {
+    msg.textContent = e.message === "code" ? "That code didn't match. Try again." : e.message === "offline" ? "Voting isn't connected yet." : "Couldn't reach the vote sheet. Check your connection.";
+  }
+}
+function votesLine(id){
+  const parts = VOTERS.map(([k,label]) => { const n = vote(id,k); return n ? `<span>${label} <b>${STAR.repeat(n)}</b><i>${HOLLOW.repeat(3-n)}</i></span>` : "" }).filter(Boolean);
+  return parts.length ? `<div class="votes">${parts.join("")}</div>` : "";
+}
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+let catalog = null, items = [], byId = {};
+let state = {lastSeenAt:null, reactions:{}, notes:{}};
+let region = "all", showMine = false;
+let store = null; // {save(patch)} when db works, else localStorage
+
+/* ---------- personal state ---------- */
+const LS = "atlas-state-v1";
+function lsLoad(){ try{ return JSON.parse(localStorage.getItem(LS)) || null }catch{ return null } }
+function lsSave(){ try{ localStorage.setItem(LS, JSON.stringify(state)) }catch{} }
+let writing = Promise.resolve();
+function persist(){
+  lsSave();
+  if (!store) return;
+  const body = JSON.parse(JSON.stringify(state));
+  writing = writing.then(() => store.set(body)).then(()=>flash("Saved")).catch(e => { console.warn("save failed", e); flash("Saved on this device only"); });
+}
+let flashT; function flash(t){ const el = document.getElementById("savedNote"); if(!el) return; el.textContent = t; clearTimeout(flashT); flashT=setTimeout(()=>{el.textContent=""},2200) }
+
+async function connectStore(){
+  try{
+    if (!window.claude?.use) { initSheet(); return }
+    const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+    if (!db || !user) return;
+    const uid = await user.id();
+    if (!uid) return;
+    const ref = db.doc("data/users/" + uid + "/state");
+    const snap = await ref.get();
+    if (snap.exists){
+      const d = snap.data();
+      state = {lastSeenAt: d.lastSeenAt ?? null, reactions: {...(d.reactions||{})}, notes: {...(d.notes||{})}};
+      lsSave();
+    } else {
+      const local = lsLoad();
+      if (local) state = local;
+    }
+    store = { set: body => ref.set(body) };
+    ratingsStore = db.collection("ratings");
+    ratingsStore.onSnapshot(snap => {
+      const next = {};
+      snap.docs.forEach(d => { const v = d.data(); const o = {}; if (v.shannon) o.shannon = v.shannon; if (v.david) o.david = v.david; next[d.id] = o });
+      // keep votes made on this device before the shared store existed, and send them up once
+      const pending = Object.entries(ratings).filter(([id, o]) => !next[id] && (o.shannon || o.david));
+      ratings = {...next, ...Object.fromEntries(pending)};
+      try { localStorage.setItem(LSR, JSON.stringify(ratings)) } catch {}
+      pending.forEach(([id, o]) => { ratingWrites = ratingWrites.then(() => ratingsStore.doc(id).set({shannon: o.shannon || 0, david: o.david || 0, updatedAt: new Date().toISOString()})).catch(()=>{}) });
+      renderList(); if (!$("#sheet").hidden && current) renderVotePanel(current);
+    }, e => console.warn("ratings unavailable", e));
+    if (!snap.exists && (state.lastSeenAt || Object.keys(state.notes).length)) persist();
+    renderAll();
+  }catch(e){ console.warn("db unavailable", e) }
+}
+
+/* ---------- new-ness ---------- */
+const since = () => state.lastSeenAt || catalog?.baselineAt || "1970";
+const isNewExp = x => (x.addedAt || "") > since();
+const newMedia = x => [...(x.images||[]), ...(x.videos||[]), ...(x.streaming||[])].filter(m => (m.addedAt||"") > since() && !isNewExp(x));
+const fmtDate = iso => { try{ return new Date(iso).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"}) }catch{ return iso } };
+
+function whenText(x){
+  if (x.start2027){
+    const s = new Date(x.start2027+"T12:00:00"), e = x.end2027 ? new Date(x.end2027+"T12:00:00") : null;
+    const o = {month:"short", day:"numeric"};
+    if (e && x.end2027 !== x.start2027) return s.toLocaleDateString(undefined,o) + " \u2013 " + e.toLocaleDateString(undefined,o) + " 2027";
+    return s.toLocaleDateString(undefined,o) + ", 2027";
+  }
+  return (x.monthName || "") + (x.dateConfidence?.startsWith("No 2027") ? " \u00B7 next 2028" : " \u00B7 dates TBA");
+}
+
+/* ---------- map ---------- */
+let proj, pinsG, pathGen, landFeat;
+async function drawMap(){
+  const svg = d3.select("#map");
+  proj = d3.geoNaturalEarth1().fitExtent([[8,8],[952,460]], {type:"Sphere"});
+  pathGen = d3.geoPath(proj);
+  svg.append("path").attr("class","grat").attr("d", pathGen(d3.geoGraticule10()));
+  try{
+    const topo = await fetch("land-110m.json").then(r => r.json());
+    landFeat = topojson.feature(topo, topo.objects.land);
+    svg.append("path").attr("class","land").attr("d", pathGen(landFeat));
+  }catch(e){ console.warn("land outline failed", e) }
+  pinsG = svg.append("g");
+}
+function drawPins(){
+  if (!pinsG || !proj) return;
+  const vis = new Set(filtered().map(x => x.id));
+  const pts = items.filter(x => typeof x.lat === "number" && typeof x.lng === "number");
+  const tip = $("#maptip"), box = $("#mapbox");
+  pinsG.selectAll("*").remove();
+  pts.filter(isNewExp).forEach(x => { const [px,py] = proj([x.lng,x.lat]); pinsG.append("circle").attr("class","ring").attr("cx",px).attr("cy",py).attr("r",4) });
+  pinsG.selectAll("circle.pin").data(pts, d => d.id).join("circle")
+    .attr("class", d => "pin" + (isNewExp(d) ? " new" : "") + (vis.has(d.id) ? "" : " dim"))
+    .attr("cx", d => proj([d.lng,d.lat])[0]).attr("cy", d => proj([d.lng,d.lat])[1]).attr("r", 4.5)
+    .attr("tabindex", 0).attr("role","button").attr("aria-label", d => d.name)
+    .on("mouseenter focus", (ev,d) => {
+      const r = box.getBoundingClientRect(), s = r.width/960;
+      const [px,py] = proj([d.lng,d.lat]);
+      tip.textContent = d.name + " \u00B7 " + d.country; tip.hidden = false;
+      tip.style.left = Math.min(Math.max(px*s, 90), r.width-90) + "px"; tip.style.top = (py*s) + "px";
+    })
+    .on("mouseleave blur", () => { tip.hidden = true })
+    .on("click", (ev,d) => openDetail(d.id))
+    .on("keydown", (ev,d) => { if (ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); openDetail(d.id) } });
+}
+
+/* ---------- filters ---------- */
+function filtered(){
+  const q = $("#q").value.trim().toLowerCase();
+  const m = $("#fMonth").value, mine = $("#fMine").value;
+  return items.filter(x => {
+    if (region !== "all" && x.region !== region) return false;
+    if (showMine && !isTop(x.id)) return false;
+    if (m && String(x.month) !== m) return false;
+    const s = vote(x.id,"shannon"), d = vote(x.id,"david");
+    if (mine === "top" && !isTop(x.id)) return false;
+    if (mine === "both" && !(s && d)) return false;
+    if (mine === "need-shannon" && s) return false;
+    if (mine === "need-david" && d) return false;
+    if (mine === "none" && (s || d)) return false;
+    if (q){
+      const hay = [x.name,x.nameOriginal,x.location,x.country,x.category,x.why,x.tagline,x.story,x.artPairing,x.landscapePairing,x.monthName].join(" ").toLowerCase();
+      if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+    }
+    return true;
+  });
+}
+
+/* ---------- cards ---------- */
+function cardHTML(x){
+  const img = x.images?.[0];
+  const nm = newMedia(x).length;
+  const hot = /Top discovery|High interest|Great combined/.test(x.priority||"");
+  return `<button class="card" type="button" data-open="${esc(x.id)}">
+    <div class="ph">${img ? `<img src="${esc(img.thumb || img.src)}" alt="${esc(img.caption || x.name)}" loading="lazy">` : `<div class="ph-fallback">${esc((x.country||"?").slice(0,2).toUpperCase())}</div>`}
+      ${isNewExp(x) ? `<span class="badge-new">NEW</span>` : ""}
+      ${isTop(x.id) ? `<span class="react-dot" title="Three stars">${STAR}</span>` : ""}
+    </div>
+    <div class="body">
+      <div class="when"><span>${esc(whenText(x))}</span></div>
+      <h4>${nameHTML(x.name)}</h4>
+      <p class="place">${esc(x.location)}</p>
+      ${x.tagline ? `<p class="tag">${esc(x.tagline)}</p>` : ""}
+      ${votesLine(x.id)}
+      <div class="chips">
+        <span class="chip">${esc(x.category)}</span>
+        ${hot ? `<span class="chip hot">${esc(x.priority)}</span>` : ""}
+        ${x.videos?.length ? `<span class="chip">${x.videos.length} films</span>` : ""}
+        ${nm ? `<span class="chip hot media">+${nm} new media</span>` : ""}
+      </div>
+    </div></button>`;
+}
+
+function renderTabs(){
+  const counts = {}; items.forEach(x => counts[x.region] = (counts[x.region]||0) + 1);
+  const regs = REGIONS.filter(r => counts[r]);
+  $("#tabs").innerHTML = [`<button class="tab" type="button" data-r="all" aria-pressed="${region==="all"}">Whole world<span class="n">${items.length}</span></button>`]
+    .concat(regs.map(r => `<button class="tab" type="button" data-r="${esc(r)}" aria-pressed="${region===r}">${esc(r)}<span class="n">${counts[r]}</span></button>`)).join("");
+}
+
+function renderList(){
+  const list = filtered();
+  $("#count").textContent = list.length + " of " + items.length;
+  const sort = $("#fSort").value;
+  if (!list.length){ $("#list").innerHTML = `<p class="empty">Nothing matches those filters yet. Try another month or clear the search.</p>`; return }
+  if (sort !== "region"){
+    const s = [...list].sort(sort === "month"
+      ? (a,b) => (a.month - b.month) || (a.start2027||"z").localeCompare(b.start2027||"z")
+      : sort === "stars"
+      ? (a,b) => (total(b.id) - total(a.id)) || (a.month - b.month)
+      : (a,b) => (b.addedAt||"").localeCompare(a.addedAt||""));
+    $("#list").innerHTML = `<section class="region"><div class="grid">${s.map(cardHTML).join("")}</div></section>`;
+    return;
+  }
+  const html = REGIONS.filter(r => list.some(x => x.region === r)).map(r => {
+    const inR = list.filter(x => x.region === r);
+    const countries = [...new Set(inR.map(x => x.country))].sort((a,b) => inR.filter(x=>x.country===b).length - inR.filter(x=>x.country===a).length || a.localeCompare(b));
+    return `<section class="region" id="sec-${esc(r)}">
+      <div class="region-head"><h2>${esc(r)}</h2><span class="meta">${inR.length} experiences \u00B7 ${countries.length} ${countries.length===1?"country":"countries"}</span></div>
+      ${countries.map(c => { const cs = inR.filter(x => x.country === c).sort((a,b)=>a.month-b.month);
+        return `<div class="country"><h3>${esc(c)}<span class="meta">${cs.length}</span></h3><div class="grid">${cs.map(cardHTML).join("")}</div></div>` }).join("")}
+    </section>`;
+  }).join("");
+  $("#list").innerHTML = html;
+}
+
+function renderNews(){
+  if (!catalog) return;
+  const newExps = items.filter(isNewExp);
+  const mediaExps = items.filter(x => newMedia(x).length);
+  const mediaCount = mediaExps.reduce((n,x) => n + newMedia(x).length, 0);
+  $("#newsSince").textContent = state.lastSeenAt ? "New since your visit on " + fmtDate(state.lastSeenAt) : "What's new";
+  const parts = [];
+  if (newExps.length) parts.push(newExps.length + " new " + (newExps.length===1?"experience":"experiences"));
+  if (mediaCount) parts.push(mediaCount + " new photos and films");
+  $("#newsTitle").textContent = parts.length ? parts.join(" and ") : "You're all caught up";
+  const last = catalog.updates?.[0];
+  $("#newsLog").textContent = last ? `Last scouting run ${fmtDate(last.date)}: ${last.summary}` : "";
+  $("#markSeen").hidden = !parts.length;
+  const strip = [...newExps, ...mediaExps].slice(0, 24);
+  $("#newsStrip").innerHTML = strip.length ? strip.map(cardHTML).join("") : "";
+  $("#newsStrip").hidden = !strip.length;
+}
+
+function renderAll(){ renderTabs(); renderNews(); renderList(); drawPins(); if (!$("#sheet").hidden && current) openDetail(current, true) }
+
+/* ---------- detail ---------- */
+let current = null, gi = 0;
+function filmHTML(v){
+  const host = (() => { try{ return new URL(v.url).hostname.replace("www.","") }catch{ return "" } })();
+  const meta = [v.kind, v.minutes ? v.minutes + " min" : null, v.channel || v.platform || host].filter(Boolean).join(" \u00B7 ");
+  const isNew = (v.addedAt||"") > since() && !isNewExp(byId[current]||{});
+  return `<a class="film" href="${esc(v.url)}" target="_blank" rel="noopener">
+    <span class="play"><svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg></span>
+    <span style="min-width:0">${isNew ? `<span class="badge-new">NEW</span>` : ""}<p class="ft">${esc(v.titleEn || v.title)}</p>${v.titleEn ? `<p class="fo">Original title: ${esc(v.title)}</p>` : ""}<p class="fm">${v.lang ? `<span class="lang">In ${esc(v.lang)}</span>` : ""}${esc(meta)}</p>${v.note ? `<p class="fn">${esc(v.note)}</p>` : ""}</span></a>`;
+}
+function openDetail(id, keep){
+  const x = byId[id]; if (!x) return;
+  if (!keep) gi = 0;
+  current = id;
+  const imgs = x.images || [];
+  const story = (x.story || x.why || "").split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join("");
+  const longs = (x.videos||[]).filter(v => /film|documentary|full/.test(v.kind||""));
+  const shorts = (x.videos||[]).filter(v => !/film|documentary|full/.test(v.kind||""));
+  const sheet = $("#sheet");
+  sheet.innerHTML = `
+  <div class="sheet-bar"><div class="wrap">
+    <button class="btn" type="button" id="close">\u2190 Back to the atlas</button>
+    <span class="eyebrow">${esc(x.region)} \u00B7 ${esc(x.country)}</span>
+  </div></div>
+  ${imgs.length ? `<div class="gallery" id="gal"></div>` : ""}
+  <div class="wrap">
+    ${imgs.length > 1 ? `<div class="thumbs" id="thumbs">${imgs.map((m,i)=>`<button type="button" data-g="${i}" aria-label="Photo ${i+1}" aria-current="${i===gi}"><img src="${esc(m.thumb || m.src)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+    <div class="detail">
+      <article style="min-width:0">
+        <div class="eyebrow">${esc(whenText(x))} \u00B7 ${esc(x.category)}${x.lat!=null ? ` \u00B7 ${Math.abs(x.lat).toFixed(2)}\u00B0${x.lat>=0?"N":"S"} ${Math.abs(x.lng).toFixed(2)}\u00B0${x.lng>=0?"E":"W"}` : ""}</div>
+        <h2 class="d-title" id="dTitle">${nameHTML(x.name)}</h2>
+        <p class="d-tag">${esc(x.tagline || x.location)}</p>
+        ${x.wonderMoment ? `<div class="wonder"><div class="eyebrow">The moment to be there for</div><p>${esc(x.wonderMoment)}</p></div>` : ""}
+        <div class="story sec">${story}</div>
+        ${shorts.length ? `<div class="sec"><h3>Watch a clip<span class="meta">opens in a new tab</span></h3><div class="films">${shorts.map(filmHTML).join("")}</div></div>` : ""}
+        ${longs.length ? `<div class="sec"><h3>Settle in with a film<span class="meta">longer documentaries and full events</span></h3><div class="films">${longs.map(filmHTML).join("")}</div></div>` : ""}
+        ${x.streaming?.length ? `<div class="sec"><h3>On streaming</h3><div class="films">${x.streaming.map(s => filmHTML({...s, kind:s.platform, channel:""})).join("")}</div></div>` : ""}
+        ${x.social?.length ? `<div class="sec"><h3>Browse more clips</h3><div class="links">${x.social.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}
+          <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(x.name + " " + (x.country||""))}" target="_blank" rel="noopener">Search YouTube</a></div></div>` : ""}
+        <div class="sec"><h3>Pair it with</h3>
+          <dl class="kv" style="margin-top:10px">
+            <div><dt>Art &amp; craft</dt><dd>${esc(x.artPairing)}</dd></div>
+            <div><dt>Landscape</dt><dd>${esc(x.landscapePairing)}</dd></div>
+          </dl></div>
+      </article>
+      <aside class="facts">
+        <div class="panel">
+          <h4>How much do we want to go?</h4>
+          <div id="votePanel"></div>
+          <p class="vote-hint">1 star: curious &middot; 2: would love to &middot; 3: must go. Tap a star again to clear it.</p>
+          ${SHEET_MODE && !sheet ? "" : `<textarea id="note" placeholder="${SHEET_MODE ? "Our shared notes" : "Notes for future us"}: who to go with, what to pair it with, questions\u2026">${esc((SHEET_MODE ? sheetNotes[id] : state.notes[id]) || "")}</textarea>`}
+          <div class="saved" id="savedNote"></div>
+        </div>
+        <div class="panel"><h4>When</h4><dl class="kv">
+          <div><dt>2027</dt><dd>${esc(x.dateDetails)}</dd></div>
+          <div><dt>Date confidence</dt><dd>${esc(x.dateConfidence)}</dd></div>
+          ${x.laterYears ? `<div><dt>2028\u20132029</dt><dd>${esc(x.laterYears)}</dd></div>` : ""}
+          <div><dt>Tickets &amp; release</dt><dd>${esc(x.booking)}</dd></div>
+        </dl></div>
+        <div class="panel"><h4>Sources</h4><div class="links" style="margin:0">
+          ${x.officialUrl ? `<a href="${esc(x.officialUrl)}" target="_blank" rel="noopener">Official site</a>` : ""}
+          ${imgs.map((m,i) => m.pageUrl ? `<a href="${esc(m.pageUrl)}" target="_blank" rel="noopener">Photo ${i+1} credit</a>` : "").join("")}
+        </div><p class="syncnote">Added to the atlas ${esc(fmtDate(x.addedAt))} \u00B7 ${esc(x.sourceType || "")}</p></div>
+      </aside>
+    </div>
+  </div>`;
+  sheet.hidden = false; document.body.style.overflow = "hidden";
+  if (!keep) sheet.scrollTop = 0;
+  if (location.hash !== "#x-" + id) history.replaceState(null, "", "#x-" + id);
+  drawGallery();
+  $("#close").onclick = closeDetail;
+  if (!keep) $("#close").focus({preventScroll:true});
+  renderVotePanel(id);
+  $("#votePanel").onclick = e => { const b = e.target.closest("button[data-n]"); if (!b) return;
+    setVote(id, b.dataset.who, +b.dataset.n); renderVotePanel(id); renderList(); drawPins();
+    $(`#votePanel button[data-who="${b.dataset.who}"][data-n="${b.dataset.n}"]`)?.focus(); };
+  let nt; const noteEl = $("#note");
+  if (noteEl) noteEl.oninput = e => { clearTimeout(nt); const val = e.target.value; nt = setTimeout(() => {
+    if (SHEET_MODE){ sheetNotes[id] = val; sheetPost({id, notes: val}); return }
+    if (val.trim()) state.notes[id] = val; else delete state.notes[id]; persist() }, 900) };
+  const th = $("#thumbs"); if (th) th.onclick = e => { const b = e.target.closest("[data-g]"); if (b){ gi = +b.dataset.g; drawGallery() } };
+}
+const VOTE_WORD = ["Not voted yet","Curious","Would love to","Must go"];
+function renderVotePanel(id){
+  const el = document.getElementById("votePanel"); if (!el) return;
+  if (SHEET_MODE && !sheet){
+    el.innerHTML = `<form class="unlock" id="unlockForm"><p style="margin:0 0 8px;font-size:15px">Voting is private. Enter your family code to see and add votes.</p>
+      <div style="display:flex;gap:6px"><input id="familyCode" type="password" autocomplete="off" aria-label="Family code" placeholder="Family code" style="flex:1;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);padding:8px 10px;font:inherit;font-size:15px">
+      <button class="btn" type="submit">Unlock</button></div><p class="vote-hint" id="unlockMsg"></p></form>`;
+    document.getElementById("unlockForm").onsubmit = e => { e.preventDefault(); unlock(document.getElementById("familyCode").value) };
+    return;
+  }
+  el.innerHTML = VOTERS.map(([k,label]) => { const n = vote(id,k);
+    return `<div class="voter"><span class="who">${label}<small>${VOTE_WORD[n]}</small></span>
+      <span class="stars" role="group" aria-label="${label}'s stars">${[1,2,3].map(i => `<button type="button" data-who="${k}" data-n="${i}" class="${i<=n?"on":""}" aria-pressed="${i===n}" aria-label="${label}: ${i} ${i===1?"star":"stars"}">${STAR}</button>`).join("")}</span></div>` }).join("");
+}
+function drawGallery(){
+  const x = byId[current], g = $("#gal"); if (!g || !x) return;
+  const imgs = x.images, m = imgs[gi];
+  g.innerHTML = `<img src="${esc(m.src)}" alt="${esc(m.caption || x.name)}">
+    ${m.caption ? `<span class="cap">${esc(m.caption)}</span>` : ""}
+    <span class="credit">${m.pageUrl ? `<a href="${esc(m.pageUrl)}" target="_blank" rel="noopener">` : ""}${esc(m.author || "Wikimedia Commons")} \u00B7 ${esc(m.license || "")}${m.pageUrl ? "</a>" : ""}</span>
+    ${imgs.length > 1 ? `<button class="gnav prev" type="button" aria-label="Previous photo">\u2039</button><button class="gnav next" type="button" aria-label="Next photo">\u203A</button>` : ""}`;
+  g.querySelector(".prev")?.addEventListener("click", () => { gi = (gi - 1 + imgs.length) % imgs.length; drawGallery() });
+  g.querySelector(".next")?.addEventListener("click", () => { gi = (gi + 1) % imgs.length; drawGallery() });
+  document.querySelectorAll("#thumbs [data-g]").forEach(b => b.setAttribute("aria-current", +b.dataset.g === gi));
+}
+function closeDetail(){
+  $("#sheet").hidden = true; document.body.style.overflow = ""; const id = current; current = null;
+  history.replaceState(null, "", region === "all" ? location.pathname + location.search : "#r-" + slug(region));
+  const c = document.querySelector(`.card[data-open="${CSS.escape(id||"")}"]`); c?.focus({preventScroll:false});
+}
+/* "Original (English)" names: the English translations in parentheses show lighter */
+const nameHTML = n => esc(n).replace(/\(([^)]+)\)/g, '<span class="en">($1)</span>');
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
+/* ---------- routing + events ---------- */
+function route(){
+  const h = location.hash.slice(1);
+  if (h.startsWith("x-") && byId[h.slice(2)]) { openDetail(h.slice(2)); return }
+  if (h.startsWith("r-")){ const r = REGIONS.find(r => slug(r) === h.slice(2)); if (r){ region = r; renderAll() } }
+  if (!$("#sheet").hidden) { $("#sheet").hidden = true; document.body.style.overflow = "" }
+}
+document.addEventListener("click", e => {
+  const c = e.target.closest("[data-open]"); if (c){ openDetail(c.dataset.open); return }
+  const t = e.target.closest(".tab"); if (t){ region = t.dataset.r; showMine = false; $("#showMine").textContent = "Our top picks";
+    history.replaceState(null,"", region==="all" ? location.pathname + location.search : "#r-" + slug(region)); renderAll();
+    document.querySelector(".toolbar").scrollIntoView({behavior:"smooth", block:"start"}) }
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet").hidden) closeDetail();
+  if (!$("#sheet").hidden && byId[current]?.images?.length > 1 && (e.key === "ArrowRight" || e.key === "ArrowLeft") && e.target.tagName !== "TEXTAREA"){
+    const n = byId[current].images.length; gi = (gi + (e.key === "ArrowRight" ? 1 : n - 1)) % n; drawGallery() } });
+["#q","#fMonth","#fMine","#fSort"].forEach(s => $(s).addEventListener("input", () => { renderList(); drawPins() }));
+$("#surprise").onclick = () => { const pool = filtered().length ? filtered() : items; const unseen = pool.filter(x => !vote(x.id,"shannon") || !vote(x.id,"david")); const p = unseen.length ? unseen : pool; openDetail(p[Math.floor(Math.random()*p.length)].id) };
+$("#showMine").onclick = () => { showMine = !showMine; $("#showMine").textContent = showMine ? "Show everything" : "Our top picks"; renderList(); drawPins(); document.querySelector(".toolbar").scrollIntoView({behavior:"smooth"}) };
+$("#markSeen").onclick = () => { state.lastSeenAt = new Date().toISOString(); persist(); renderAll() };
+window.addEventListener("hashchange", route);
+/* photos: retry a failed load twice with a delay, then fall back to the full-size file, then a placeholder tile */
+document.addEventListener("error", e => {
+  const img = e.target; if (!(img instanceof HTMLImageElement)) return;
+  const tries = +(img.dataset.tries || 0); img.dataset.tries = tries + 1;
+  const base = img.getAttribute("src").split("?")[0];
+  if (tries < 2) { setTimeout(() => { img.src = base + "?r=" + (tries + 1) }, 800 + tries * 1500 + Math.random() * 600); return }
+  if (tries === 2 && base.includes("/t/")) { img.src = base.replace("/t/", "/"); return }
+  const ph = img.closest(".ph"); if (ph && !ph.querySelector(".ph-fallback")) { img.remove(); ph.insertAdjacentHTML("afterbegin", '<div class="ph-fallback">&#x25D0;</div>') }
+  console.warn("photo failed", base);
+}, true);
+MONTHS.forEach((m,i) => $("#fMonth").insertAdjacentHTML("beforeend", `<option value="${i+1}">${m}</option>`));
+
+/* ---------- boot ---------- */
+(async () => {
+  const local = lsLoad(); if (local) state = {...state, ...local};
+  const mapReady = drawMap();
+  try{
+    catalog = await fetch("catalog.json", {cache:"no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json() });
+  }catch(e){
+    $("#newsTitle").textContent = "The catalog didn't load";
+    $("#list").innerHTML = `<p class="empty">The experience list couldn't be loaded. Reload the page to try again.</p>`; return;
+  }
+  items = catalog.experiences; items.forEach(x => byId[x.id] = x);
+  $("#mastEyebrow").textContent = `${items.length} experiences \u00B7 ${new Set(items.map(x=>x.country)).size} countries \u00B7 updated ${fmtDate(catalog.generatedAt)}`;
+  await mapReady;
+  renderAll(); route();
+  connectStore();
+})();
+})();
+</script>
+
+</body>
+</html>
