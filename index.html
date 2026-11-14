@@ -277,7 +277,7 @@ function setVote(id, who, n){
 }
 
 /* ---------- Google Sheet storage: used when the page is not on claude.ai (e.g. GitHub Pages) ---------- */
-const VOTE_URL = "";   // Apps Script web app URL ending in /exec
+const VOTE_URL = "https://script.google.com/macros/s/AKfycbwXbsS8F2geP_Q9HVV-wHlcoanNQYffGBDd8ehZ-yBUwNLOPV4-UNMQmvVTMCw0DGFHHw/exec";   // Apps Script web app URL ending in /exec
 const ON_CLAUDE = !!(window.claude && window.claude.use);
 const SHEET_MODE = !ON_CLAUDE;   // off claude.ai, votes are private behind the family code
 const LSC = "atlas-family-code";
