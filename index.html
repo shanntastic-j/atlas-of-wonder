@@ -183,6 +183,12 @@ dl.kv dd{margin:2px 0 0;font-size:15.5px;line-height:1.4}
 .stars button.on{color:var(--marigold)}
 .stars button:hover{transform:scale(1.12)}
 @media (prefers-reduced-motion:reduce){.stars button:hover{transform:none}}
+.stars button.nope{font-size:15px;font-family:var(--mono);letter-spacing:.02em;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin-left:6px;color:var(--muted);align-self:center}
+.stars button.nope.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.stars button.nope:hover{transform:none;border-color:var(--ink)}
+.votes .no{color:var(--muted);font-style:italic}
+.card.passed{opacity:.55}
+.card.passed:hover{opacity:1}
 .vote-hint{font-family:var(--mono);font-size:11px;color:var(--muted);margin:6px 0 0}
 .votes{display:flex;flex-wrap:wrap;gap:4px 12px;font-family:var(--mono);font-size:12px;color:var(--muted)}
 .votes b{color:var(--marigold-ink);font-weight:500;letter-spacing:1px}
@@ -233,7 +239,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 40px;font-family:var(
       <input id="q" type="search" placeholder="Search masks, lanterns, Japan, fire&#x2026;" aria-label="Search experiences">
       <select id="fMonth" aria-label="Month"><option value="">Any month</option></select>
       <select id="fMine" aria-label="Votes">
-        <option value="">All votes</option><option value="top">Three stars from either</option><option value="both">Both voted</option><option value="need-shannon">Waiting on Shannon</option><option value="need-david">Waiting on David</option><option value="none">Nobody voted yet</option>
+        <option value="">All votes</option><option value="top">Three stars from either</option><option value="both">Both voted</option><option value="need-shannon">Waiting on Shannon</option><option value="need-david">Waiting on David</option><option value="none">Nobody voted yet</option><option value="hide-nope">Hide not interested</option><option value="nope">Not interested</option>
       </select>
       <select id="fSort" aria-label="Sort">
         <option value="region">By country</option><option value="month">By month</option><option value="stars">Highest rated</option><option value="new">Newest first</option>
@@ -256,12 +262,14 @@ const REGIONS = ["Europe","Asia","North America","Central America & Mexico","Sou
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const VOTERS = [["shannon","Shannon"],["david","David"]];
 const STAR = "\u2605", HOLLOW = "\u2606";
-let ratings = {};          // {expId: {shannon: 1-3, david: 1-3}}
+let ratings = {};          // {expId: {shannon: -1|1-3, david: -1|1-3}}; -1 = not interested
 let ratingsStore = null;   // db collection when available
 const LSR = "atlas-ratings-v1";
 try { ratings = JSON.parse(localStorage.getItem(LSR)) || {} } catch {}
 const vote = (id, who) => ratings[id]?.[who] || 0;
-const total = id => vote(id,"shannon") + vote(id,"david");
+const NOPE = -1;
+const total = id => Math.max(0,vote(id,"shannon")) + Math.max(0,vote(id,"david")) - (isPassed(id) ? 10 : 0);
+const isPassed = id => vote(id,"shannon") === NOPE || vote(id,"david") === NOPE;
 const isTop = id => vote(id,"shannon") === 3 || vote(id,"david") === 3;
 let ratingWrites = Promise.resolve();
 function setVote(id, who, n){
@@ -329,7 +337,7 @@ async function unlock(code){
   }
 }
 function votesLine(id){
-  const parts = VOTERS.map(([k,label]) => { const n = vote(id,k); return n ? `<span>${label} <b>${STAR.repeat(n)}</b><i>${HOLLOW.repeat(3-n)}</i></span>` : "" }).filter(Boolean);
+  const parts = VOTERS.map(([k,label]) => { const n = vote(id,k); return n === NOPE ? `<span>${label} <span class="no">not interested</span></span>` : n > 0 ? `<span>${label} <b>${STAR.repeat(n)}</b><i>${HOLLOW.repeat(3-n)}</i></span>` : "" }).filter(Boolean);
   return parts.length ? `<div class="votes">${parts.join("")}</div>` : "";
 }
 const $ = s => document.querySelector(s);
@@ -453,6 +461,8 @@ function filtered(){
     if (mine === "need-shannon" && s) return false;
     if (mine === "need-david" && d) return false;
     if (mine === "none" && (s || d)) return false;
+    if (mine === "hide-nope" && (s === NOPE || d === NOPE)) return false;
+    if (mine === "nope" && !(s === NOPE || d === NOPE)) return false;
     if (q){
       const hay = [x.name,x.nameOriginal,x.location,x.country,x.category,x.why,x.tagline,x.story,x.artPairing,x.landscapePairing,x.monthName].join(" ").toLowerCase();
       if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
@@ -466,7 +476,7 @@ function cardHTML(x){
   const img = x.images?.[0];
   const nm = newMedia(x).length;
   const hot = /Top discovery|High interest|Great combined/.test(x.priority||"");
-  return `<button class="card" type="button" data-open="${esc(x.id)}">
+  return `<button class="card${isPassed(x.id) ? " passed" : ""}" type="button" data-open="${esc(x.id)}">
     <div class="ph">${img ? `<img src="${esc(img.thumb || img.src)}" alt="${esc(img.caption || x.name)}" loading="lazy">` : `<div class="ph-fallback">${esc((x.country||"?").slice(0,2).toUpperCase())}</div>`}
       ${isNewExp(x) ? `<span class="badge-new">NEW</span>` : ""}
       ${isTop(x.id) ? `<span class="react-dot" title="Three stars">${STAR}</span>` : ""}
@@ -588,7 +598,7 @@ function openDetail(id, keep){
         <div class="panel">
           <h4>How much do we want to go?</h4>
           <div id="votePanel"></div>
-          <p class="vote-hint">1 star: curious &middot; 2: would love to &middot; 3: must go. Tap a star again to clear it.</p>
+          <p class="vote-hint">1 star: curious &middot; 2: would love to &middot; 3: must go &middot; or &ldquo;Not for me&rdquo;. Tap your choice again to clear it.</p>
           ${SHEET_MODE && !sheet ? "" : `<textarea id="note" placeholder="${SHEET_MODE ? "Our shared notes" : "Notes for future us"}: who to go with, what to pair it with, questions\u2026">${esc((SHEET_MODE ? sheetNotes[id] : state.notes[id]) || "")}</textarea>`}
           <div class="saved" id="savedNote"></div>
         </div>
@@ -622,6 +632,7 @@ function openDetail(id, keep){
   const th = $("#thumbs"); if (th) th.onclick = e => { const b = e.target.closest("[data-g]"); if (b){ gi = +b.dataset.g; drawGallery() } };
 }
 const VOTE_WORD = ["Not voted yet","Curious","Would love to","Must go"];
+const voteWord = n => n === NOPE ? "Not interested" : VOTE_WORD[n] || VOTE_WORD[0];
 function renderVotePanel(id){
   const el = document.getElementById("votePanel"); if (!el) return;
   if (SHEET_MODE && !sheet){
@@ -632,8 +643,8 @@ function renderVotePanel(id){
     return;
   }
   el.innerHTML = VOTERS.map(([k,label]) => { const n = vote(id,k);
-    return `<div class="voter"><span class="who">${label}<small>${VOTE_WORD[n]}</small></span>
-      <span class="stars" role="group" aria-label="${label}'s stars">${[1,2,3].map(i => `<button type="button" data-who="${k}" data-n="${i}" class="${i<=n?"on":""}" aria-pressed="${i===n}" aria-label="${label}: ${i} ${i===1?"star":"stars"}">${STAR}</button>`).join("")}</span></div>` }).join("");
+    return `<div class="voter"><span class="who">${label}<small>${voteWord(n)}</small></span>
+      <span class="stars" role="group" aria-label="${label}'s stars">${[1,2,3].map(i => `<button type="button" data-who="${k}" data-n="${i}" class="${i<=n?"on":""}" aria-pressed="${i===n}" aria-label="${label}: ${i} ${i===1?"star":"stars"}">${STAR}</button>`).join("")}<button type="button" data-who="${k}" data-n="${NOPE}" class="nope${n===NOPE?" on":""}" aria-pressed="${n===NOPE}" aria-label="${label}: not interested">Not for me</button></span></div>` }).join("");
 }
 function drawGallery(){
   const x = byId[current], g = $("#gal"); if (!g || !x) return;
@@ -672,7 +683,7 @@ document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet
   if (!$("#sheet").hidden && byId[current]?.images?.length > 1 && (e.key === "ArrowRight" || e.key === "ArrowLeft") && e.target.tagName !== "TEXTAREA"){
     const n = byId[current].images.length; gi = (gi + (e.key === "ArrowRight" ? 1 : n - 1)) % n; drawGallery() } });
 ["#q","#fMonth","#fMine","#fSort"].forEach(s => $(s).addEventListener("input", () => { renderList(); drawPins() }));
-$("#surprise").onclick = () => { const pool = filtered().length ? filtered() : items; const unseen = pool.filter(x => !vote(x.id,"shannon") || !vote(x.id,"david")); const p = unseen.length ? unseen : pool; openDetail(p[Math.floor(Math.random()*p.length)].id) };
+$("#surprise").onclick = () => { const pool0 = filtered().filter(x => !isPassed(x.id)); const pool = pool0.length ? pool0 : items.filter(x => !isPassed(x.id)); const unseen = pool.filter(x => !vote(x.id,"shannon") || !vote(x.id,"david")); const p = unseen.length ? unseen : pool; openDetail(p[Math.floor(Math.random()*p.length)].id) };
 $("#showMine").onclick = () => { showMine = !showMine; $("#showMine").textContent = showMine ? "Show everything" : "Our top picks"; renderList(); drawPins(); document.querySelector(".toolbar").scrollIntoView({behavior:"smooth"}) };
 $("#markSeen").onclick = () => { state.lastSeenAt = new Date().toISOString(); persist(); renderAll() };
 window.addEventListener("hashchange", route);
