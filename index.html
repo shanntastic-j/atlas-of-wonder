@@ -557,8 +557,8 @@ function openDetail(id, keep){
   const story = (x.story || x.why || "").split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join("");
   const longs = (x.videos||[]).filter(v => /film|documentary|full/.test(v.kind||""));
   const shorts = (x.videos||[]).filter(v => !/film|documentary|full/.test(v.kind||""));
-  const sheet = $("#sheet");
-  sheet.innerHTML = `
+  const sheetEl = $("#sheet");
+  sheetEl.innerHTML = `
   <div class="sheet-bar"><div class="wrap">
     <button class="btn" type="button" id="close">\u2190 Back to the atlas</button>
     <span class="eyebrow">${esc(x.region)} \u00B7 ${esc(x.country)}</span>
@@ -605,8 +605,8 @@ function openDetail(id, keep){
       </aside>
     </div>
   </div>`;
-  sheet.hidden = false; document.body.style.overflow = "hidden";
-  if (!keep) sheet.scrollTop = 0;
+  sheetEl.hidden = false; document.body.style.overflow = "hidden";
+  if (!keep) sheetEl.scrollTop = 0;
   if (location.hash !== "#x-" + id) history.replaceState(null, "", "#x-" + id);
   drawGallery();
   $("#close").onclick = closeDetail;
