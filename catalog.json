@@ -1,7 +1,23 @@
 {
- "generatedAt": "2026-11-15T05:20:07Z",
+ "generatedAt": "2026-11-15T18:59:50Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-15T18:59:50Z",
+   "summary": "9 fireworks festivals added: Japan's Omagari, Nagaoka, Katakai and Sumidagawa, plus Yanshui Beehive, Tultepec, Malta, Montreal and Sydney New Year's Eve.",
+   "newExperiences": [
+    "omagari-hanabi",
+    "nagaoka-fireworks",
+    "katakai-matsuri",
+    "sumidagawa-fireworks",
+    "yanshui-beehive-fireworks",
+    "tultepec-pyrotechnic-festival",
+    "malta-fireworks-festival",
+    "montreal-fireworks",
+    "sydney-new-years-eve"
+   ],
+   "newMedia": 0
+  },
   {
    "date": "2026-11-15T05:20:07Z",
    "summary": "6 flower-parade corsos added: Corso Zundert, Bollenstreek, Pasadena Rose Parade, Panagbenga, Jersey Battle of Flowers and Nice's Battle of Flowers.",
@@ -3182,6 +3198,127 @@
   {
    "priority": "Explore",
    "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Asia",
+   "country": "Taiwan",
+   "id": "yanshui-beehive-fireworks",
+   "name": "Yanshui Fengpao (Yanshui Beehive Fireworks Festival)",
+   "location": "Yanshui District, Tainan, Taiwan",
+   "month": 2,
+   "monthName": "February",
+   "start2027": "2027-02-19",
+   "end2027": "2027-02-20",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — tied to the Lantern Festival (15th day of the first lunar month); 2027 program not announced",
+   "dateDetails": "The festival runs on the eve and night of the Lantern Festival. Lunar New Year 2027 falls on February 6, so the Lantern Festival is Saturday, February 20, 2027, with the eve on Friday, February 19. In 2026 it ran March 2–3, with March 3 (Lantern Festival) as the main night. Tainan City Government announces the program in the weeks before.",
+   "booking": "Free street event; no tickets. Helmets, fire-resistant clothing and covered skin are effectively mandatory to stand in front of the beehives.",
+   "why": "Thousands of bottle rockets are fired straight into a helmeted crowd from towering racks called beehives, in a 19th-century ritual that began as a plea to the war god Guan Yu to drive out a cholera epidemic.",
+   "artPairing": "Tainan's old temple quarter: the Confucius Temple, Chihkan Tower and the painted door gods of Tainan's many temples; the Chimei Museum's European art collection.",
+   "landscapePairing": "The salt fields and black-faced spoonbill wetlands of Taijiang National Park and the white salt mountain at Qigu, on the coast west of Yanshui.",
+   "laterYears": "2028: Feb 8–9; 2029: Feb 26–27   [calculated: eve and night of the Lantern Festival]",
+   "officialUrl": "https://www.twtainan.net/en/",
+   "tagline": "A crowd in motorcycle helmets stands still while a wall of rockets fires straight at it",
+   "story": "Yanshui was a busy river port in the 1800s when cholera swept through it. The story goes that residents carried the war god Guan Yu through the streets on the night of the Lantern Festival and set off firecrackers all the way to scare the sickness off, and the epidemic ended. The town has repeated the procession ever since, and the firecrackers grew into fengpao (beehive cannons): racks the size of a shipping crate, packed with tens of thousands of bottle rockets set in rows like the cells of a hive.\n\nAfter dark, temple palanquins weave through narrow streets while teams wheel the beehives into position. People pack in wearing full-face motorcycle helmets, thick jackets, gloves and towels around their necks. When a hive is lit, the rockets come at you sideways in a roaring, whistling flood for a minute or more, ricocheting off helmets and chests, with smoke so thick you lose the person beside you. Locals believe every hit brings luck for the year, and the night goes on until near dawn.",
+   "wonderMoment": "The cover drops off a beehive a few metres in front of you, and for a long minute the whole world is a horizontal storm of sparks and screaming rockets hammering off your visor.",
+   "lat": 23.3196,
+   "lng": 120.2665,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:Yanshui Beehive Fireworks Festival in Taiwan.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Yanshui_Beehive_Fireworks_Festival_in_Taiwan.jpg/1280px-Yanshui_Beehive_Fireworks_Festival_in_Taiwan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Yanshui_Beehive_Fireworks_Festival_in_Taiwan.jpg",
+     "author": "YULINGTENG",
+     "license": "CC BY-SA 4.0",
+     "caption": "Bottle rockets stream over a helmeted crowd as a beehive fires",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/yanshui-beehive-fireworks-14a7da3b.jpg",
+     "thumb": "img/t/yanshui-beehive-fireworks-14a7da3b.jpg"
+    },
+    {
+     "file": "File:Yanshui Beehive Fireworks Festival.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Yanshui_Beehive_Fireworks_Festival.jpg/1280px-Yanshui_Beehive_Fireworks_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Yanshui_Beehive_Fireworks_Festival.jpg",
+     "author": "YULINGTENG",
+     "license": "CC BY-SA 4.0",
+     "caption": "Rockets and pink smoke engulf the crowd in front of a beehive",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/yanshui-beehive-fireworks-98e9df83.jpg"
+    },
+    {
+     "file": "File:Yanshui Beehive Fireworks Festival in Tainan, Taiwan.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Yanshui_Beehive_Fireworks_Festival_in_Tainan%2C_Taiwan.jpg/1280px-Yanshui_Beehive_Fireworks_Festival_in_Tainan%2C_Taiwan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Yanshui_Beehive_Fireworks_Festival_in_Tainan,_Taiwan.jpg",
+     "author": "YULINGTENG",
+     "license": "CC BY-SA 4.0",
+     "caption": "A Yanshui street turns red with smoke and sparks at night",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/yanshui-beehive-fireworks-32fb14c2.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Z3f2ydNQnMM",
+     "title": "Southern Taiwan's Explosive Yanshui Beehive Fireworks Festival｜TaiwanPlus News",
+     "channel": "TaiwanPlus News",
+     "kind": "clip",
+     "minutes": 3,
+     "note": "TaiwanPlus report from inside the crowd",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=QXqFDxQXd0E",
+     "title": "Annual ‘beehive’ fireworks festival wards off bad luck in Taiwan",
+     "channel": "CNN",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "CNN on the epidemic legend behind the rockets",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=BE4Akdo-78k",
+     "title": "Why do they let FIREWORKS hit them? 😱 Taiwan Yanshui Beehive Firework Festival",
+     "channel": "Saki Lin",
+     "kind": "film",
+     "minutes": null,
+     "note": "A Taiwanese host explains why people want to be hit",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=CP8pRVbCtT0",
+     "title": "taiwan's most dangerous festival - yanshui feng pao (鹽水蜂炮), tainan 🇹🇼",
+     "channel": "SilkyRonTheRoad",
+     "kind": "film",
+     "minutes": null,
+     "note": "Traveller's helmet-cam night among the beehives",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=kRv1ss0UCCg",
+     "title": "Yanshui Beehive Firework Festival lights up Tainan",
+     "channel": "Focus Taiwan (CNA English News)",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "Focus Taiwan news footage of the beehives firing",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#鹽水蜂炮 on Instagram",
+     "url": "https://www.instagram.com/explore/tags/鹽水蜂炮/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#yanshui on TikTok",
+     "url": "https://www.tiktok.com/tag/yanshui",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
    "sourceType": "Scout 2026-11-14 (famous)",
    "region": "Asia",
    "country": "Philippines",
@@ -3771,6 +3908,136 @@
     }
    ],
    "addedAt": "2026-11-14T09:00:00Z"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Central America & Mexico",
+   "country": "Mexico",
+   "id": "tultepec-pyrotechnic-festival",
+   "name": "Feria Internacional de la Pirotecnia (International Pyrotechnics Fair)",
+   "location": "Tultepec, State of Mexico, Mexico",
+   "month": 3,
+   "monthName": "March",
+   "start2027": "2027-02-26",
+   "end2027": "2027-03-14",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — fair built around the feast of San Juan de Dios (March 8); 2027 dates not announced",
+   "dateDetails": "The fair (formerly the Feria Nacional de la Pirotecnia) honors San Juan de Dios, patron of fireworks makers, whose feast is March 8. The 2026 edition ran February 27 to March 14, 2026, with the burning of toritos around the feast day. 2027 dates are calculated on the same pattern (roughly late February to mid-March, peak nights around March 8); the Tultepec municipality publishes the program in February.",
+   "booking": "Street events such as the torito burning are free; the fairground charges modest entry and concerts are ticketed. Check tultepec.gob.mx for the program.",
+   "why": "Mexico's fireworks capital honors its patron saint by parading dozens of giant papier-mâché bulls packed with fireworks, then setting them off in the streets while people dance among the sparks, beside towering castillos (fireworks towers).",
+   "artPairing": "The fireworks workshops and market of San Pablito in Tultepec; in Mexico City, the Museo Nacional de Antropología and the Diego Rivera murals in the Palacio Nacional.",
+   "landscapePairing": "The pyramids of Teotihuacan in the valley to the northeast, and the volcanoes Popocatépetl and Iztaccíhuatl on clear March mornings.",
+   "laterYears": "2028: late Feb – mid-Mar, peak around Mar 8; 2029: same   [calculated: San Juan de Dios feast, March 8]",
+   "officialUrl": "https://tultepec.gob.mx/",
+   "tagline": "Giant fireworks bulls charge through the streets of Mexico's fireworks capital",
+   "story": "Tultepec, on the northern edge of Mexico City, makes a large share of the country's fireworks; families have worked with black powder here for generations. Every March the town celebrates San Juan de Dios, patron saint of fireworks makers, with a fair that peaks around his feast day on March 8. In the days before, each neighborhood and workshop builds toritos: bulls of wood frames, papier-mâché and cardboard, some taller than a house, painted and decorated, then wired with hundreds of rockets, wheels and bangers.\n\nIn daylight the bulls parade through town on carts and on men's shoulders, with brass bands behind them. After dark they are lit one by one in the main square. Sparks spray out sideways at head height, rockets skitter across the pavement, and the crowd, many in bandanas and goggles, charges toward the bull rather than away from it. The air turns white with smoke and smells of sulfur. Later the castillos are fired: tall frames that spin and blaze in tiers until the crown flies off into the sky.",
+   "wonderMoment": "A three-metre bull bursts into fire in the square, wheels whirling on its flanks, and instead of running, hundreds of people surge in to dance under the spray of sparks.",
+   "lat": 19.6851,
+   "lng": -99.1281,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:ToritosTultepec2016 139.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ToritosTultepec2016_139.JPG/1280px-ToritosTultepec2016_139.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:ToritosTultepec2016_139.JPG",
+     "author": "Thelmadatter",
+     "license": "CC BY-SA 4.0",
+     "caption": "A torito erupts in sparks and rockets among the crowd at night",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/tultepec-pyrotechnic-festival-cd2138a5.jpg",
+     "thumb": "img/t/tultepec-pyrotechnic-festival-cd2138a5.jpg"
+    },
+    {
+     "file": "File:ToritosTultepec2016 010.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/ToritosTultepec2016_010.JPG/1280px-ToritosTultepec2016_010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:ToritosTultepec2016_010.JPG",
+     "author": "Thelmadatter",
+     "license": "CC BY-SA 4.0",
+     "caption": "Giant papier-mâché toritos, a wizard among them, parade by day",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/tultepec-pyrotechnic-festival-d636e4dd.jpg"
+    },
+    {
+     "file": "File:ToritosTultepec2016 140.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/ToritosTultepec2016_140.JPG/1280px-ToritosTultepec2016_140.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:ToritosTultepec2016_140.JPG",
+     "author": "Thelmadatter",
+     "license": "CC BY-SA 4.0",
+     "caption": "Smoke and fireworks fill the square as revellers stand their ground",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/tultepec-pyrotechnic-festival-8a796ec4.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=AajrJ8U0EJc",
+     "title": "The Mexican town that lives and dies for fireworks",
+     "channel": "Onlooker UK",
+     "kind": "documentary",
+     "minutes": null,
+     "note": "The town whose living depends on powder and fire",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=VrYdBhu4Pig",
+     "title": "A Lasting Tradition — Brimstone & Glory | POV | PBS",
+     "channel": "POV",
+     "kind": "clip",
+     "minutes": 3,
+     "note": "PBS POV clip from the Brimstone & Glory documentary",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=EvO_N-ofe4Q",
+     "title": "Witness.Tultepec",
+     "channel": "Witness.Earth",
+     "kind": "film",
+     "minutes": null,
+     "note": "Witness.Earth film of the fire-bull night",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Yv_IobJ50KU",
+     "title": "Surviving Mexico's DEADLIEST Firework Festival",
+     "channel": "Fearless & Far",
+     "kind": "film",
+     "minutes": null,
+     "note": "Travel vloggers go into the torito crowd",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/shorts/1-uI8qdr-ok",
+     "title": "🐂 Crazy bulls of fire: Mexico's Pyrotechnic Bull Festival #Tultepec #Torintos 🔥",
+     "channel": "Taco Kebab Adventures",
+     "kind": "short",
+     "minutes": 1,
+     "note": "One-minute taste of the bulls of fire",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "streaming": [
+    {
+     "title": "Brimstone & Glory",
+     "platform": "PBS (POV)",
+     "url": "https://www.pbs.org/pov/films/brimstoneandglory/",
+     "note": "Feature documentary shot inside the Tultepec festival and its fire-bull night",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#tultepec on Instagram",
+     "url": "https://www.instagram.com/explore/tags/tultepec/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#tultepec on TikTok",
+     "url": "https://www.tiktok.com/tag/tultepec",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
   },
   {
    "id": "las-fallas",
@@ -4765,6 +5032,127 @@
     }
    ],
    "addedAt": "2026-11-14T09:00:00Z"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Europe",
+   "country": "Malta",
+   "id": "malta-fireworks-festival",
+   "name": "Malta International Fireworks Festival",
+   "location": "Grand Harbour, Valletta, Malta (opening night in Nadur, Gozo)",
+   "month": 4,
+   "monthName": "April",
+   "start2027": "2027-04-17",
+   "end2027": "2027-04-30",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — held every year in the second half of April; 2027 dates not announced",
+   "dateDetails": "The 2026 (25th) edition ran April 18–30: opening in Nadur, Gozo, then Grand Harbour nights on April 20, 25 and a grand finale on April 30 (with May 2 as weather backup). 2027 dates are calculated on that pattern (Saturday April 17 to Friday April 30, 2027); the Malta Tourism Authority announces the program in early spring.",
+   "booking": "Watching from the bastions and waterfront is free; reserved grandstand seats for the Grand Harbour nights are sold via maltafireworksfestival.com.",
+   "why": "Malta's village fireworks factories, normally competing for their own parish feasts, take turns firing over the Grand Harbour, with Valletta's floodlit bastions and domes as the backdrop and the shells echoing between the fortified cities.",
+   "artPairing": "Caravaggio's Beheading of Saint John in St John's Co-Cathedral, Valletta; the National Museum of Archaeology's prehistoric 'Sleeping Lady'.",
+   "landscapePairing": "The Three Cities and Fort St Angelo seen across the harbour by day; the cliffs of Dingli and the sea caves of the Blue Grotto.",
+   "laterYears": "2028: mid–late April; 2029: mid–late April   [calculated: annual late-April festival]",
+   "officialUrl": "https://www.maltafireworksfestival.com/",
+   "tagline": "Village fireworks makers turn Valletta's Grand Harbour into a theatre of fire",
+   "story": "Fireworks are part of the fabric of Maltese life. Every summer weekend some parish celebrates its saint with a festa, and each village has a volunteer fireworks factory that spends the year hand-making shells, competing to outdo its neighbors. Malta is also known for ground fireworks (ġigġifogu): huge wooden wheel structures that spin, open and change color in sequence. Since 2003 the international festival has gathered these local teams, alongside foreign guests, for a run of nights in late April.\n\nThe main nights are fired from barges and the shoreline of the Grand Harbour, a deep inlet ringed by the honey-colored walls of Valletta, Senglea, Birgu and Kalkara. The setting does half the work: shells bloom above the dome of the Carmelite church, reflections scatter across the water, and the bangs come back off the bastions a split second later. Crowds line the Upper Barrakka Gardens and the waterfront, boats crowd the harbour, and the finale leaves the whole basin hazed in smoke.",
+   "wonderMoment": "During the finale the sky over the Grand Harbour fills with gold willows that hang and fall toward the water, lighting up the walls of three fortified cities at once.",
+   "lat": 35.8936,
+   "lng": 14.515,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:Valletta Fireworks Festival.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Valletta_Fireworks_Festival.jpg/1280px-Valletta_Fireworks_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Valletta_Fireworks_Festival.jpg",
+     "author": "Abby Theuma",
+     "license": "CC BY-SA 4.0",
+     "caption": "Bursts and fountains of colour over the Valletta waterfront",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/malta-fireworks-festival-0751ee31.jpg",
+     "thumb": "img/t/malta-fireworks-festival-0751ee31.jpg"
+    },
+    {
+     "file": "File:A Glowing Night Over the Grand Harbour.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/A_Glowing_Night_Over_the_Grand_Harbour.jpg/1280px-A_Glowing_Night_Over_the_Grand_Harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:A_Glowing_Night_Over_the_Grand_Harbour.jpg",
+     "author": "MarcScic",
+     "license": "CC BY-SA 4.0",
+     "caption": "Shells bloom beside Valletta's domes across the Grand Harbour",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/malta-fireworks-festival-a4a3b05f.jpg"
+    },
+    {
+     "file": "File:Unique Maltese pyrotechnic tradition-ground fireworks or ġigġifogu.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Unique_Maltese_pyrotechnic_tradition-ground_fireworks_or_%C4%A1ig%C4%A1ifogu.jpg/1280px-Unique_Maltese_pyrotechnic_tradition-ground_fireworks_or_%C4%A1ig%C4%A1ifogu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Unique_Maltese_pyrotechnic_tradition-ground_fireworks_or_%C4%A1ig%C4%A1ifogu.jpg",
+     "author": "Renata Apan",
+     "license": "CC BY-SA 4.0",
+     "caption": "Spinning ground-fireworks wheels (ġigġifogu) at a Maltese festa",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/malta-fireworks-festival-20d62957.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=mhv1x86rE8c",
+     "title": "Malta International Fireworks Festival 2025 - Grand Finale Spectacular",
+     "channel": "Hollywood+",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "The 2025 grand finale over the harbour",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=jzdHz8ySy3c",
+     "title": "[4K] Grand Finale Malta International Fireworks Festival 2020",
+     "channel": "Nature No Loop",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "4K grand finale with Valletta's skyline",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=J9HHNtWC3no",
+     "title": "Malta International Fireworks Festival 2026 – INSANE Fireworks Show 🎆 | Highlights",
+     "channel": "Untoz",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Highlights from the 25th edition in 2026",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=T6JZ6Fu4sK4",
+     "title": "Malta Mechanised Ground Fireworks Festival 2015",
+     "channel": "VisitMalta",
+     "kind": "clip",
+     "minutes": null,
+     "note": "VisitMalta film of the spinning ground-fireworks wheels",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=bRdsIXGmj38",
+     "title": "Malta International Fireworks Festival | The Grand Finale | GRAND HARBOUR VALLETTA MALTA | EP1",
+     "channel": "The Mehras | Malta & Europe Travel",
+     "kind": "film",
+     "minutes": null,
+     "note": "Travel vloggers' night at the Grand Harbour finale",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#maltafireworksfestival on Instagram",
+     "url": "https://www.instagram.com/explore/tags/maltafireworksfestival/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#maltafireworks on TikTok",
+     "url": "https://www.tiktok.com/tag/maltafireworks",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
   },
   {
    "id": "madeira-flower-festival",
@@ -6510,6 +6898,129 @@
    "addedAt": "2026-11-14T09:00:00Z"
   },
   {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "North America",
+   "country": "Canada",
+   "id": "montreal-fireworks",
+   "name": "L'International des Feux Loto-Québec (Montreal International Fireworks Competition)",
+   "location": "La Ronde, Île Sainte-Hélène, Montreal, Quebec, Canada",
+   "month": 7,
+   "monthName": "July",
+   "start2027": "2027-07-01",
+   "end2027": "2027-08-05",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — Quebec's tourism listing gives July 1 – Aug 5, 2027 as 'date to be confirmed'; nightly schedule not announced",
+   "dateDetails": "The competition runs about eight nights from early July to early August, mostly Thursdays plus some Saturdays/Sundays, each show starting at 10 p.m. The 2026 (40th) season was July 2, 9, 12, 16, 23, 26, 30 and August 6. Bonjour Québec lists July 1 – August 5, 2027 (to be confirmed), which fits the same Thursday pattern; the exact nights and competing countries are announced in spring.",
+   "booking": "Reserved seats overlooking the Lac des Dauphins are sold through La Ronde; the show is also widely watched for free from the Old Port and the riverbanks.",
+   "why": "The world's largest fireworks competition: each night a team from a different country fires a 30-minute show choreographed to music over a lake beside the Jacques-Cartier Bridge, competing for gold, silver and bronze Jupiters.",
+   "artPairing": "The Montreal Museum of Fine Arts; Notre-Dame Basilica's blue-and-gold interior; Habitat 67 and the Biosphère, Expo 67 landmarks across the water on Île Sainte-Hélène.",
+   "landscapePairing": "Mount Royal's lookout over the city and the St Lawrence; the Lachine Rapids at dusk.",
+   "laterYears": "2028: early July – early August; 2029: same   [calculated: annual summer series]",
+   "officialUrl": "https://www.sixflags.com/laronde/events/linternational-des-feux",
+   "tagline": "Nations duel with music and fire over the St Lawrence on summer nights",
+   "story": "Since 1985 Montreal has hosted an international fireworks competition at La Ronde, the amusement park built for Expo 67 on an island in the St Lawrence. Each summer about eight teams, invited from countries such as Italy, Japan, the United States and Spain, design a pyromusical: a show of roughly half an hour where every burst is timed to a soundtrack. A jury awards gold, silver and bronze Jupiter trophies at the end of the season, and the teams know it.\n\nShows start at 10 p.m., after the long summer dusk. The racks are set around a small lake inside the park, so the reflections double everything, and the Jacques-Cartier Bridge stands lit just beside the action. Inside, the music comes through a large sound system; across the river, thousands of people in the Old Port and on the bridge approaches listen on the radio. The styles differ a lot from night to night, from tight, rhythmic Italian displays to slow Japanese peonies, and the closing minutes of each show tend to fill the whole sky over the river.",
+   "wonderMoment": "On the last beat of a team's soundtrack, a wall of white strobes and gold comets fires at once over the lake, lighting the Jacques-Cartier Bridge like daylight before everything goes dark and quiet.",
+   "lat": 45.5225,
+   "lng": -73.534,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:Montreal Clock Tower, Fireworks.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Montreal_Clock_Tower%2C_Fireworks.jpg/1280px-Montreal_Clock_Tower%2C_Fireworks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Montreal_Clock_Tower,_Fireworks.jpg",
+     "author": "Michael Vesia",
+     "license": "CC BY-SA 3.0",
+     "caption": "Fireworks by the Jacques-Cartier Bridge seen from the Old Port clock tower",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/montreal-fireworks-1f126252.jpg",
+     "thumb": "img/t/montreal-fireworks-1f126252.jpg"
+    },
+    {
+     "file": "File:L'International des Feux Loto-Québec 2013 (9395753383).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/L%27International_des_Feux_Loto-Qu%C3%A9bec_2013_%289395753383%29.jpg/1280px-L%27International_des_Feux_Loto-Qu%C3%A9bec_2013_%289395753383%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:L%27International_des_Feux_Loto-Qu%C3%A9bec_2013_(9395753383).jpg",
+     "author": "Matias Garabedian from Montreal, Canada",
+     "license": "CC BY-SA 2.0",
+     "caption": "Spectators watch shells burst at the 2013 competition",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/montreal-fireworks-49c38e4b.jpg"
+    },
+    {
+     "file": "File:Firework at Montreal 05.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Firework_at_Montreal_05.jpg/1280px-Firework_at_Montreal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Firework_at_Montreal_05.jpg",
+     "author": "Zakarie Faibis",
+     "license": "CC BY-SA 4.0",
+     "caption": "A finale fills the sky over the water at a Montreal fireworks show",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/montreal-fireworks-daf36f5e.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=GkgsKsvEJ40",
+     "title": "Canada - Best Montreal 4K Fireworks Drone Footage | L'International des Feux Loto-Québec 2024",
+     "channel": "Wonders Of The World",
+     "kind": "film",
+     "minutes": null,
+     "note": "Drone footage of the 2024 competition in 4K",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=sK9RH66hmjQ",
+     "title": "La Ronde France Fireworks competition full show, Montreal 4k",
+     "channel": "David Win Eat, Sleep and Travel",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "A full competition show filmed in 4K at La Ronde",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=vDhCd40gNno",
+     "title": "Feux d'artifice d'ouverture 2026 ''fireworks'' par GFA à La Ronde pour l'I.F.L.Q",
+     "channel": "mtlPYROmedia",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "The 40th-anniversary opening show of 2026",
+     "titleEn": "Opening fireworks 2026 by GFA at La Ronde for the I.F.L.Q",
+     "lang": "French",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=vcNtiGAXRaQ",
+     "title": "🎆 International des Feux Loto-Québec 2026｜China 🇨🇳｜One World, an Infinity of Sparks｜Old Port 4️⃣",
+     "channel": "Amy",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "China's 2026 entry seen from the Old Port",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=T-gujaGtP7k",
+     "title": "Merlin Fireworks - L'International Des Feux Loto-Québec 2013",
+     "channel": "Merlin Fireworks",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "Merlin Fireworks' complete 2013 competition entry",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#internationaldesfeux on Instagram",
+     "url": "https://www.instagram.com/explore/tags/internationaldesfeux/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#montrealfireworks on TikTok",
+     "url": "https://www.tiktok.com/tag/montrealfireworks",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
+  },
+  {
    "id": "deventer-op-stelten",
    "name": "Deventer op Stelten (Deventer on Stilts)",
    "location": "Deventer, Overijssel, Netherlands",
@@ -7334,6 +7845,131 @@
    "nameOriginal": "Gion Matsuri"
   },
   {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Asia",
+   "country": "Japan",
+   "id": "sumidagawa-fireworks",
+   "name": "Sumidagawa Hanabi Taikai (Sumida River Fireworks Festival)",
+   "location": "Sumida River, Asakusa and Mukōjima, Tokyo, Japan",
+   "month": 7,
+   "monthName": "July",
+   "start2027": "2027-07-31",
+   "end2027": "2027-07-31",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — last Saturday of July; 2027 date not yet announced",
+   "dateDetails": "Held on the last Saturday of July (2026: July 25, the 49th edition). 2027 is calculated as Saturday, July 31, which would be the 50th edition since the festival's 1978 revival. Fireworks usually run about 19:00–20:30 from two launch sites on the river; postponed to the next day in bad weather. The organizing committee has not yet published the 2027 date.",
+   "booking": "Free to watch from the streets and riverbanks; a limited number of paid viewing areas and river-cruise tickets are sold in early summer. See sumidagawa-hanabi.com",
+   "why": "Tokyo's oldest and biggest fireworks night, descended from a 1733 river festival: about 20,000 shells over the Sumida with Tokyo Skytree lit up beside them and a million people in yukata in the streets.",
+   "artPairing": "The Sumida Hokusai Museum, a short walk from the river; Edo-Tokyo Museum's displays of Edo-period river fireworks; Hiroshige's woodblock prints of fireworks at Ryōgoku.",
+   "landscapePairing": "The Sumida River's bridges and riverside parks; the city view from Tokyo Skytree's observation decks.",
+   "laterYears": "2028: Jul 29; 2029: Jul 28   [calculated: last Saturday of July]",
+   "officialUrl": "https://www.sumidagawa-hanabi.com/",
+   "tagline": "Twenty thousand shells over Edo's old river, with Skytree glowing beside them",
+   "story": "Fireworks over the Sumida date to 1733, when the shogun's government held a river festival at Ryōgoku to comfort the souls of people lost to famine and disease. Two rival fireworks houses, Kagiya and Tamaya, competed for the crowd, and people still shout 'Tamaya!' and 'Kagiya!' when a good one bursts. Hiroshige and other Edo artists painted boats crowding under the bursts. After traffic and pollution ended the tradition in 1961, it came back in 1978 as today's festival.\n\nNow about 20,000 shells go up from two sites upriver near Asakusa, with a competition between fireworks makers at the first. The night is about the crowd as much as the sky: people in yukata (summer kimono) from mid-afternoon, blue tarps on every patch of riverbank, street stalls selling grilled corn and beer, people on rooftops and balconies. Shells burst between apartment towers and bounce off buildings, with Skytree glowing in the background.",
+   "wonderMoment": "When a big starmine goes up beside the lit-up Skytree, the whole street of strangers looks up and shouts 'Tamaya!' together, like Edo crowds did almost 300 years ago.",
+   "lat": 35.7148,
+   "lng": 139.802,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:Sumidagawa Fireworks Festival 2023 (53327943742).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Sumidagawa_Fireworks_Festival_2023_%2853327943742%29.jpg/1280px-Sumidagawa_Fireworks_Festival_2023_%2853327943742%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sumidagawa_Fireworks_Festival_2023_(53327943742).jpg",
+     "author": "Dick Thomas Johnson from Tokyo, Japan",
+     "license": "CC BY 2.0",
+     "caption": "A burst over the Sumida beside Tokyo Skytree and a lit bridge, 2023",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sumidagawa-fireworks-63c46456.jpg",
+     "thumb": "img/t/sumidagawa-fireworks-63c46456.jpg"
+    },
+    {
+     "file": "File:2012年隅田川花火大会.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg/1280px-2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:2012%E5%B9%B4%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A.jpg",
+     "author": "てんどん",
+     "license": "CC BY 2.1 jp",
+     "caption": "Several shells open beside Tokyo Skytree in 2012, its first summer",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sumidagawa-fireworks-9703edaa.jpg"
+    },
+    {
+     "file": "File:Sumidagawa Fireworks Festival 2023 (53328796261).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Sumidagawa_Fireworks_Festival_2023_%2853328796261%29.jpg/1280px-Sumidagawa_Fireworks_Festival_2023_%2853328796261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sumidagawa_Fireworks_Festival_2023_(53328796261).jpg",
+     "author": "Dick Thomas Johnson from Tokyo, Japan",
+     "license": "CC BY 2.0",
+     "caption": "Spectators claim the riverbank in the afternoon before the show, 2023",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sumidagawa-fireworks-fe499a91.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=akXXpHCP9FA",
+     "title": "【船から観る】東京•隅田川花火大会2026【4K•HDR】圧巻のフィナーレ",
+     "channel": "船長のロープワーク Captain's Ropework",
+     "kind": "clip",
+     "minutes": 4,
+     "note": "The 2026 finale from a boat on the river, in 4K HDR",
+     "titleEn": "[Viewed from a boat] Tokyo Sumida River Fireworks Festival 2026 [4K HDR] Overwhelming finale",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=3gIW82Z1MqM",
+     "title": "4K 隅田川花火大会  東京の夏 浅草観光  Sumida River Fireworks Tokyo trip 夏祭り 旅行  Asakusa Travel",
+     "channel": "Discover Nippon",
+     "kind": "clip",
+     "minutes": 8,
+     "note": "4K fireworks and the Asakusa crowds on the night",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=5BcfDLWByf8",
+     "title": "今年ももうすぐ！東京・隅田川花火大会🎆【4K】",
+     "channel": "CHILLOUTPLANET",
+     "kind": "film",
+     "minutes": 27,
+     "note": "Long 4K cut of the fireworks over the city",
+     "titleEn": "Coming up again soon this year! Tokyo Sumida River Fireworks Festival [4K]",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=wF0UfaeINQc",
+     "title": "Tokyo's Biggest Fireworks Festival - Sumida River Fireworks Walk 2024 [4K/HDR/Binaural]",
+     "channel": "Video Street View Japan",
+     "kind": "film",
+     "minutes": 104,
+     "note": "Binaural walk through the crowds as the shells go up",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=6UzBDHsmfcE",
+     "title": "Sumida River fireworks resume with over 1 million spectators",
+     "channel": "Nippon Television News Japan",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "NTV news: a million people return in 2023",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#隅田川花火大会 on Instagram",
+     "url": "https://www.instagram.com/explore/tags/隅田川花火大会/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#隅田川花火大会 on TikTok",
+     "url": "https://www.tiktok.com/tag/隅田川花火大会",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
+  },
+  {
    "id": "fetes-de-gayant",
    "name": "Fêtes de Gayant (Festival of the Giant)",
    "location": "Douai / Lille, France",
@@ -7677,6 +8313,133 @@
    ],
    "addedAt": "2026-11-14T09:00:00Z",
    "nameOriginal": "Aomori Nebuta Festival"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Asia",
+   "country": "Japan",
+   "id": "nagaoka-fireworks",
+   "name": "Nagaoka Matsuri Ōhanabi Taikai (Nagaoka Fireworks Festival)",
+   "location": "Shinano River, Nagaoka, Niigata Prefecture, Japan",
+   "month": 8,
+   "monthName": "August",
+   "start2027": "2027-08-02",
+   "end2027": "2027-08-03",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — fixed dates of August 2–3 every year; 2027 program not yet announced",
+   "dateDetails": "The grand fireworks are held on August 2 and 3 every year regardless of weekday (2025 and 2026 both Aug 2–3, about 19:20–21:25), on the riverbed of the Shinano River near Chōsei Bridge. In 2027 that is Monday–Tuesday, August 2–3. The organizers usually publish the year's program around March. On the evening of August 1, white memorial shells (shiragiku) are fired for the victims of the 1945 air raid.",
+   "booking": "Paid riverbank viewing tickets are sold by lottery in spring; see nagaokamatsuri.com",
+   "why": "One of Japan's three great fireworks shows, held as a memorial and a prayer: the 2 km-wide Phoenix display set to music, and 3-shaku shells that open about 650 m across over the river.",
+   "artPairing": "The Niigata Prefectural Museum of Modern Art in Nagaoka; Echigo-Tsumari's open-air contemporary art in the hills to the south.",
+   "landscapePairing": "The broad Shinano River, Japan's longest; the terraced rice fields and snow-country villages of the Chūetsu hills.",
+   "laterYears": "2028: Aug 2–3; 2029: Aug 2–3   [fixed dates; programs not announced]",
+   "officialUrl": "https://nagaokamatsuri.com/",
+   "tagline": "A two-kilometer phoenix of fire rises over the river for a city that burned and rebuilt",
+   "story": "Nagaoka's fireworks go back to 1879, but their meaning changed on the night of August 1, 1945, when an air raid burned most of the city. Today the festival opens with white chrysanthemum shells fired in silence for the dead, and the two big nights that follow, August 2 and 3, are both memorial and celebration. Close to a million people come to the banks of the Shinano River, which is wide enough for shells that would be unsafe almost anywhere else.\n\nThe set pieces have names. The Phoenix began after the 2004 Chūetsu earthquake: for about five minutes, fireworks fire along roughly two kilometers of riverbank in time to Ken Hirai's song 'Jupiter', and people around you sing along and cry. The 3-shaku (90 cm) shells go up with a pause you can feel, then open into one huge white flower and a boom that hits your chest a second later. Between them, long Niagara cascades pour off the bridges.",
+   "wonderMoment": "When the Phoenix rises, the whole river from bridge to bridge lights up in gold in time with the music, and the crowd goes quiet as the wings spread.",
+   "lat": 37.4497,
+   "lng": 138.837,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:長岡まつり復興祈願花火フェニックス.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E5%BE%A9%E8%88%88%E7%A5%88%E9%A1%98%E8%8A%B1%E7%81%AB%E3%83%95%E3%82%A7%E3%83%8B%E3%83%83%E3%82%AF%E3%82%B9.jpg/1280px-%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E5%BE%A9%E8%88%88%E7%A5%88%E9%A1%98%E8%8A%B1%E7%81%AB%E3%83%95%E3%82%A7%E3%83%8B%E3%83%83%E3%82%AF%E3%82%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E5%BE%A9%E8%88%88%E7%A5%88%E9%A1%98%E8%8A%B1%E7%81%AB%E3%83%95%E3%82%A7%E3%83%8B%E3%83%83%E3%82%AF%E3%82%B9.jpg",
+     "author": "Rankin2019",
+     "license": "CC BY-SA 4.0",
+     "caption": "The Phoenix display pours gold across the Shinano River, 2018",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/nagaoka-fireworks-afcf4df2.jpg",
+     "thumb": "img/t/nagaoka-fireworks-afcf4df2.jpg"
+    },
+    {
+     "file": "File:長岡まつり花火大会正三尺玉.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E6%AD%A3%E4%B8%89%E5%B0%BA%E7%8E%89.jpg/1280px-%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E6%AD%A3%E4%B8%89%E5%B0%BA%E7%8E%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E6%AD%A3%E4%B8%89%E5%B0%BA%E7%8E%89.jpg",
+     "author": "Rankin2019",
+     "license": "CC BY-SA 4.0",
+     "caption": "A 3-shaku (90 cm) shell opens over Chōsei Bridge, 2018",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/nagaoka-fireworks-a5f3ce0a.jpg"
+    },
+    {
+     "file": "File:長岡まつり花火大会天地人花火.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E5%A4%A9%E5%9C%B0%E4%BA%BA%E8%8A%B1%E7%81%AB.jpg/1280px-%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E5%A4%A9%E5%9C%B0%E4%BA%BA%E8%8A%B1%E7%81%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%B7%E5%B2%A1%E3%81%BE%E3%81%A4%E3%82%8A%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E5%A4%A9%E5%9C%B0%E4%BA%BA%E8%8A%B1%E7%81%AB.jpg",
+     "author": "Rankin2019",
+     "license": "CC BY-SA 4.0",
+     "caption": "The Tenchijin set piece fills the sky above the river, 2018",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/nagaoka-fireworks-f70a8bf7.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=BjmGf06FrkY",
+     "title": "[4K] 長岡花火 復興祈願フェニックス 5年間の集大成‼︎  8ヶ所から撮影 - Nagaoka Fireworks Phoenix Display Compilation -",
+     "channel": "AQUA Geo Graphic",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "The Phoenix shot from eight positions over five years",
+     "titleEn": "[4K] Nagaoka Fireworks Phoenix prayer for recovery, five years of footage, filmed from 8 locations - Nagaoka Fireworks Phoenix Display Compilation -",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=cSJM78onjkA",
+     "title": "長岡花火 復興祈願花火フェニックス 2025 Nagaoka Fireworks Phoenix 8K60pHDR",
+     "channel": "Japan Explorers",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "Full Phoenix display in 8K HDR, 2025",
+     "titleEn": "Nagaoka Fireworks, Phoenix prayer-for-recovery fireworks 2025, Nagaoka Fireworks Phoenix 8K60pHDR",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZpiHKFdKduo",
+     "title": "長岡花火大会2026｜フェニックス ハイライト【8K HDR】",
+     "channel": "CHILLOUTPLANET",
+     "kind": "film",
+     "minutes": 19,
+     "note": "Longer 8K cut of the 2026 show's high points",
+     "titleEn": "Nagaoka Fireworks Festival 2026 | Phoenix highlights [8K HDR]",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=biop-xp9WPE",
+     "title": "Full ver. 4K Nagaoka Fireworks Festival",
+     "channel": "けやき亭富山駅前",
+     "kind": "full-event",
+     "minutes": 64,
+     "note": "An hour-long 4K record of a whole night",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=22SQOBob4ic",
+     "title": "Nagaoka fireworks held without restrictions in central Japan",
+     "channel": "Nippon Television News Japan",
+     "kind": "clip",
+     "minutes": 1,
+     "note": "NTV news: the festival returns in full after the pandemic",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#長岡花火 on Instagram",
+     "url": "https://www.instagram.com/explore/tags/長岡花火/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#nagaokafireworks on TikTok",
+     "url": "https://www.tiktok.com/tag/nagaokafireworks",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
   },
   {
    "id": "nashik-kumbh-mela",
@@ -8634,6 +9397,135 @@
    ]
   },
   {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Asia",
+   "country": "Japan",
+   "id": "omagari-hanabi",
+   "name": "Ōmagari no Hanabi (Omagari National Fireworks Competition)",
+   "location": "Daisen (Ōmagari), Akita Prefecture, Japan",
+   "month": 8,
+   "monthName": "August",
+   "start2027": "2027-08-28",
+   "end2027": "2027-08-28",
+   "category": "Fireworks",
+   "dateConfidence": "Calculated — last Saturday of August; 2027 date not yet announced",
+   "dateDetails": "The All Japan Fireworks Competition is held every year on the last Saturday of August on the banks of the Omono River (2025: Aug 30; 2026: Aug 29, the 98th edition). 2027 is calculated as Saturday, August 28: daytime fireworks competition in the late afternoon (about 17:10 in 2026), night competition from about 18:50. The organizers have not yet published the 2027 date.",
+   "booking": "Paid riverbank viewing tickets are sold by lottery and general sale in spring and early summer; see omagari-hanabi.com",
+   "why": "Japan's most prestigious fireworks contest, judged for the Prime Minister's Prize: master pyrotechnicians compete with perfect 10-gō shells, rare daytime smoke fireworks, and wide 'creative' shows, ending in a festival-sponsored finale that fills the whole sky.",
+   "artPairing": "Hanabi-Am, the fireworks heritage center in Ōmagari; Kakunodate's samurai district and the Satake-Kita house museums nearby.",
+   "landscapePairing": "The Omono River plain at dusk; Lake Tazawa, Japan's deepest lake, and the old hot-spring inns of Nyūtō Onsen in the mountains to the east.",
+   "laterYears": "2028: Aug 26; 2029: Aug 25   [calculated: last Saturday of August]",
+   "officialUrl": "https://www.omagari-hanabi.com/en/about",
+   "tagline": "Japan's master pyrotechnicians compete by day in colored smoke and by night in fire",
+   "story": "Ōmagari, a rice-farming town in Akita, has held a fireworks competition since 1910. Unlike most Japanese summer displays, which are put on by sponsors, this one is a contest: around twenty-eight firework companies each make their own shells and are judged on shape, color, symmetry and timing, with the Prime Minister's Prize as the top award. The day begins with hiru-hanabi (daytime fireworks), shells that burst into drifting trails of colored smoke against a pale sky, a form almost no one else still competes in.\n\nAfter dark, each company fires a single 10-gō (about 30 cm) shell meant to open into perfect concentric rings, then a short 'creative' show set to music. The judges watch every ring change color. The riverbank is packed with mats and families who staked their places at dawn, and the bangs bounce back off the hills across the Omono River. Near the end comes the festival's own show: several minutes of fire spread across almost a kilometer of riverbank.",
+   "wonderMoment": "During the festival-sponsored finale, the launch line stretches the full width of the river and the whole field of sky turns white and gold at once, then crowds on both banks wave lights to thank the pyrotechnicians.",
+   "lat": 39.4597,
+   "lng": 140.4625,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:大会提供花火（2014）.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG/1280px-%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG",
+     "author": "KANSEI",
+     "license": "CC BY-SA 4.0",
+     "caption": "The festival-sponsored show over the Omono River, set to Ravel's Boléro, 2014",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/omagari-hanabi-9b6ce65a.jpg",
+     "thumb": "img/t/omagari-hanabi-9b6ce65a.jpg"
+    },
+    {
+     "file": "File:昇曲導付三重芯変化菊.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%E6%98%87%E6%9B%B2%E5%B0%8E%E4%BB%98%E4%B8%89%E9%87%8D%E8%8A%AF%E5%A4%89%E5%8C%96%E8%8F%8A.jpg/1280px-%E6%98%87%E6%9B%B2%E5%B0%8E%E4%BB%98%E4%B8%89%E9%87%8D%E8%8A%AF%E5%A4%89%E5%8C%96%E8%8F%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%87%E6%9B%B2%E5%B0%8E%E4%BB%98%E4%B8%89%E9%87%8D%E8%8A%AF%E5%A4%89%E5%8C%96%E8%8F%8A.jpg",
+     "author": "VRDS",
+     "license": "CC BY-SA 4.0",
+     "caption": "A competition shell: a triple-core chrysanthemum changing color, 2018",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/omagari-hanabi-a6118084.jpg"
+    },
+    {
+     "file": "File:Finale of the All-Nippon Fireworks Competition 2018.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Finale_of_the_All-Nippon_Fireworks_Competition_2018.jpg/1280px-Finale_of_the_All-Nippon_Fireworks_Competition_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Finale_of_the_All-Nippon_Fireworks_Competition_2018.jpg",
+     "author": "掬茶",
+     "license": "CC BY-SA 4.0",
+     "caption": "Crowds on the riverbank during the finale, 2018",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/omagari-hanabi-a3739dba.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=Rl0su19IOZ4",
+     "title": "THIS IS THE GREATEST SHOW!! 大曲の花火 2024 第96回全国花火競技大会 大会提供花火 \"THE GREATEST SHOW\" (Panasonic S5 + BRAW)",
+     "channel": "AQUA Geo Graphic",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "Festival show 'The Greatest Show', filmed from the riverbank in 2024",
+     "titleEn": "THIS IS THE GREATEST SHOW!! Omagari Fireworks 2024, 96th All Japan Fireworks Competition, festival-sponsored fireworks \"THE GREATEST SHOW\" (Panasonic S5 + BRAW)",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=1lgckpM9pXE",
+     "title": "大曲の花火 2026 大会提供花火 栄光への賛歌 | Omagari Fireworks Taikai Teikyo 8K60pHDR",
+     "channel": "Japan Explorers",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "8K HDR capture of the 2026 festival show 'Hymn to Glory'",
+     "titleEn": "Omagari Fireworks 2026, festival-sponsored fireworks 'Hymn to Glory' | Omagari Fireworks Taikai Teikyo 8K60pHDR",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=u2QRpM_IMfs",
+     "title": "【特等席8K】大曲の花火2025 ロングバージョン｜カメラマン席からの圧巻フル映像【日本三大花火】",
+     "channel": "CHILLOUTPLANET",
+     "kind": "film",
+     "minutes": 21,
+     "note": "Long 8K cut of the 2025 night show from the photographers' stand",
+     "titleEn": "[Best-seat 8K] Omagari Fireworks 2025 long version | Overwhelming full footage from the camera seats [One of Japan's three great fireworks shows]",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=FNaZlbXkOzg",
+     "title": "大曲の花火 2025 全国花火競技大会 総集編 Omagari Fireworks All Japan National Fireworks Competition 8K60pHDR",
+     "channel": "Japan Explorers",
+     "kind": "full-event",
+     "minutes": 149,
+     "note": "Whole 2025 competition, daytime and night, in one edit",
+     "titleEn": "Omagari Fireworks 2025, All Japan Fireworks Competition, complete edition, 8K60pHDR",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZogToZcrwXk",
+     "title": "The Omagari Fireworks Festival (Daisen, Akita Prefecture)",
+     "channel": "Suntory Prize for Community Cultural Activities",
+     "kind": "documentary",
+     "minutes": 2,
+     "note": "Short film on the town and the craft behind the contest",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#大曲の花火 on Instagram",
+     "url": "https://www.instagram.com/explore/tags/大曲の花火/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#omagarihanabi on TikTok",
+     "url": "https://www.tiktok.com/tag/omagarihanabi",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
+  },
+  {
    "id": "burning-man",
    "name": "Burning Man",
    "location": "Black Rock City, Black Rock Desert, Nevada",
@@ -9257,6 +10149,137 @@
      "label": "#corsozundert on TikTok",
      "url": "https://www.tiktok.com/tag/corsozundert",
      "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Asia",
+   "country": "Japan",
+   "id": "katakai-matsuri",
+   "name": "Katakai Matsuri (Katakai Festival)",
+   "location": "Asahara Shrine, Katakai, Ojiya, Niigata Prefecture, Japan",
+   "month": 9,
+   "monthName": "September",
+   "start2027": "2027-09-10",
+   "end2027": "2027-09-11",
+   "category": "Fireworks",
+   "dateConfidence": "Confirmed (official)",
+   "dateDetails": "The Katakai Fireworks Association's official site lists the 2027 festival for Friday–Saturday, September 10–11, 2027. The festival once ran on fixed dates of September 9–10 but now falls on the second Saturday of September and the Friday before (2024: Sep 13–14; 2026: Sep 11–12). Fireworks run about 19:30–22:20 both nights, rain or shine; postponed a day for typhoons. The 4-shaku shell is fired on each night.",
+   "booking": "Sajiki (mat-space) tickets for groups go on sale in summer through the Katakai Fireworks Association; see katakaimachi-enkakyokai.info",
+   "why": "A village shrine festival where nearly every shell is paid for by local people to mark a birth, a death, a wedding or a class reunion, and where the world's largest firework shell, the 4-shaku (120 cm, about 420 kg), opens some 800 m across.",
+   "artPairing": "Ojiya's chijimi ramie weaving tradition and the Nishiki-goi no Sato koi museum; Echigo-Tsumari Art Field installations within reach.",
+   "landscapePairing": "The Uonuma rice valley and the Shinano River gorge around Ojiya; the Yamakoshi terraced paddies and koi ponds in the hills.",
+   "laterYears": "2028: Sep 8–9; 2029: Sep 7–8   [calculated: second Saturday of September and the Friday before]",
+   "officialUrl": "https://katakaimachi-enkakyokai.info/",
+   "tagline": "A farming town fires the world's largest shell, and every burst carries a family's message",
+   "story": "Katakai is a small town in the rice country of Niigata with a long fireworks tradition. Its autumn festival at Asahara Shrine is an offering to the gods, and almost every one of the roughly 15,000 shells is sponsored by people who live there: parents for a newborn, a family for a grandmother who died, classmates turning 20 or 60. Before each launch an announcer reads the sponsor's message over the loudspeakers, so the night moves from jokes to grief to cheers. By day, groups in matching happi coats parade huge shells and haul firing tubes through the streets.\n\nThe launch site is just behind the shrine, so you sit closer than at almost any big display. The highlight is the yonshakudama (4-shaku shell), 1.2 meters wide and about 420 kg, made by the town's own fireworks company. It climbs for what feels like a long time. Then the sky opens into a single dome of light around 800 meters across, and the blast arrives a few seconds later.",
+   "wonderMoment": "After the announcer reads the yonshakudama's dedication, the whole field goes silent; then the world's biggest shell opens overhead and its boom rolls back off the hills.",
+   "lat": 37.3594,
+   "lng": 138.7836,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:2011 katakai festival 4-shaku dama.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/2011_katakai_festival_4-shaku_dama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:2011_katakai_festival_4-shaku_dama.jpg",
+     "author": "Kropsoq",
+     "license": "CC BY 3.0",
+     "caption": "The 4-shaku shell, the world's largest, opens over Katakai, 2011",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/katakai-matsuri-6ccaf238.jpg",
+     "thumb": "img/t/katakai-matsuri-6ccaf238.jpg"
+    },
+    {
+     "file": "File:2011 katakai festival 3-shaku dama.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/2011_katakai_festival_3-shaku_dama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:2011_katakai_festival_3-shaku_dama.jpg",
+     "author": "Kropsoq",
+     "license": "CC BY 3.0",
+     "caption": "A 3-shaku shell trails gold over the town, 2011",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/katakai-matsuri-66b221d4.jpg"
+    },
+    {
+     "file": "File:片貝まつり - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/%E7%89%87%E8%B2%9D%E3%81%BE%E3%81%A4%E3%82%8A_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%89%87%E8%B2%9D%E3%81%BE%E3%81%A4%E3%82%8A_-_panoramio.jpg",
+     "author": "purivve",
+     "license": "CC BY-SA 3.0",
+     "caption": "Giant firing tubes on display in Katakai during the festival",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/katakai-matsuri-e26448fd.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=8ioRebqk204",
+     "title": "日本一正三尺玉＋世界一正四尺玉 3年ぶりの片貝まつり奉納大煙火 -  World's largest 48\" firework shell - (S5+BRAW / BMPCC6K)",
+     "channel": "AQUA Geo Graphic",
+     "kind": "film",
+     "minutes": 38,
+     "note": "The 3-shaku and 4-shaku shells filmed with care, from launch to boom",
+     "titleEn": "Japan's largest true 3-shaku shell + the world's largest true 4-shaku shell: the Katakai Festival dedication fireworks, back after 3 years - World's largest 48\" firework shell - (S5+BRAW / BMPCC6K)",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=9WWjSBKU1cA",
+     "title": "[4K HDR]花火の大きさ比較　4号玉～世界一・正四尺玉　片貝まつり",
+     "channel": "HANABI",
+     "kind": "clip",
+     "minutes": 9,
+     "note": "Shell sizes compared, from small to the 4-shaku giant",
+     "titleEn": "[4K HDR] Fireworks size comparison, from a 4-gō shell to the world's largest true 4-shaku shell, Katakai Festival",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=gkhcF-_ksMA",
+     "title": "【花火】世界最大級の四尺玉　片貝まつり開催　大輪の花が魅了《新潟》",
+     "channel": "TeNY新潟一番ニュース",
+     "kind": "clip",
+     "minutes": 3,
+     "note": "Niigata TV news report from the 2026 festival",
+     "titleEn": "[Fireworks] One of the world's largest 4-shaku shells: Katakai Festival held, giant blossoms enchant the crowd (Niigata)",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=rspWU4oeMwM",
+     "title": "【2025片貝花火】正四尺玉／片貝町民一同［2025.09.13］【片貝まつり浅原神社秋季例大祭奉納大煙火】",
+     "channel": "【NCT】エヌ・シィ・ティ",
+     "kind": "short",
+     "minutes": 1,
+     "note": "The 2025 4-shaku shell, sponsored by all the townspeople",
+     "titleEn": "[2025 Katakai Fireworks] True 4-shaku shell / by all the people of Katakai [2025.09.13] [Katakai Festival, Asahara Shrine autumn festival dedication fireworks]",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=gWQq0mAkirM",
+     "title": "2017 片貝まつり [4K] 十日 奉納煙火 全編収録 ～Katakai Festival Dedication Fireworks Display〜",
+     "channel": "1tsubame",
+     "kind": "full-event",
+     "minutes": 160,
+     "note": "A full night of dedicated shells, with the announcements",
+     "titleEn": "2017 Katakai Festival [4K], day of the 10th, dedication fireworks, complete recording ~Katakai Festival Dedication Fireworks Display~",
+     "lang": "Japanese",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#片貝まつり on Instagram",
+     "url": "https://www.instagram.com/explore/tags/片貝まつり/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#片貝花火 on TikTok",
+     "url": "https://www.tiktok.com/tag/片貝花火",
+     "addedAt": "2026-11-15T18:59:50Z"
     }
    ]
   },
@@ -11220,6 +12243,127 @@
    ],
    "addedAt": "2026-11-14T09:00:00Z",
    "nameOriginal": "Noche de Rábanos / Night of the Radishes"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-15 (fireworks)",
+   "region": "Oceania",
+   "country": "Australia",
+   "id": "sydney-new-years-eve",
+   "name": "Sydney New Year's Eve",
+   "location": "Sydney Harbour, Sydney, New South Wales, Australia",
+   "month": 12,
+   "monthName": "December",
+   "start2027": "2027-12-31",
+   "end2027": "2027-12-31",
+   "category": "Fireworks",
+   "dateConfidence": "Confirmed — fixed date (December 31) every year; 2027 program not yet announced",
+   "dateDetails": "Always December 31: a 9 p.m. family display, then the midnight fireworks, about 12 minutes, fired from the Harbour Bridge, the Opera House sails and barges across the harbour. The theme and running order are announced by the City of Sydney in the months before.",
+   "booking": "Many foreshore viewing areas are free but capacity-limited; some ticketed vantage points (and harbour cruises) sell out months ahead. See sydneynewyearseve.com.",
+   "why": "One of the first major cities to reach midnight, Sydney turns its harbour into a stage: fireworks pour off the Harbour Bridge in a waterfall and burst from the Opera House sails while a million people line the shores.",
+   "artPairing": "The Art Gallery of New South Wales and its Aboriginal and Torres Strait Islander collection; a performance inside the Opera House.",
+   "landscapePairing": "The Bondi to Coogee cliff walk; the sandstone gorges and eucalyptus haze of the Blue Mountains.",
+   "laterYears": "2028: Dec 31; 2029: Dec 31   [fixed date]",
+   "officialUrl": "https://www.sydneynewyearseve.com/",
+   "tagline": "Midnight pours off the Harbour Bridge in a waterfall of fire",
+   "story": "Sydney is one of the first big cities on earth to see the new year, and it treats the moment as a show for the world. The fireworks have been made for decades by the Foti family firm, with roots in Sicilian pyrotechnics, working with the City of Sydney. Weeks before, barges are loaded, the Harbour Bridge is wired from deck to arch, and the Opera House sails are fitted for projections and effects.\n\nPeople claim spots on the foreshore from early morning: Mrs Macquarie's Point, Kirribilli, the Rocks, hundreds of boats anchored across the water. The 9 p.m. family display is a warm-up. At midnight the countdown is projected onto the bridge pylons, and then the whole harbour fires at once: comets from the arch, gold spilling off the deck in a waterfall that reaches the water, shells rising from barges as far as the eye can see. The air is warm, it smells of salt and smoke, and the cheer from both shores carries across the harbour.",
+   "wonderMoment": "At the stroke of midnight a curtain of gold drops from the Harbour Bridge to the water while the Opera House sails glow and the sky above both is full.",
+   "lat": -33.8523,
+   "lng": 151.2108,
+   "addedAt": "2026-11-15T18:59:50Z",
+   "images": [
+    {
+     "file": "File:Sydney habour bridge & opera house fireworks new year eve 2008.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sydney_habour_bridge_%26_opera_house_fireworks_new_year_eve_2008.jpg/1280px-Sydney_habour_bridge_%26_opera_house_fireworks_new_year_eve_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sydney_habour_bridge_%26_opera_house_fireworks_new_year_eve_2008.jpg",
+     "author": "Linh_rOm",
+     "license": "CC BY 2.0",
+     "caption": "Shells burst along the Harbour Bridge and over the Opera House at midnight",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sydney-new-years-eve-55b1e1aa.jpg",
+     "thumb": "img/t/sydney-new-years-eve-55b1e1aa.jpg"
+    },
+    {
+     "file": "File:Sydney Harbour fireworks and smoke 2023.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sydney_Harbour_fireworks_and_smoke_2023.jpg/1280px-Sydney_Harbour_fireworks_and_smoke_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_fireworks_and_smoke_2023.jpg",
+     "author": "Dicklyon",
+     "license": "CC BY-SA 4.0",
+     "caption": "The Opera House under a sky of fireworks and smoke, ringing in 2023",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sydney-new-years-eve-2f2c4c3e.jpg"
+    },
+    {
+     "file": "File:Sydney new years 2008-9.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Sydney_new_years_2008-9.JPG/1280px-Sydney_new_years_2008-9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Sydney_new_years_2008-9.JPG",
+     "author": "Adam.J.W.C.",
+     "license": "CC BY 3.0",
+     "caption": "A line of white fireworks crowns the Harbour Bridge arch, 2008–09",
+     "addedAt": "2026-11-15T18:59:50Z",
+     "src": "img/sydney-new-years-eve-be5c1230.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=5Q7jjPFQrIY",
+     "title": "Sydney New Year’s Eve 2025/2026 Midnight Fireworks",
+     "channel": "sydneyfireworks",
+     "kind": "full-event",
+     "minutes": 12,
+     "note": "The full midnight show welcoming 2026",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=1NCUo6HPMEQ",
+     "title": "Sydney New Year’s Eve 2022/2023 Midnight Fireworks",
+     "channel": "sydneyfireworks",
+     "kind": "full-event",
+     "minutes": 12,
+     "note": "The full midnight show welcoming 2023",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ff2CrNWTbUg",
+     "title": "Foti International Fireworks: behind the scenes of Sydney New Year's Eve 2021",
+     "channel": "City of Sydney",
+     "kind": "documentary",
+     "minutes": null,
+     "note": "Fortunato Foti on how the harbour show is built",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=30WdYfpjVX4",
+     "title": "The secret ingredient to Sydney's NYE fireworks",
+     "channel": "Guardian Australia",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The Foti family's seven generations of fireworks",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=-FH4X6bfe1I",
+     "title": "Final preparations for Sydney’s iconic New Year’s Eve fireworks | 9 News Australia",
+     "channel": "9 News Australia",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Barges and bridge being loaded before the 2026 show",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#sydneynye on Instagram",
+     "url": "https://www.instagram.com/explore/tags/sydneynye/",
+     "addedAt": "2026-11-15T18:59:50Z"
+    },
+    {
+     "label": "#sydneynye on TikTok",
+     "url": "https://www.tiktok.com/tag/sydneynye",
+     "addedAt": "2026-11-15T18:59:50Z"
+    }
+   ]
   },
   {
    "id": "giant-lantern-festival",
