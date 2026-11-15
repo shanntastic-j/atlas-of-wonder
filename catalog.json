@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-11-15T03:53:02Z",
+ "generatedAt": "2026-11-15T05:20:07Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-15T05:20:07Z",
+   "summary": "6 flower-parade corsos added: Corso Zundert, Bollenstreek, Pasadena Rose Parade, Panagbenga, Jersey Battle of Flowers and Nice's Battle of Flowers.",
+   "newExperiences": [
+    "corso-zundert",
+    "bloemencorso-bollenstreek",
+    "pasadena-rose-parade",
+    "panagbenga-baguio",
+    "jersey-battle-of-flowers",
+    "nice-bataille-de-fleurs"
+   ],
+   "newMedia": 0
+  },
   {
    "date": "2026-11-15T03:53:02Z",
    "summary": "7 German festivals added: the giant satirical floats of Düsseldorf, Cologne and Mainz on Rose Monday, plus Rottweil, Landshut, Nuremberg and Rhine in Flames.",
@@ -60,6 +73,127 @@
   }
  ],
  "experiences": [
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "North America",
+   "country": "USA",
+   "id": "pasadena-rose-parade",
+   "name": "Rose Parade (Tournament of Roses Parade)",
+   "location": "Colorado Boulevard, Pasadena, California, USA",
+   "month": 1,
+   "monthName": "January",
+   "start2027": "2027-01-01",
+   "end2027": "2027-01-01",
+   "category": "Parade",
+   "dateConfidence": "Confirmed (official)",
+   "dateDetails": "The 138th Rose Parade, theme \"Welcome\", is set for Friday, January 1, 2027 at 8 a.m. Pacific on the 5.5-mile Colorado Boulevard route (Tournament of Roses announcement). Floats are usually on display at the post-parade showcase on January 1–2; float decorating can be watched in the barns in the last days of December.",
+   "booking": "Watching from the curb is free; tickets for the float decorating barns and the post-parade showcase are sold separately, see tournamentofroses.com",
+   "why": "Since 1890 Pasadena has opened the year with floats on which every visible surface must be covered in flowers, seeds, bark or other plant material, assembled by volunteers in the final week.",
+   "artPairing": "The Huntington Library, Art Museum and Botanical Gardens in San Marino; the Norton Simon Museum, which sits right on the parade route.",
+   "landscapePairing": "The San Gabriel Mountains above Pasadena, often snow-capped on New Year's morning; the Arroyo Seco and the Rose Bowl below.",
+   "laterYears": "2028: Jan 1; 2029: Jan 1   [rule: January 1, moved to January 2 only when Jan 1 falls on a Sunday]",
+   "officialUrl": "https://tournamentofroses.com/",
+   "tagline": "New Year's floats covered in roses, seeds and bark, under the San Gabriel Mountains",
+   "story": "The Tournament of Roses began in 1890 as a way to show off Southern California's winter sunshine, and its parade has run on New Year's morning almost every year since. Its strict rule is what makes it strange: every visible surface of a float must be organic. Roses, orchids and carnations sit in thousands of tiny water vials, while the fine colors come from seeds, rice, onion skin, lentils, dried fruit and bark, glued on by hand. In the final week, volunteers work in huge float barns in Pasadena and Irwindale, many through the night, so the flowers are as fresh as possible.\n\nOn January 1 the floats, marching bands and horses move for 5.5 miles down Colorado Boulevard. People camp on the curb overnight to keep their spot. The morning is cold, the light is low and gold, and the floats come close: dragons breathing steam, animated creatures, whole gardens on wheels. After the parade the floats park nearby for viewing, and the smell of roses and cut greens is everywhere.",
+   "wonderMoment": "At 8 a.m. the first float turns onto Colorado Boulevard in the low winter sun, and you realize the color you thought was paint is millions of petals and seeds.",
+   "lat": 34.1458,
+   "lng": -118.1445,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:The \"Wonderful Indonesia\" float in the 124th Rose Parade in Pasadena, California LCCN2013631353.tif",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/The_%22Wonderful_Indonesia%22_float_in_the_124th_Rose_Parade_in_Pasadena%2C_California_LCCN2013631353.tif/lossy-page1-1280px-The_%22Wonderful_Indonesia%22_float_in_the_124th_Rose_Parade_in_Pasadena%2C_California_LCCN2013631353.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_%22Wonderful_Indonesia%22_float_in_the_124th_Rose_Parade_in_Pasadena,_California_LCCN2013631353.tif",
+     "author": "Carol M. Highsmith",
+     "license": "Public domain",
+     "caption": "The 'Wonderful Indonesia' float with dancers, 124th Rose Parade",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/pasadena-rose-parade-fa60f914.jpg",
+     "thumb": "img/t/pasadena-rose-parade-fa60f914.jpg"
+    },
+    {
+     "file": "File:The La Canada Flintridge Tournament of Roses Association's \"Dino-Soar\" float in the 124th Rose Parade in Pasadena, California LCCN2013631658.tif",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_La_Canada_Flintridge_Tournament_of_Roses_Association%27s_%22Dino-Soar%22_float_in_the_124th_Rose_Parade_in_Pasadena%2C_California_LCCN2013631658.tif/lossy-page1-1280px-The_La_Canada_Flintridge_Tournament_of_Roses_Association%27s_%22Dino-Soar%22_float_in_the_124th_Rose_Parade_in_Pasadena%2C_California_LCCN2013631658.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_La_Canada_Flintridge_Tournament_of_Roses_Association%27s_%22Dino-Soar%22_float_in_the_124th_Rose_Parade_in_Pasadena,_California_LCCN2013631658.tif",
+     "author": "Carol M. Highsmith",
+     "license": "Public domain",
+     "caption": "The 'Dino-Soar' float rolls down Colorado Boulevard, 2013",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/pasadena-rose-parade-148123ef.jpg"
+    },
+    {
+     "file": "File:TOR float volunteers.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/TOR_float_volunteers.jpg/1280px-TOR_float_volunteers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:TOR_float_volunteers.jpg",
+     "author": "designministry from Pasadena, California",
+     "license": "CC BY 2.0",
+     "caption": "Volunteers glue flowers onto a float in the decorating barn",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/pasadena-rose-parade-1661dfbd.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=BK7chdL6Lyw",
+     "title": "BEHIND THE BLOOM - How Parade Floats are Made",
+     "channel": "Tournament of Roses®",
+     "kind": "documentary",
+     "minutes": 14,
+     "note": "Official look at how the floats are designed and decorated",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=nrvtqlCy9BM",
+     "title": "Rose Parade Floats and the History and Craft Behind Them | Lost LA",
+     "channel": "PBS SoCal",
+     "kind": "clip",
+     "minutes": 4,
+     "note": "PBS SoCal on the history and craft of the floats",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=xRoOZRDzFBQ",
+     "title": "2026 Rose Parade Float Preview | Rainy New Year’s Eve Walking Tour (Dec 31, 2025)",
+     "channel": "Marching.com",
+     "kind": "clip",
+     "minutes": 7,
+     "note": "Walk among the finished floats on New Year's Eve",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=-70dQZmJZMo",
+     "title": "The 137th Rose Parade 2026 Super Amazing at Pasadena CA | 4K POV",
+     "channel": "Theme Park Crex",
+     "kind": "film",
+     "minutes": 65,
+     "note": "4K street-level view of the 2026 parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ur499UDtUds",
+     "title": "137th Rose Parade presented by Honda",
+     "channel": "KTLA 5",
+     "kind": "full-event",
+     "minutes": 126,
+     "note": "KTLA's full broadcast of the 137th parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#roseparade on Instagram",
+     "url": "https://www.instagram.com/explore/tags/roseparade/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#roseparade on TikTok",
+     "url": "https://www.tiktok.com/tag/roseparade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
+  },
   {
    "id": "harbin-ice-and-snow-festival",
    "name": "Harbin International Ice and Snow Festival",
@@ -2795,6 +2929,135 @@
    "nameOriginal": "Basel Fasnacht"
   },
   {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "Europe",
+   "country": "France",
+   "id": "nice-bataille-de-fleurs",
+   "name": "Bataille de Fleurs du Carnaval de Nice (Nice Carnival Battle of Flowers)",
+   "location": "Place Masséna and Promenade des Anglais, Nice, France",
+   "month": 2,
+   "monthName": "February",
+   "start2027": "2027-02-17",
+   "end2027": "2027-02-27",
+   "category": "Parade",
+   "dateConfidence": "Confirmed (official tourist office) — weather permitting",
+   "dateDetails": "Nice Carnival 2027 (154th edition, theme \"Vive l'Amour\") runs February 9–28, 2027 (nicecarnaval.com). The Explore Nice Côte d'Azur tourist office lists four Battles of Flowers at 2:30 p.m.: Wednesday February 17, Saturday February 20, Wednesday February 24 and Saturday February 27, 2027.",
+   "booking": "Paid entry to the parade enclosure; tickets on nicecarnaval.com",
+   "why": "The original Battle of Flowers, held since 1876: floats piled with mimosa, lilies and gerberas from Riviera growers roll along the seafront while costumed performers throw the flowers to the crowd.",
+   "artPairing": "Musée Matisse and Musée Marc Chagall in Cimiez; MAMAC (modern and contemporary art) in the center.",
+   "landscapePairing": "The Baie des Anges from Castle Hill; the mimosa in bloom along the Route du Mimosa in the Esterel hills to the west.",
+   "laterYears": "2028–2029: February, during Nice Carnival   [dates not announced]",
+   "officialUrl": "https://www.nicecarnaval.com/",
+   "tagline": "Mimosa and lilies flung from floats along Nice's palm-lined seafront in February",
+   "story": "Nice held its first Battle of Flowers in 1876, when winter visitors on the Promenade threw bouquets at each other from their carriages. It is now the gentler afternoon side of Nice Carnival. Floats are covered in fresh flowers, most grown locally on the Riviera: yellow mimosa, white lilies, gerberas, strelitzia and carnations, stacked around performers in huge, elaborate costumes. Each float carries about 100,000 flowers in total, and the point is to give them away.\n\nThe floats move slowly past palms, Belle Époque façades and the blue Baie des Anges, with brass bands and street performers between them. As they pass, the performers throw armfuls of flowers to the crowd, and everyone reaches up to catch them. The February light is bright and clear, the air smells of mimosa, and by the end people walk home with bunches of flowers under their arms.",
+   "wonderMoment": "A float passes and a performer throws an armful of mimosa high over the crowd; for a second the air is full of yellow, with the Baie des Anges behind it.",
+   "lat": 43.696,
+   "lng": 7.269,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:Bataille des Fleurs - Carnaval de Nice 2013.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bataille_des_Fleurs_-_Carnaval_de_Nice_2013.jpg/1280px-Bataille_des_Fleurs_-_Carnaval_de_Nice_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bataille_des_Fleurs_-_Carnaval_de_Nice_2013.jpg",
+     "author": "Mark Fischer",
+     "license": "CC BY-SA 2.0",
+     "caption": "A performer throws flowers from her float during the Battle of Flowers, 2013",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/nice-bataille-de-fleurs-e15b66d0.jpg",
+     "thumb": "img/t/nice-bataille-de-fleurs-e15b66d0.jpg"
+    },
+    {
+     "file": "File:Carnaval de Nice - bataille de fleurs - 1.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Carnaval_de_Nice_-_bataille_de_fleurs_-_1.jpg/1280px-Carnaval_de_Nice_-_bataille_de_fleurs_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Carnaval_de_Nice_-_bataille_de_fleurs_-_1.jpg",
+     "author": "Zil",
+     "license": "CC BY-SA 3.0",
+     "caption": "Spectators reach for flying flowers on Nice's seafront",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/nice-bataille-de-fleurs-4778ba83.jpg"
+    },
+    {
+     "file": "File:Bataille de fleurs Nice.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bataille_de_fleurs_Nice.jpg/1280px-Bataille_de_fleurs_Nice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_fleurs_Nice.jpg",
+     "author": "csibon43 (Emmanuel Serriere)",
+     "license": "CC BY-SA 2.0",
+     "caption": "A float stacked with mimosa and lilies, Nice Carnival 2009",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/nice-bataille-de-fleurs-2be35fa9.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=j9SpC9oIpV4",
+     "title": "Carnaval de Nice 2026 - Bataille de fleurs",
+     "channel": "Ville de Nice - Nice.fr tv",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "Official city film of the 2026 Battle of Flowers",
+     "titleEn": "Nice Carnival 2026 - Battle of Flowers",
+     "lang": "French",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=WDP701y5PD8",
+     "title": "Carnaval de Nice 2023 - Bataille de Fleurs",
+     "channel": "Ville de Nice - Nice.fr tv",
+     "kind": "short",
+     "minutes": 1,
+     "note": "Official minute from the 2023 battle",
+     "titleEn": "Nice Carnival 2023 - Battle of Flowers",
+     "lang": "French",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Hx6IdqZLEZ8",
+     "title": "100 000 fleurs lancées aux spectateurs du Carnaval de Nice lors de la première bataille fleurie",
+     "channel": "France 3 Provence-Alpes-Côte d'Azur",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "France 3 report: 100,000 flowers thrown to the crowd",
+     "titleEn": "100,000 flowers thrown to Nice Carnival spectators at the first flower battle",
+     "lang": "French",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=D8rR1t5sRcw",
+     "title": "La bataille des fleurs du carnaval de Nice à travers le temps, retour en images",
+     "channel": "France 3 Provence-Alpes-Côte d'Azur",
+     "kind": "clip",
+     "minutes": 1,
+     "note": "Archive images of the battle through the decades",
+     "titleEn": "The Nice Carnival Battle of Flowers through the years, in pictures",
+     "lang": "French",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=giz724TpsNM",
+     "title": "[4K] NICE CARNIVAL 🌍 40-Minute Immersive Battle of Flowers Celebration & Bay Stroll",
+     "channel": "IgNiceMan",
+     "kind": "film",
+     "minutes": 40,
+     "note": "Immersive 4K walk through a Battle of Flowers",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#carnavaldenice on Instagram",
+     "url": "https://www.instagram.com/explore/tags/carnavaldenice/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#batailledefleurs on TikTok",
+     "url": "https://www.tiktok.com/tag/batailledefleurs",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
+  },
+  {
    "id": "chingay-parade-singapore",
    "name": "Chingay Parade (Costume and Masquerade Parade), Singapore",
    "location": "Singapore",
@@ -2915,6 +3178,127 @@
    ],
    "addedAt": "2026-11-14T09:00:00Z",
    "nameOriginal": "Chingay Parade Singapore"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "Asia",
+   "country": "Philippines",
+   "id": "panagbenga-baguio",
+   "name": "Panagbenga (Baguio Flower Festival)",
+   "location": "Baguio City, Benguet, Philippines",
+   "month": 2,
+   "monthName": "February",
+   "start2027": "2027-02-27",
+   "end2027": "2027-02-28",
+   "category": "Festival",
+   "dateConfidence": "Calculated (pattern) — 2027 dates not announced",
+   "dateDetails": "Panagbenga runs through February into early March. In 2026 the Grand Street Dance Parade was Saturday, February 28 and the Grand Floral Float Parade Sunday, March 1. Dates shown are the matching weekend for 2027 (Sat Feb 27 street dance, Sun Feb 28 float parade); the Baguio Flower Festival Foundation usually announces the calendar in January.",
+   "booking": "Free to watch along Session Road and Harrison Road; the city fills up on parade weekend",
+   "why": "A month-long flower festival in the cool pine-covered mountain city of Baguio, peaking in a weekend of street dancing and a parade of large floats covered in chrysanthemums, anthuriums, roses and other blooms.",
+   "artPairing": "BenCab Museum in Tuba (Benedicto Cabrera's art and Cordillera artifacts); Tam-awan Village and its artists' colony.",
+   "landscapePairing": "The pine ridges of the Cordillera Central; the Ifugao rice terraces of Banaue and Batad, farther north.",
+   "laterYears": "2028–2029: last weekend of February or first weekend of March   [dates not announced]",
+   "officialUrl": "https://www.youtube.com/@panagbengafestival",
+   "tagline": "Flower-covered floats climb Session Road through the pine-scented hills of Baguio",
+   "story": "Panagbenga is a Kankanaey word meaning \"season of blooming.\" The festival began in 1995 as a way to lift Baguio after the 1990 earthquake, and it has become the city's biggest event of the year. Through February there are flower exhibits, a market along Session Road and performances, but the peak is a single weekend: a street dance parade by schools and community groups in costumes based on local flowers, then the Grand Floral Float Parade, where companies and towns compete with floats covered in fresh blooms.\n\nBaguio sits about 1,500 m up in the mountains of northern Luzon, so the parade mornings are cool and smell of pine. Crowds pack the steep streets and balconies. The floats move slowly uphill: giant birds, butterflies and mascots built from chrysanthemums, anthuriums, sunflowers and roses grown in the farms around the city. Cordillera drum and gong groups play between the floats, and dancers wave flowers on long sticks.",
+   "wonderMoment": "Standing on Session Road on Sunday morning, you see a line of floats in full bloom coming up the hill, with mist lifting off the pine ridges behind them.",
+   "lat": 16.412,
+   "lng": 120.596,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:JHMC Float, Panagbenga 2024.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/JHMC_Float%2C_Panagbenga_2024.jpg/1280px-JHMC_Float%2C_Panagbenga_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:JHMC_Float,_Panagbenga_2024.jpg",
+     "author": "Praisashimi",
+     "license": "CC0",
+     "caption": "A float built of chrysanthemums and sunflowers, Panagbenga 2024",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/panagbenga-baguio-6ac22ed8.jpg",
+     "thumb": "img/t/panagbenga-baguio-6ac22ed8.jpg"
+    },
+    {
+     "file": "File:Float Parade Panagbenga Festival 15.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Float_Parade_Panagbenga_Festival_15.jpg/1280px-Float_Parade_Panagbenga_Festival_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Float_Parade_Panagbenga_Festival_15.jpg",
+     "author": "Brandtdobeal",
+     "license": "CC BY-SA 4.0",
+     "caption": "A flower-covered float on the 2026 Grand Floral Float Parade route",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/panagbenga-baguio-162101d1.jpg"
+    },
+    {
+     "file": "File:Float Parade Panagbenga Festival 8.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Float_Parade_Panagbenga_Festival_8.jpg/1280px-Float_Parade_Panagbenga_Festival_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Float_Parade_Panagbenga_Festival_8.jpg",
+     "author": "Brandtdobeal",
+     "license": "CC BY-SA 4.0",
+     "caption": "Street dancers in flower costumes fill the parade route, 2026",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/panagbenga-baguio-3e0209dd.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=5SgkjFoWG7c",
+     "title": "Panagbenga Festival Documentary – The Story of Baguio’s Flower Festival",
+     "channel": "Anything About Philippines ",
+     "kind": "documentary",
+     "minutes": 5,
+     "note": "Short history of the festival and its meaning",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=p1r1I3b6rP8",
+     "title": "30th Panagbenga Festival Highlights",
+     "channel": "Panagbenga: The Baguio Flower Festival®",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "Official highlights of the 30th festival",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=IU34c7IP26I",
+     "title": "Panagbenga 2025 Highlights",
+     "channel": "Panagbenga: The Baguio Flower Festival®",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "Official 2025 highlights reel",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=et8fHriV8lE",
+     "title": "Panagbenga 2026: Grand Floral Float Parade | Harrison Road, Baguio City | March 1, 2026",
+     "channel": "The Baguio Channel",
+     "kind": "film",
+     "minutes": 45,
+     "note": "The 2026 float parade filmed along Harrison Road",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=3y8JI97PTJw",
+     "title": "PANAGBENGA 2026 Grand Float Parade | BAGUIO CITY | March 1, 2026 - The best coverage!",
+     "channel": "The Baguio Channel",
+     "kind": "full-event",
+     "minutes": 80,
+     "note": "Full coverage of the 2026 Grand Float Parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#panagbenga on Instagram",
+     "url": "https://www.instagram.com/explore/tags/panagbenga/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#panagbenga on TikTok",
+     "url": "https://www.tiktok.com/tag/panagbenga",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
   },
   {
    "id": "fetes-de-lours",
@@ -4179,6 +4563,133 @@
     }
    ],
    "addedAt": "2026-11-14T09:00:00Z"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "Europe",
+   "country": "Netherlands",
+   "id": "bloemencorso-bollenstreek",
+   "name": "Bloemencorso Bollenstreek (Bulb Region Flower Parade)",
+   "location": "Noordwijk to Haarlem, South and North Holland, Netherlands",
+   "month": 4,
+   "monthName": "April",
+   "start2027": "2027-04-16",
+   "end2027": "2027-04-18",
+   "category": "Parade",
+   "dateConfidence": "Confirmed (official)",
+   "dateDetails": "Official site lists the 2027 corso period as April 14–18, with the main parade from Noordwijk to Haarlem on Saturday, April 17, 2027 and an illuminated evening parade (Lichtjescorso) in Noordwijkerhout on Friday, April 16. The floats are usually on show in Haarlem on the Sunday. 2027 is the 80th edition.",
+   "booking": "Free to watch along the 40 km route; check bloemencorso-bollenstreek.nl for the timetable",
+   "why": "A full day's parade of floats covered in hyacinths and tulips that rolls 40 km through the flowering bulb fields at peak bloom, from the North Sea coast to the old center of Haarlem.",
+   "artPairing": "Frans Hals Museum and Teylers Museum in Haarlem; Keukenhof's spring gardens in Lisse.",
+   "landscapePairing": "The striped tulip and hyacinth fields between Noordwijk, Lisse and Hillegom; the dunes of Noordwijk and the Zuid-Kennemerland national park.",
+   "laterYears": "2028–2029: a Saturday in mid-to-late April   [dates not announced]",
+   "officialUrl": "https://bloemencorso-bollenstreek.nl/en",
+   "tagline": "Hyacinth-covered floats travel 40 km past striped bulb fields from the coast to Haarlem",
+   "story": "Each April, at the height of the bulb season, the Bollenstreek (bulb region) between Leiden and Haarlem puts on a flower parade that lasts all day. About twenty large floats and a stream of flower-decked cars leave Noordwijk in the morning and roll some 40 km through Voorhout, Sassenheim, Lisse and Hillegom, arriving in Haarlem after dark. Most floats are covered in hyacinths, packed so tight they look like velvet, with tulips and daffodils for the details. Builders work from a design for months, then add the fresh flowers in the last days, while marching bands and dancers fill the gaps.\n\nPeople line the road from early morning, and the smell of hyacinth arrives before the float does: heavy and sweet, even on a cold, windy day. Around the route the fields are in strips of red, yellow and purple. On the Friday night some floats ride again lit up, and on Sunday they stand still in Haarlem's streets for a close look.",
+   "wonderMoment": "When a hyacinth float passes close in a cold April wind, the scent hits you all at once, and beyond it the bulb fields stretch to the horizon in the same colors.",
+   "lat": 52.2575,
+   "lng": 4.557,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:Bloemencorso 2015 Lisse 03.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Bloemencorso_2015_Lisse_03.JPG/1280px-Bloemencorso_2015_Lisse_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloemencorso_2015_Lisse_03.JPG",
+     "author": "Jane023",
+     "license": "CC0",
+     "caption": "A golden crown float made of daffodils and hyacinths passes through Lisse",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/bloemencorso-bollenstreek-0f0f7455.jpg",
+     "thumb": "img/t/bloemencorso-bollenstreek-0f0f7455.jpg"
+    },
+    {
+     "file": "File:Bloemencorso 2015 near Sassenheim 03.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Bloemencorso_2015_near_Sassenheim_03.JPG/1280px-Bloemencorso_2015_near_Sassenheim_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloemencorso_2015_near_Sassenheim_03.JPG",
+     "author": "Jane023",
+     "license": "CC0",
+     "caption": "Riders on a hyacinth-covered float near Sassenheim, 2015",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/bloemencorso-bollenstreek-d6f2e88d.jpg"
+    },
+    {
+     "file": "File:Expo Bloemencorso Bollenstreek (2023)-3.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Expo_Bloemencorso_Bollenstreek_%282023%29-3.jpg/1280px-Expo_Bloemencorso_Bollenstreek_%282023%29-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Expo_Bloemencorso_Bollenstreek_(2023)-3.jpg",
+     "author": "Sneeuwvlakte",
+     "license": "CC BY-SA 4.0",
+     "caption": "Flower-covered floats on show in Haarlem's streets after the parade, 2023",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/bloemencorso-bollenstreek-1e17c3e2.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=iJB4dPnJdTM",
+     "title": "Flower Parade 2026 🌷🇳🇱  Bloemencorso Keukenhof [4k]",
+     "channel": "WonderJourneys",
+     "kind": "film",
+     "minutes": 35,
+     "note": "4K film of the 2026 floats and the route",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=6cO9VL3sSIw",
+     "title": "PAW Patrol en Efteling: dit was Bloemencorso Bollenstreek 2026",
+     "channel": "Omroep West",
+     "kind": "clip",
+     "minutes": 6,
+     "note": "Regional TV recap of the 2026 parade",
+     "titleEn": "PAW Patrol and Efteling: this was the 2026 Bollenstreek Flower Parade",
+     "lang": "Dutch",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=PlfE88_ptJs",
+     "title": "Achter de schermen bij het Bloemencorso Bollenstreek",
+     "channel": "Provincie Noord-Holland",
+     "kind": "clip",
+     "minutes": 3,
+     "note": "Behind the scenes as floats are covered in flowers",
+     "titleEn": "Behind the scenes at the Bollenstreek Flower Parade",
+     "lang": "Dutch",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=GFR_t5HxP_s",
+     "title": "Het Bloemencorso van de Bollenstreek 2026",
+     "channel": "Bollenstreek Omroep",
+     "kind": "full-event",
+     "minutes": 63,
+     "note": "Local broadcaster's coverage of the full 2026 parade",
+     "titleEn": "The 2026 Bollenstreek Flower Parade",
+     "lang": "Dutch",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=tsj3DRAqino",
+     "title": "Flower Parade 2025 🌷🇳🇱  Bloemencorso Keukenhof [4k]",
+     "channel": "WonderJourneys",
+     "kind": "film",
+     "minutes": 55,
+     "note": "Long 4K film of the 2025 edition",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#bloemencorso on Instagram",
+     "url": "https://www.instagram.com/explore/tags/bloemencorso/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#bloemencorsobollenstreek on TikTok",
+     "url": "https://www.tiktok.com/tag/bloemencorsobollenstreek",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
   },
   {
    "id": "texas-sandfest",
@@ -7761,6 +8272,127 @@
    "nameOriginal": "Awa Odori + Naoshima art islands"
   },
   {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "Europe",
+   "country": "Jersey (Channel Islands)",
+   "id": "jersey-battle-of-flowers",
+   "name": "Jersey Battle of Flowers",
+   "location": "Victoria Avenue, St Helier, Jersey, Channel Islands",
+   "month": 8,
+   "monthName": "August",
+   "start2027": "2027-08-13",
+   "end2027": "2027-08-14",
+   "category": "Parade",
+   "dateConfidence": "Confirmed (official) — subject to Bailiff's permission",
+   "dateDetails": "The organizers' site (battle.je) lists August 13 and 14, 2027, subject to the Bailiff's permission. In recent years this has meant a daytime parade and a Moonlight Parade with fireworks over St Aubin's Bay; which day hosts which has not been published.",
+   "booking": "Tickets for the parade enclosure are sold by the organizers, see battle.je",
+   "why": "Since 1902, Jersey's community clubs and parishes have built floats covered entirely in flowers, many cut and pinned by hand; the Moonlight Parade lights them up along the seafront with fireworks to close.",
+   "artPairing": "Jersey Museum and Art Gallery in St Helier; the Maritime Museum and Occupation Tapestry Gallery.",
+   "landscapePairing": "St Aubin's Bay at sunset; the cliff paths of the north coast and the long beach at St Ouen's Bay.",
+   "laterYears": "2028: Aug 11–12; 2029: Aug 10–11   [calculated: second Friday and Saturday of August]",
+   "officialUrl": "https://battle.je/",
+   "tagline": "Flower floats by day, then lit up at night above St Aubin's Bay with fireworks",
+   "story": "The Battle of Flowers began in 1902 to mark the coronation of Edward VII, and it got its name from the old ending, when the crowd tore the floats apart and threw the flowers at each other. Today the floats stay whole. Parishes, clubs and families on the island spend months building them in sheds and barns, then cover them in chrysanthemums, carnations and hydrangeas, many grown on the island, plus thousands of hand-made paper flowers. Pirate ships, giant animals and fairy tale scenes roll along Victoria Avenue, the seafront road at St Helier, with bands and dance troupes between them.\n\nThe evening is the real reason to go. In the Moonlight Parade the same floats return covered in lights, glowing against the dark water of St Aubin's Bay, and the crowd along the sea wall is in a holiday mood. It ends with fireworks over the bay. It is small and local compared with the big continental parades, which is part of the charm.",
+   "wonderMoment": "As the light goes, a float shaped like a Viking longship comes along the seafront lit from inside, with the dark bay behind it, just before the fireworks start.",
+   "lat": 49.1885,
+   "lng": -2.1255,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:The Optimists Club ‘Beyond the Barricade’.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/The_Optimists_Club_%E2%80%98Beyond_the_Barricade%E2%80%99.jpg/1280px-The_Optimists_Club_%E2%80%98Beyond_the_Barricade%E2%80%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Optimists_Club_%E2%80%98Beyond_the_Barricade%E2%80%99.jpg",
+     "author": "Alex Walters",
+     "license": "CC BY-SA 3.0",
+     "caption": "'Beyond the Barricade' glows in the Moonlight Parade, 2013",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/jersey-battle-of-flowers-d5da7089.jpg",
+     "thumb": "img/t/jersey-battle-of-flowers-d5da7089.jpg"
+    },
+    {
+     "file": "File:IMG 2499 Battle of Flowers Jersey aug 2006.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/IMG_2499_Battle_of_Flowers_Jersey_aug_2006.JPG/1280px-IMG_2499_Battle_of_Flowers_Jersey_aug_2006.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:IMG_2499_Battle_of_Flowers_Jersey_aug_2006.JPG",
+     "author": "Ellywa",
+     "license": "CC BY 2.5",
+     "caption": "Flower-covered horses and carriage float, Battle of Flowers 2006",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/jersey-battle-of-flowers-dbf084c6.jpg"
+    },
+    {
+     "file": "File:Battle of Flowers 2007 Jersey Optimists Vikings.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Battle_of_Flowers_2007_Jersey_Optimists_Vikings.jpg/1280px-Battle_of_Flowers_2007_Jersey_Optimists_Vikings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Flowers_2007_Jersey_Optimists_Vikings.jpg",
+     "author": "Man vyi",
+     "license": "Public domain",
+     "caption": "A Viking longship float lit up in the 2007 Moonlight Parade",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/jersey-battle-of-flowers-d4b9984c.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=R5HwzTZERcg",
+     "title": "Jersey Battle Of Flowers (1963)",
+     "channel": "British Pathé",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "British Pathé newsreel of the 1963 battle",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=laHpXUg8B8o",
+     "title": "Jersey Battle of Flowers 2013 - Moonlight Parade",
+     "channel": "Spike Creative Studio",
+     "kind": "clip",
+     "minutes": 2,
+     "note": "Short film of the 2013 Moonlight Parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=3Ws-foHf-7Q",
+     "title": "Jersey Battle of Flowers 2024",
+     "channel": "Laura 🇬🇧",
+     "kind": "clip",
+     "minutes": 4,
+     "note": "Quick look at the 2024 parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=9yiXOA72Dms",
+     "title": "Battle of Flowers Moonlight Parade 2024 #jersey #travel #festivals",
+     "channel": "The Reluctant Outdoorsman",
+     "kind": "film",
+     "minutes": 16,
+     "note": "The lit floats of the 2024 Moonlight Parade",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=fPCJ3pSVpfE",
+     "title": "Jersey Battle of Flowers 2026 – Day Parade 🌸🇯🇪",
+     "channel": "The Reluctant Outdoorsman",
+     "kind": "full-event",
+     "minutes": 40,
+     "note": "The 2026 day parade, float by float",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#battleofflowers on Instagram",
+     "url": "https://www.instagram.com/explore/tags/battleofflowers/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#jerseybattleofflowers on TikTok",
+     "url": "https://www.tiktok.com/tag/jerseybattleofflowers",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
+  },
+  {
    "region": "Europe",
    "country": "Germany",
    "priority": "Explore",
@@ -8502,6 +9134,131 @@
    ],
    "addedAt": "2026-11-14T09:00:00Z",
    "nameOriginal": "Ducasse d’Ath / Procession of Giants"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-14 (famous)",
+   "region": "Europe",
+   "country": "Netherlands",
+   "id": "corso-zundert",
+   "name": "Corso Zundert (Zundert Flower Parade)",
+   "location": "Zundert, North Brabant, Netherlands",
+   "month": 9,
+   "monthName": "September",
+   "start2027": "2027-09-05",
+   "end2027": "2027-09-06",
+   "category": "Parade",
+   "dateConfidence": "Confirmed (official) — Sunday parade; Monday program calculated",
+   "dateDetails": "Corso Zundert's official news confirms the 2027 parade for Sunday, September 5, 2027 (first Sunday of September, as always). The floats are traditionally shown again on the Monday (September 6) after the jury result; Monday details not yet published.",
+   "booking": "Entry tickets for the parade route are sold on the official site in summer; check corsozundert.nl",
+   "why": "The world's largest dahlia parade: each hamlet of a small Brabant village spends a year building a float up to 20 m tall, then covers it in hundreds of thousands of dahlias in three days, all to beat its neighbors.",
+   "artPairing": "Vincent van Gogh was born in Zundert: the Vincent van Gogh House on the Markt and Zadkine's Van Gogh monument; the Noordbrabants Museum in 's-Hertogenbosch.",
+   "landscapePairing": "The heath and drifting sands of the Kalmthoutse Heide just across the Belgian border; the dahlia fields around Zundert in late summer.",
+   "laterYears": "2028: Sep 3–4; 2029: Sep 2–3   [calculated: first Sunday of September plus Monday]",
+   "officialUrl": "https://corsozundert.nl/en",
+   "tagline": "Twenty-metre monsters made of dahlias, rolled through a village that lives for one Sunday",
+   "story": "Zundert is a farming village near the Belgian border, best known as Van Gogh's birthplace. Since 1936, on the first Sunday of September, it has held the largest flower parade in the world made with dahlias. The village is split into about twenty hamlets (buurtschappen), and each one designs and builds a single float in a tent over most of the year: steel skeletons, papier-mâché skins, moving parts, sometimes as tall as a five-storey house. In the last three days, hundreds of volunteers pin on the flowers one by one, often 400,000 or more per float, and work through the final night.\n\nOn Sunday the floats are pushed slowly around a loop through the village while tens of thousands watch. The colors look unreal up close: whole surfaces of crimson or violet built from flower heads, with pale petals laid in like brushstrokes. Pushers and performers walk alongside, brass bands play, and the floats twist and lift. In the late afternoon the jury result is read out on the Markt, and one hamlet goes wild while the rest go quiet.",
+   "wonderMoment": "When a float like a giant beast turns the corner onto the Markt, you see that its fur, eyes and teeth are all dahlia heads, and the crowd falls silent before it cheers.",
+   "lat": 51.4706,
+   "lng": 4.6556,
+   "addedAt": "2026-11-15T05:20:07Z",
+   "images": [
+    {
+     "file": "File:Bloemencorso Zundert 2025 - Alebrijes.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Bloemencorso_Zundert_2025_-_Alebrijes.jpg/1280px-Bloemencorso_Zundert_2025_-_Alebrijes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloemencorso_Zundert_2025_-_Alebrijes.jpg",
+     "author": "Erwin Martens",
+     "license": "CC BY 4.0",
+     "caption": "Hamlet Helpt Elkander's 'Alebrijes' float passes packed stands, 2025",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/corso-zundert-a0ee5a6e.jpg",
+     "thumb": "img/t/corso-zundert-a0ee5a6e.jpg"
+    },
+    {
+     "file": "File:Bloemencorso Zundert 2024 - Fenrir 1.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bloemencorso_Zundert_2024_-_Fenrir_1.jpg/1280px-Bloemencorso_Zundert_2024_-_Fenrir_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloemencorso_Zundert_2024_-_Fenrir_1.jpg",
+     "author": "Renée Kools",
+     "license": "CC BY 4.0",
+     "caption": "'Fenrir', a giant wolf covered in violet dahlias, 2024",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/corso-zundert-337a18b6.jpg"
+    },
+    {
+     "file": "File:Bloemencorso Zundert 2023 - Betoverd 1.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Bloemencorso_Zundert_2023_-_Betoverd_1.jpg/1280px-Bloemencorso_Zundert_2023_-_Betoverd_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Bloemencorso_Zundert_2023_-_Betoverd_1.jpg",
+     "author": "Renée Kools",
+     "license": "CC BY-SA 4.0",
+     "caption": "The 2023 float 'Enchanted', a grinning sorcerer built of dahlias",
+     "addedAt": "2026-11-15T05:20:07Z",
+     "src": "img/corso-zundert-051e9b7e.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=wY5aIS00_u8",
+     "title": "World's LARGEST Flower Parade 🌸 Corso Zundert 2026 | 4K 60fps HDR",
+     "channel": "Dutch Walks 4K",
+     "kind": "film",
+     "minutes": 26,
+     "note": "4K walk alongside the 2026 floats",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=XXYqfFSgQ8E",
+     "title": "Corso Zundert Explained | The Town That Lives and Breathes Flowers",
+     "channel": "Dutch Life Diaries",
+     "kind": "documentary",
+     "minutes": 24,
+     "note": "How a whole village builds the floats over a year",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=MzFfxtmfX48",
+     "title": "Hoe deze Amerikaan gek werd op het corso 💮  | Documentaire",
+     "channel": "Omroep Brabant",
+     "kind": "documentary",
+     "minutes": 18,
+     "note": "Omroep Brabant film on an American hooked on the corso",
+     "titleEn": "How this American went crazy for the corso | Documentary",
+     "lang": "Dutch",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=OOVE4MbrGE4",
+     "title": "Bloemencorso in Zundert: kijk mee! | Omroep Brabant",
+     "channel": "Omroep Brabant",
+     "kind": "full-event",
+     "minutes": 111,
+     "note": "Regional broadcaster's full live coverage of the parade",
+     "titleEn": "Flower parade in Zundert: watch along! | Omroep Brabant",
+     "lang": "Dutch",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=__x3Y2C3hds",
+     "title": "Aftermovie Corso Zundert 2025",
+     "channel": "Corso Zundert",
+     "kind": "short",
+     "minutes": 1,
+     "note": "Official one-minute aftermovie of 2025",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#corsozundert on Instagram",
+     "url": "https://www.instagram.com/explore/tags/corsozundert/",
+     "addedAt": "2026-11-15T05:20:07Z"
+    },
+    {
+     "label": "#corsozundert on TikTok",
+     "url": "https://www.tiktok.com/tag/corsozundert",
+     "addedAt": "2026-11-15T05:20:07Z"
+    }
+   ]
   },
   {
    "id": "festival-mondial-des-theatres-de-marionnettes",
