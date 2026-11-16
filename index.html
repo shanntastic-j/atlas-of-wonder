@@ -71,6 +71,16 @@ h1 em{font-style:normal;color:var(--marigold-ink)}
 @keyframes ring{from{r:4;opacity:.9}to{r:16;opacity:0}}
 @media (prefers-reduced-motion:reduce){.ring{animation:none;opacity:.6}}
 .maptip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-family:var(--display);font-size:14px;white-space:nowrap;transform:translate(-50%,-130%)}
+.mapbox svg{cursor:pointer}
+.regbtn{position:absolute;transform:translate(-50%,-50%);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 10px;font-family:var(--display);font-weight:600;font-size:13px;line-height:1.2;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.18)}
+.regbtn .n{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:5px}
+.regbtn:hover{border-color:var(--ink)}
+.regbtn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.regbtn[aria-pressed="true"] .n{color:var(--paper)}
+.regbtn .s{display:none}
+@media (max-width:640px){.regbtn{font-size:11px;padding:3px 7px}.regbtn .n{display:none}.regbtn .l{display:none}.regbtn .s{display:inline}.maplegend{display:none!important}}
+.maphint{font-family:var(--mono);font-size:12px;color:var(--muted);margin:8px 0 0}
+.fab{position:fixed;left:max(16px,env(safe-area-inset-left,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:30;border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:999px;padding:10px 18px;font-family:var(--display);font-weight:600;font-size:15px;box-shadow:0 4px 14px rgba(0,0,0,.28)}
 .maplegend{position:absolute;left:12px;bottom:10px;display:flex;gap:14px;font-family:var(--mono);font-size:11px;color:var(--muted)}
 .maplegend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
 
@@ -128,8 +138,9 @@ main{padding-block:10px 80px}
 
 /* Detail overlay */
 .sheet{position:fixed;inset:0;z-index:20;background:var(--paper);overflow-y:auto;overscroll-behavior:contain}
-.sheet-bar{position:sticky;top:0;z-index:2;background:var(--paper);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
-.sheet-bar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;padding-block:10px}
+.sheet-bar{position:sticky;top:0;z-index:2;background:var(--paper);border-bottom:1px solid var(--line);padding-top:max(env(safe-area-inset-top,0px),4px)}
+.sheet-bar .wrap{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;justify-content:space-between;padding-block:10px}
+.sheet{padding-bottom:80px}
 .gallery{position:relative;background:var(--sunk);aspect-ratio:16/8;max-height:68vh;width:100%;overflow:hidden}
 .gallery img{width:100%;height:100%;object-fit:cover;display:block}
 .gallery .credit{position:absolute;right:10px;bottom:10px;max-width:80%;background:rgba(10,14,24,.72);color:#F1F3F7;font-family:var(--mono);font-size:11px;padding:4px 8px;border-radius:4px}
@@ -214,11 +225,13 @@ footer{border-top:1px solid var(--line);padding-block:20px 40px;font-family:var(
         <button class="btn" id="showMine" type="button">Our top picks</button>
       </div>
     </div>
-    <div class="mapbox" id="mapbox" role="img" aria-label="World map with a pin for each experience">
+    <div class="mapbox" id="mapbox" role="group" aria-label="World map: tap a region to see its experiences">
       <svg id="map" viewBox="0 0 960 468" preserveAspectRatio="xMidYMid meet"></svg>
       <div class="maptip" id="maptip" hidden></div>
+      <div id="regbtns"></div>
       <div class="maplegend"><span><i style="background:var(--pin)"></i>experience</span><span><i style="background:var(--pin-new)"></i>new since last visit</span></div>
     </div>
+    <p class="maphint">Tap a region on the map to jump to its experiences.</p>
   </header>
 
   <section class="news" id="news" aria-labelledby="newsTitle">
@@ -253,6 +266,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 40px;font-family:var(
 </div>
 
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="dTitle"></div>
+<button class="fab" id="toMap" type="button" hidden>&#x2191; Map</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
@@ -412,6 +426,33 @@ function whenText(x){
 }
 
 /* ---------- map ---------- */
+const REG_ANCHOR = {"Europe":[18,63],"Asia":[92,54],"North America":[-102,47],"Central America & Mexico":[-92,15],"South America":[-60,-16],"Africa":[20,4],"Middle East":[46,27],"Oceania":[138,-26]};
+const REG_SHORT = {"Europe":"Europe","Asia":"Asia","North America":"N. America","Central America & Mexico":"Mexico & C. Am.","South America":"S. America","Africa":"Africa","Middle East":"Middle East","Oceania":"Oceania"};
+function drawRegionButtons(){
+  if (!proj) return;
+  const counts = {}; items.forEach(x => counts[x.region] = (counts[x.region]||0) + 1);
+  $("#regbtns").innerHTML = REGIONS.filter(r => counts[r] && REG_ANCHOR[r]).map(r => {
+    const [px,py] = proj(REG_ANCHOR[r]);
+    return `<button class="regbtn" type="button" data-region="${esc(r)}" aria-pressed="${region===r}" style="left:${(px/960*100).toFixed(2)}%;top:${(py/468*100).toFixed(2)}%"><span class="l">${esc(r)}</span><span class="s">${esc(REG_SHORT[r]||r)}</span><span class="n">${counts[r]}</span></button>`
+  }).join("");
+}
+/* a tap on the map that misses a pin or label picks the nearest region */
+function nearestRegion(ev){
+  const r = $("#mapbox").getBoundingClientRect(), s = r.width/960;
+  const mx = (ev.clientX - r.left)/s, my = (ev.clientY - r.top)/s;
+  const have = new Set(items.map(x => x.region)); let best = null, bd = Infinity;
+  items.forEach(x => { if (typeof x.lat !== "number") return; const [px,py] = proj([x.lng,x.lat]); const d = (px-mx)**2 + (py-my)**2; if (d < bd){ bd = d; best = x.region } });
+  return have.has(best) ? best : null;
+}
+function selectRegion(r){
+  region = r; showMine = false; $("#showMine").textContent = "Our top picks";
+  history.replaceState(null,"", region==="all" ? location.pathname + location.search : "#r-" + slug(region)); renderAll();
+  scrollToList();
+}
+/* land the first card just under the sticky toolbar */
+function scrollToList(){ requestAnimationFrame(() => {
+  const tb = document.querySelector(".toolbar"), y = $("#list").getBoundingClientRect().top + scrollY - tb.offsetHeight - 6;
+  window.scrollTo({top: Math.max(0, y), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}) }) }
 let proj, pinsG, pathGen, landFeat;
 async function drawMap(){
   const svg = d3.select("#map");
@@ -443,7 +484,7 @@ function drawPins(){
       tip.style.left = Math.min(Math.max(px*s, 90), r.width-90) + "px"; tip.style.top = (py*s) + "px";
     })
     .on("mouseleave blur", () => { tip.hidden = true })
-    .on("click", (ev,d) => openDetail(d.id))
+    .on("click", (ev,d) => { ev.stopPropagation(); openDetail(d.id) })
     .on("keydown", (ev,d) => { if (ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); openDetail(d.id) } });
 }
 
@@ -547,7 +588,7 @@ function renderNews(){
   $("#newsStrip").hidden = !strip.length;
 }
 
-function renderAll(){ renderTabs(); renderNews(); renderList(); drawPins(); if (!$("#sheet").hidden && current) openDetail(current, true) }
+function renderAll(){ renderTabs(); renderNews(); renderList(); drawPins(); drawRegionButtons(); if (!$("#sheet").hidden && current) openDetail(current, true) }
 
 /* ---------- detail ---------- */
 let current = null, gi = 0;
@@ -615,7 +656,7 @@ function openDetail(id, keep){
       </aside>
     </div>
   </div>`;
-  sheetEl.hidden = false; document.body.style.overflow = "hidden";
+  sheetEl.hidden = false; document.body.style.overflow = "hidden"; updateFab();
   if (!keep) sheetEl.scrollTop = 0;
   if (location.hash !== "#x-" + id) history.replaceState(null, "", "#x-" + id);
   drawGallery();
@@ -658,7 +699,7 @@ function drawGallery(){
   document.querySelectorAll("#thumbs [data-g]").forEach(b => b.setAttribute("aria-current", +b.dataset.g === gi));
 }
 function closeDetail(){
-  $("#sheet").hidden = true; document.body.style.overflow = ""; const id = current; current = null;
+  $("#sheet").hidden = true; setTimeout(updateFab); document.body.style.overflow = ""; const id = current; current = null;
   history.replaceState(null, "", region === "all" ? location.pathname + location.search : "#r-" + slug(region));
   const c = document.querySelector(`.card[data-open="${CSS.escape(id||"")}"]`); c?.focus({preventScroll:false});
 }
@@ -675,9 +716,9 @@ function route(){
 }
 document.addEventListener("click", e => {
   const c = e.target.closest("[data-open]"); if (c){ openDetail(c.dataset.open); return }
-  const t = e.target.closest(".tab"); if (t){ region = t.dataset.r; showMine = false; $("#showMine").textContent = "Our top picks";
-    history.replaceState(null,"", region==="all" ? location.pathname + location.search : "#r-" + slug(region)); renderAll();
-    document.querySelector(".toolbar").scrollIntoView({behavior:"smooth", block:"start"}) }
+  const t = e.target.closest(".tab"); if (t){ selectRegion(t.dataset.r); return }
+  const rb = e.target.closest(".regbtn"); if (rb){ selectRegion(region === rb.dataset.region ? "all" : rb.dataset.region); return }
+  if (e.target.closest("#map") && proj && items.length){ const r = nearestRegion(e); if (r) selectRegion(r) }
 });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet").hidden) closeDetail();
   if (!$("#sheet").hidden && byId[current]?.images?.length > 1 && (e.key === "ArrowRight" || e.key === "ArrowLeft") && e.target.tagName !== "TEXTAREA"){
@@ -686,7 +727,15 @@ document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet
 $("#surprise").onclick = () => { const pool0 = filtered().filter(x => !isPassed(x.id)); const pool = pool0.length ? pool0 : items.filter(x => !isPassed(x.id)); const unseen = pool.filter(x => !vote(x.id,"shannon") || !vote(x.id,"david")); const p = unseen.length ? unseen : pool; openDetail(p[Math.floor(Math.random()*p.length)].id) };
 $("#showMine").onclick = () => { showMine = !showMine; $("#showMine").textContent = showMine ? "Show everything" : "Our top picks"; renderList(); drawPins(); document.querySelector(".toolbar").scrollIntoView({behavior:"smooth"}) };
 $("#markSeen").onclick = () => { state.lastSeenAt = new Date().toISOString(); persist(); renderAll() };
-window.addEventListener("hashchange", route);
+window.addEventListener("hashchange", () => { route(); updateFab() });
+/* floating button, always reachable at the bottom: "Back" on an experience page, "Map" once the map has scrolled away */
+function updateFab(){
+  const f = $("#toMap"), open = !$("#sheet").hidden;
+  if (open){ f.textContent = "\u2190 Back"; f.hidden = false; return }
+  f.textContent = "\u2191 Map"; f.hidden = $("#mapbox").getBoundingClientRect().bottom > 0;
+}
+$("#toMap").onclick = () => { if (!$("#sheet").hidden) { closeDetail(); return } $("#mapbox").scrollIntoView({behavior:"smooth", block:"center"}) };
+window.addEventListener("scroll", updateFab, {passive:true});
 /* photos: retry a failed load twice with a delay, then fall back to the full-size file, then a placeholder tile */
 document.addEventListener("error", e => {
   const img = e.target; if (!(img instanceof HTMLImageElement)) return;
@@ -712,7 +761,7 @@ MONTHS.forEach((m,i) => $("#fMonth").insertAdjacentHTML("beforeend", `<option va
   items = catalog.experiences; items.forEach(x => byId[x.id] = x);
   $("#mastEyebrow").textContent = `${items.length} experiences \u00B7 ${new Set(items.map(x=>x.country)).size} countries \u00B7 updated ${fmtDate(catalog.generatedAt)}`;
   await mapReady;
-  renderAll(); route();
+  renderAll(); route(); updateFab();
   connectStore();
 })();
 })();
