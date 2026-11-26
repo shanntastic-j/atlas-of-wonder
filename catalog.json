@@ -1,7 +1,15 @@
 {
- "generatedAt": "2026-11-26T16:45:59Z",
+ "generatedAt": "2026-11-26T17:41:58Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-26T17:41:58Z",
+   "summary": "1 experience added at your request: the waved albatross courtship on Española, Galápagos, with photos.",
+   "newExperiences": [
+    "waved-albatross-espanola"
+   ],
+   "newMedia": 3
+  },
   {
    "date": "2026-11-26T16:45:59Z",
    "summary": "Photos added for the five newest experiences: 15 from Wikimedia Commons.",
@@ -13170,6 +13178,118 @@
     }
    ],
    "nameOriginal": "Narzissenfest"
+  },
+  {
+   "priority": "High interest",
+   "status": "Wishlist",
+   "sourceType": "Requested 2026-11-26",
+   "region": "South America",
+   "country": "Ecuador",
+   "id": "waved-albatross-espanola",
+   "name": "Waved Albatross Courtship (Española, Galápagos)",
+   "location": "Punta Suárez, Española Island, Galápagos, Ecuador",
+   "month": 4,
+   "monthName": "April",
+   "start2027": "2027-04-01",
+   "end2027": "2027-12-15",
+   "category": "Wildlife spectacle",
+   "dateConfidence": "Seasonal window, not fixed dates",
+   "dateDetails": "The birds return to Española from late March and April and stay until December; the colony is empty by January. Courtship is reported from April onward, and pairs dance again late in the season before they leave. The window shown, April 1 to mid-December 2027, is approximate and shifts with the year.",
+   "booking": "Española is uninhabited and can only be visited with a Galápagos National Park naturalist guide. Two ways in: a cruise itinerary that includes Punta Suárez, or a day boat from Puerto Baquerizo Moreno on San Cristóbal, about two hours each way, listed at roughly $275 to $365 a person. One operator notes its day trip runs only on Thursdays under park rules, so confirm days before fixing flights. The park entrance fee is separate.",
+   "why": "Nearly every waved albatross on Earth nests on one small island, and from April to December pairs perform a long, precise courtship of bows, honks and clattering bills a few steps from the trail.",
+   "artPairing": "The Charles Darwin Research Station in Puerto Ayora for the natural-history collections and tortoise breeding centre; in Quito on the way out, the Capilla del Hombre and Guayasamín museum, and the gilded Jesuit church of La Compañía.",
+   "landscapePairing": "The same Punta Suárez trail passes blue-footed and Nazca boobies, marine iguanas and a lava blowhole on the cliff edge; the white sand and sea lions of Gardner Bay; Kicker Rock off San Cristóbal.",
+   "laterYears": "2028–2029: the same April to December season each year",
+   "officialUrl": "https://www.galapagos.org/",
+   "tagline": "The only albatross of the tropics, dancing on the one island where it breeds",
+   "story": "The waved albatross is the largest bird in the Galápagos, with a wingspan of about eight feet, and the only albatross that lives its whole life in the tropics. Almost the entire species, some 25,000 to 30,000 birds, breeds on Española, the southernmost island of the archipelago. They spend the warm months at sea off Ecuador and Peru, then come back in late March and April to find the mate they pair with for life.\n\nThe reunion is a routine with fixed moves. Two birds face each other, bow, point their bills at the sky, give a long honk, and fence with rapid clacks of their yellow bills, then start again. New pairs, and pairs that failed the year before, go on longest. Each pair raises a single egg, and the young bird that leaves around the turn of the year stays at sea for about five years before returning to dance for itself. The trail at Punta Suárez runs straight through the colony, so all of this happens within a few steps of where you stand.",
+   "wonderMoment": "Two birds the size of geese stop in front of you, bow in unison, and rattle their bills together like fencers while the rest of the colony carries on around them.",
+   "lat": -1.3722,
+   "lng": -89.7436,
+   "addedAt": "2026-11-26T17:41:58Z",
+   "images": [
+    {
+     "file": "File:Galapagos albatrosses courtship display 01.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Galapagos_albatrosses_courtship_display_01.jpg/1280px-Galapagos_albatrosses_courtship_display_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Galapagos_albatrosses_courtship_display_01.jpg",
+     "author": "JBagniewska",
+     "license": "CC BY 4.0",
+     "caption": "A pair face off mid-dance on Española, bills wide open",
+     "addedAt": "2026-11-26T17:41:58Z",
+     "src": "img/waved-albatross-espanola-c16a3620.jpg",
+     "thumb": "img/t/waved-albatross-espanola-c16a3620.jpg"
+    },
+    {
+     "file": "File:Courting Waved Albatross (6519212753).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Courting_Waved_Albatross_%286519212753%29.jpg/1280px-Courting_Waved_Albatross_%286519212753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Courting_Waved_Albatross_(6519212753).jpg",
+     "author": "Andrew Turner from Washington, DC, United States",
+     "license": "CC BY 2.0",
+     "caption": "One bird bows low while its partner calls, Punta Suárez, 2011",
+     "addedAt": "2026-11-26T17:41:58Z",
+     "src": "img/waved-albatross-espanola-e0e9b830.jpg"
+    },
+    {
+     "file": "File:Waved Albatross (Phoebastria irrorata) -Espanola -Punta Suarez3.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Waved_Albatross_%28Phoebastria_irrorata%29_-Espanola_-Punta_Suarez3.jpg/1280px-Waved_Albatross_%28Phoebastria_irrorata%29_-Espanola_-Punta_Suarez3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Waved_Albatross_(Phoebastria_irrorata)_-Espanola_-Punta_Suarez3.jpg",
+     "author": "putneymark",
+     "license": "CC BY-SA 2.0",
+     "caption": "Albatrosses resting in the colony at Punta Suárez, 2007",
+     "addedAt": "2026-11-26T17:41:58Z",
+     "src": "img/waved-albatross-espanola-328571a4.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=1BW1Oxrop_c",
+     "title": "Waved Albatross Choreography | Galápagos Islands | Lindblad Expeditions",
+     "channel": "National Geographic-Lindblad Expeditions",
+     "kind": "clip",
+     "minutes": null,
+     "note": "A full courtship sequence filmed on Española",
+     "addedAt": "2026-11-26T17:41:58Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=CXep9Vbycdg",
+     "title": "Albatross Courtship Dance in the Galapagos",
+     "channel": "FiveZero Safaris",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The dance at close range",
+     "addedAt": "2026-11-26T17:41:58Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=hizzHETSOr8",
+     "title": "Galapagos Albatross Mating Dance",
+     "channel": "National Park Wild",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Two birds work through the routine",
+     "addedAt": "2026-11-26T17:41:58Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=HE7AArq8oqk",
+     "title": "Albatross ballet in the Galapagos Islands",
+     "channel": "Duncan Clark",
+     "kind": "clip",
+     "minutes": null,
+     "note": "A visitor's phone footage from the trail",
+     "addedAt": "2026-11-26T17:41:58Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#wavedalbatross on Instagram",
+     "url": "https://www.instagram.com/explore/tags/wavedalbatross/",
+     "addedAt": "2026-11-26T17:41:58Z"
+    },
+    {
+     "label": "#wavedalbatross on TikTok",
+     "url": "https://www.tiktok.com/tag/wavedalbatross",
+     "addedAt": "2026-11-26T17:41:58Z"
+    }
+   ]
   }
  ]
 }
