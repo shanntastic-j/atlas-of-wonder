@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-25T02:44:09Z",
+ "generatedAt": "2026-11-26T16:45:59Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-26T16:45:59Z",
+   "summary": "Photos added for the five newest experiences: 15 from Wikimedia Commons.",
+   "newExperiences": [],
+   "newMedia": 15
+  },
   {
    "date": "2026-11-25T02:44:09Z",
    "summary": "5 experiences added, matched to your votes: Mexico City's monumental alebrijes, Appenzell's Silvesterchlausen, Viterbo's Macchina di Santa Rosa, Wellington's World of WearableArt and Austria's Narzissenfest. Photos to follow.",
@@ -12527,7 +12533,39 @@
    "lat": 19.4326,
    "lng": -99.1332,
    "addedAt": "2026-11-25T02:44:09Z",
-   "images": [],
+   "images": [
+    {
+     "file": "File:14° Desfile y Concurso de Alebrijes Monumentales.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/14%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales.jpg/1280px-14%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:14%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales.jpg",
+     "author": "Centro de Documentación MAP",
+     "license": "CC BY-SA 4.0",
+     "caption": "'Gallitos', an honorable mention in the 2022 parade",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/desfile-de-alebrijes-monumentales-325765d8.jpg",
+     "thumb": "img/t/desfile-de-alebrijes-monumentales-325765d8.jpg"
+    },
+    {
+     "file": "File:11° Desfile y Concurso de Alebrijes Monumentales 2.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/11%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales_2.jpg/1280px-11%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:11%C2%B0_Desfile_y_Concurso_de_Alebrijes_Monumentales_2.jpg",
+     "author": "Centro de Documentación MAP",
+     "license": "CC BY-SA 4.0",
+     "caption": "'RAYA', second prize in the 2017 parade",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/desfile-de-alebrijes-monumentales-c272bbd4.jpg"
+    },
+    {
+     "file": "File:Alebrijes Paseo de la Reforma.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Alebrijes_Paseo_de_la_Reforma.jpg/1280px-Alebrijes_Paseo_de_la_Reforma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alebrijes_Paseo_de_la_Reforma.jpg",
+     "author": "JCarlosRmz",
+     "license": "CC BY-SA 4.0",
+     "caption": "Alebrijes on show along Paseo de la Reforma, 2018",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/desfile-de-alebrijes-monumentales-2e7f3642.jpg"
+    }
+   ],
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=15GuIZrL7YA",
@@ -12636,7 +12674,39 @@
    "lat": 47.3167,
    "lng": 9.2833,
    "addedAt": "2026-11-25T02:44:09Z",
-   "images": [],
+   "images": [
+    {
+     "file": "File:Silvesterklausen 186.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Silvesterklausen_186.jpg/1280px-Silvesterklausen_186.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Silvesterklausen_186.jpg",
+     "author": "Englandfan~commonswiki",
+     "license": "CC BY-SA 4.0",
+     "caption": "Chläuse cross the snow in Urnäsch on Old Silvester, 2016",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/silvesterchlausen-urnaesch-319da83d.jpg",
+     "thumb": "img/t/silvesterchlausen-urnaesch-319da83d.jpg"
+    },
+    {
+     "file": "File:Urnäsch-Silvesterchlausen.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Urn%C3%A4sch-Silvesterchlausen.jpg/1280px-Urn%C3%A4sch-Silvesterchlausen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Urn%C3%A4sch-Silvesterchlausen.jpg",
+     "author": "GabrielleMerk",
+     "license": "CC BY 4.0",
+     "caption": "A Schöne Chlaus under a carved, beaded headdress, 2019",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/silvesterchlausen-urnaesch-ef4110b7.jpg"
+    },
+    {
+     "file": "File:Urnäsch silvesterchlausen.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Urn%C3%A4sch_silvesterchlausen.jpg/1280px-Urn%C3%A4sch_silvesterchlausen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Urn%C3%A4sch_silvesterchlausen.jpg",
+     "author": "Appenzellerland Tourismus AR",
+     "license": "CC BY-SA 4.0",
+     "caption": "Schö-Wüeschte Chläuse in Urnäsch, 2020",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/silvesterchlausen-urnaesch-0884ac53.jpg"
+    }
+   ],
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=I3O15lHTsbk",
@@ -12737,7 +12807,39 @@
    "lat": 42.4168,
    "lng": 12.105,
    "addedAt": "2026-11-25T02:44:09Z",
-   "images": [],
+   "images": [
+    {
+     "file": "File:Macchina di santa rosa 2013 proveluce.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Macchina_di_santa_rosa_2013_proveluce.jpg/1280px-Macchina_di_santa_rosa_2013_proveluce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Macchina_di_santa_rosa_2013_proveluce.jpg",
+     "author": "Benedetta Caneponi",
+     "license": "CC BY 3.0",
+     "caption": "Light test of the Macchina in Viterbo, August 2013",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/macchina-di-santa-rosa-6c694157.jpg",
+     "thumb": "img/t/macchina-di-santa-rosa-6c694157.jpg"
+    },
+    {
+     "file": "File:La Macchina di Santa Rosa in Viterbo 2025.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/La_Macchina_di_Santa_Rosa_in_Viterbo_2025.jpg/1280px-La_Macchina_di_Santa_Rosa_in_Viterbo_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Macchina_di_Santa_Rosa_in_Viterbo_2025.jpg",
+     "author": "Dietrich Kuhlgatz",
+     "license": "CC BY-SA 4.0",
+     "caption": "The tower on display in Viterbo, September 2025",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/macchina-di-santa-rosa-cb47316e.jpg"
+    },
+    {
+     "file": "File:La Macchina.JPG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/La_Macchina.JPG/1280px-La_Macchina.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Macchina.JPG",
+     "author": "Amras Carnesîr",
+     "license": "CC BY-SA 3.0",
+     "caption": "The spiral tower of 2009 by day",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/macchina-di-santa-rosa-c81b6968.jpg"
+    }
+   ],
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=vl_Mr2XwLOI",
@@ -12837,7 +12939,39 @@
    "lat": -41.2853,
    "lng": 174.779,
    "addedAt": "2026-11-25T02:44:09Z",
-   "images": [],
+   "images": [
+    {
+     "file": "File:World of WearableArt (31742340135).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/World_of_WearableArt_%2831742340135%29.jpg/1280px-World_of_WearableArt_%2831742340135%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:World_of_WearableArt_(31742340135).jpg",
+     "author": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "caption": "Garments from the WOW awards show on display, 2016",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/world-of-wearableart-4f68de96.jpg",
+     "thumb": "img/t/world-of-wearableart-4f68de96.jpg"
+    },
+    {
+     "file": "File:WearableArt 3 (31595345662).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/WearableArt_3_%2831595345662%29.jpg/1280px-WearableArt_3_%2831595345662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:WearableArt_3_(31595345662).jpg",
+     "author": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "caption": "Glow-in-the-dark garments on display, 2016",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/world-of-wearableart-2fe2f86c.jpg"
+    },
+    {
+     "file": "File:WearableArt 6 (31742322645).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/WearableArt_6_%2831742322645%29.jpg/1280px-WearableArt_6_%2831742322645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:WearableArt_6_(31742322645).jpg",
+     "author": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "caption": "A winged garment on display, 2016",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/world-of-wearableart-76f8d5f1.jpg"
+    }
+   ],
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=6zuO31jtHHo",
@@ -12935,7 +13069,39 @@
    "lat": 47.6258,
    "lng": 13.8389,
    "addedAt": "2026-11-25T02:44:09Z",
-   "images": [],
+   "images": [
+    {
+     "file": "File:Narzissenfest 2019 Martin Huber.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Narzissenfest_2019_Martin_Huber.jpg/1280px-Narzissenfest_2019_Martin_Huber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Narzissenfest_2019_Martin_Huber.jpg",
+     "author": "Martin Huber",
+     "license": "CC BY-SA 4.0",
+     "caption": "Tom and Jerry in narcissi cross the lake by Plätte, 2019",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/narzissenfest-ausseerland-9c54f9ee.jpg",
+     "thumb": "img/t/narzissenfest-ausseerland-9c54f9ee.jpg"
+    },
+    {
+     "file": "File:Narzissenfest 2025 Ottl der Sumpfdackel BHO-2710.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Narzissenfest_2025_Ottl_der_Sumpfdackel_BHO-2710.jpg/1280px-Narzissenfest_2025_Ottl_der_Sumpfdackel_BHO-2710.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Narzissenfest_2025_Ottl_der_Sumpfdackel_BHO-2710.jpg",
+     "author": "Bernhard Holub",
+     "license": "CC BY-SA 4.0",
+     "caption": "'Ottl der Sumpfdackel' in the boat parade at Altaussee, 2025",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/narzissenfest-ausseerland-e2c901a7.jpg"
+    },
+    {
+     "file": "File:Narzissenfest H Sams.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Narzissenfest_H_Sams.jpg/1280px-Narzissenfest_H_Sams.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Narzissenfest_H_Sams.jpg",
+     "author": "Herbert Sams",
+     "license": "CC BY-SA 4.0",
+     "caption": "An owl made of narcissus blossoms, 2018",
+     "addedAt": "2026-11-26T16:45:59Z",
+     "src": "img/narzissenfest-ausseerland-62de0e89.jpg"
+    }
+   ],
    "videos": [
     {
      "url": "https://www.youtube.com/watch?v=NNhhHlGML2c",
