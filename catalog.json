@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-15T18:59:50Z",
+ "generatedAt": "2026-11-25T02:44:09Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-25T02:44:09Z",
+   "summary": "5 experiences added, matched to your votes: Mexico City's monumental alebrijes, Appenzell's Silvesterchlausen, Viterbo's Macchina di Santa Rosa, Wellington's World of WearableArt and Austria's Narzissenfest. Photos to follow.",
+   "newExperiences": [
+    "desfile-de-alebrijes-monumentales",
+    "silvesterchlausen-urnaesch",
+    "macchina-di-santa-rosa",
+    "world-of-wearableart",
+    "narzissenfest-ausseerland"
+   ],
+   "newMedia": 0
+  },
   {
    "date": "2026-11-15T18:59:50Z",
    "summary": "9 fireworks festivals added: Japan's Omagari, Nagaoka, Katakai and Sumidagawa, plus Yanshui Beehive, Tultepec, Malta, Montreal and Sydney New Year's Eve.",
@@ -12486,6 +12498,512 @@
    ],
    "addedAt": "2026-11-14T09:00:00Z",
    "nameOriginal": "Giant Lantern Festival / Ligligan Parul"
+  },
+  {
+   "priority": "Top discovery",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-21 (vote-matched)",
+   "region": "Central America & Mexico",
+   "country": "Mexico",
+   "id": "desfile-de-alebrijes-monumentales",
+   "name": "Desfile de Alebrijes Monumentales (Parade of Monumental Alebrijes)",
+   "location": "Mexico City, Mexico",
+   "month": 10,
+   "monthName": "October",
+   "start2027": "2027-10-16",
+   "end2027": "2027-10-16",
+   "category": "Parade",
+   "dateConfidence": "Calculated — third Saturday of October, as in 2024–2026; 2027 date not yet announced",
+   "dateDetails": "The Museo de Arte Popular has not set the 2027 date. The parade fell on the third Saturday of October in each of the last three years (Oct 19, 2024; Oct 18, 2025; Oct 17, 2026), starting at noon, which points to Saturday, October 16, 2027. The 2026 creatures then stayed on show beside Paseo de la Reforma until November 8, and two free night walks of illuminated alebrijes were held the weekend before. The museum publishes its call for entries, with the date, in June.",
+   "booking": "Free, with no tickets or stands. The route runs from the Zócalo along 5 de Mayo and Avenida Juárez to Paseo de la Reforma, so the wide, tree-lined pavements of Reforma are an easier place to watch than the packed square. For a slower look, come back any day in the following three weeks, when the creatures are parked along the avenue.",
+   "why": "About 300 giant papier-mâché dream creatures, each a one-off built by artisans from across Mexico, roll through the centre of Mexico City two weeks before Day of the Dead.",
+   "artPairing": "The Museo de Arte Popular, organizer of the parade, in an Art Deco former fire station near the Alameda: masks, trees of life and cartonería. Frida Kahlo's Casa Azul and Diego Rivera's studio in San Ángel, both hung with the giant papier-mâché Judas figures the couple collected.",
+   "landscapePairing": "The canals of Xochimilco and its growers' fields of marigolds, in bloom for Day of the Dead; the pyramids of Teotihuacan about an hour away. Mid-October is the tail of the rainy season at 2,240 metres: mild days, cool evenings.",
+   "laterYears": "2028: Sat Oct 21; 2029: Sat Oct 20   [calculated: third Saturday of October; not announced]",
+   "officialUrl": "https://www.map.cdmx.gob.mx/",
+   "tagline": "Hand-built dream monsters four metres tall, wheeled past the cathedral at noon",
+   "story": "Alebrijes began with one man's fever. In 1936 Pedro Linares, a Mexico City maker of piñatas and Judas figures, fell gravely ill and dreamed of a forest of impossible animals: a donkey with butterfly wings, a rooster with a bull's horns. Once he recovered he built them in cartonería, the craft of paper and paste over a reed frame that his family still practises in the La Merced district. Since 2007 the Museo de Arte Popular has invited workshops, families and collectives from across the country to make the creatures at monumental scale, as much as four metres tall, and compete for prizes.\n\nOn a Saturday in mid-October the finished beasts gather in the Zócalo at noon, each on a wheeled cart pushed by its makers, and set off along 5 de Mayo, Avenida Juárez and Paseo de la Reforma with brass bands between them. The 2026 parade had about 300. No two are alike: each is a chimera, part jaguar or fish or dragon or bird, painted in dots and stripes of saturated color. Afterwards they stand along Reforma for about three weeks, where you can walk among them at your own pace. On the weekend before the parade, illuminated alebrijes are walked through the old centre on two evenings.",
+   "wonderMoment": "The first creatures roll out of the Zócalo, and as they pass you see that every scale, feather and claw was cut from paper and painted by hand.",
+   "lat": 19.4326,
+   "lng": -99.1332,
+   "addedAt": "2026-11-25T02:44:09Z",
+   "images": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=15GuIZrL7YA",
+     "title": "🐉🌈 Giant Colorful Creatures Take Over Mexico City! | Alebrije Parade 2026",
+     "channel": "🌎 Parade Planet 4K",
+     "kind": "film",
+     "minutes": null,
+     "note": "The 2026 parade in 4K, creature by creature",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=LfJ9_zVHPQ4",
+     "title": "Alebrijes Monumentales 2026: Lo mejor del desfile en la Ciudad de México",
+     "channel": "NMás",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Broadcaster's highlights of the 2026 parade",
+     "titleEn": "Monumental Alebrijes 2026: the best of the parade in Mexico City",
+     "lang": "Spanish",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=TVUM3wIaMb8",
+     "title": "Desfile de Alebrijes Monumentales 2026 llena de color la CDMX",
+     "channel": "La Jornada",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Newspaper report from the 18th parade",
+     "titleEn": "The 2026 Monumental Alebrijes Parade fills Mexico City with color",
+     "lang": "Spanish",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=dCGx97ZTzRs",
+     "title": "Cartoneros dan vida a los alebrijes del Desfile Monumental de Alebrijes 2024 | Imagen Noticias",
+     "channel": "Imagen Noticias",
+     "kind": "clip",
+     "minutes": null,
+     "note": "A master cartonera and her team build a creature for the parade",
+     "titleEn": "Papier-mâché makers bring the 2024 parade's alebrijes to life",
+     "lang": "Spanish",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=rf-Pfsq_iCM",
+     "title": "La magia de los Alebrijes nació en el taller de la Familia Linares en la Ciudad de México",
+     "channel": "Turismo CDMX",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Inside the workshop of Pedro Linares's family",
+     "titleEn": "The magic of the alebrijes was born in the Linares family workshop in Mexico City",
+     "lang": "Spanish",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=N-Fn3KVdb-M",
+     "title": "Pedro Linares Artesano Cartonero parte 1.wmv",
+     "channel": "Yeudiel L Salguero",
+     "kind": "documentary",
+     "minutes": null,
+     "note": "First part of Judith Bronowski's documentary on the man who dreamed up alebrijes",
+     "titleEn": "Pedro Linares, papier-mâché artisan, part 1",
+     "lang": "Spanish",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#alebrijesmonumentales on Instagram",
+     "url": "https://www.instagram.com/explore/tags/alebrijesmonumentales/",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "label": "#desfiledealebrijes on TikTok",
+     "url": "https://www.tiktok.com/tag/desfiledealebrijes",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "nameOriginal": "Desfile de Alebrijes Monumentales"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-21 (vote-matched)",
+   "region": "Europe",
+   "country": "Switzerland",
+   "id": "silvesterchlausen-urnaesch",
+   "name": "Silvesterchlausen (New Year Mummers of Appenzell)",
+   "location": "Urnäsch, Appenzell Ausserrhoden, Switzerland",
+   "month": 12,
+   "monthName": "December",
+   "start2027": "2027-12-31",
+   "end2027": "2027-12-31",
+   "category": "Folklore / masquerade",
+   "dateConfidence": "Fixed annual (two separate dates)",
+   "dateDetails": "Twice every winter: New Silvester on December 31 and Old Silvester on January 13, New Year's Eve by the Julian calendar. In 2027 those are Wednesday, January 13 and Friday, December 31. If either date falls on a Sunday, the Chläuse go out on the Saturday before. The next two chances are Thursday, December 31, 2026 and January 13, 2027.",
+   "booking": "No tickets and no route: the groups wander between farms and their paths are never announced. The surest sightings are the gathering on Urnäsch's village square around five in the morning and the singing in the inns after dark, for which a table should be reserved early. Take the Appenzeller Bahnen train from Gossau or Herisau. Rooms go quickly; the regional tourist office reported everything booked out for 2024/25. Visitors are asked to stay a few metres back, keep silent after each yodel, say a quiet bravo instead of clapping, and leave the flash off.",
+   "why": "Twice each winter, bands of masked men in beaded headdresses or coats of fir and moss walk from farm to farm in the Appenzell hills, shaking heavy bells and singing wordless yodels to bring in the New Year.",
+   "artPairing": "The Appenzeller Brauchtumsmuseum on Urnäsch's village square, where the costumes and headdresses can be studied up close and which opens on Old Silvester; the Baroque hall of the Abbey Library of St Gallen, under an hour away; painted farm-life panels and embroidery at the Museum Appenzell.",
+   "landscapePairing": "The Säntis, 2,502 metres, by cable car from Schwägalp at the head of the Urnäsch valley; the folded hills and scattered farmsteads of the Appenzell hinterland, often under snow in January; Lake Constance just beyond St Gallen.",
+   "laterYears": "2028: Thu Jan 13 and Sat Dec 30 (Dec 31 is a Sunday); 2029: Sat Jan 13 and Mon Dec 31   [fixed dates; Sunday rule applied]",
+   "officialUrl": "https://appenzellerland.ch/de/informieren/typisch/braeuche-tradition/silvesterchlausen.html",
+   "tagline": "Bell-hung mummers in beadwork or moss yodel in the New Year twice, farm by farm",
+   "story": "The Protestant half-canton of Appenzell Ausserrhoden, in the hills below the Säntis, refused the Pope's calendar reform, so the year still ends twice there: on December 31 and again on January 13, Old Silvester. On both days small bands of men called Schuppel set out before dawn, usually six to a group. The Schöne, the beautiful ones, wear velvet costumes and wide headdresses that carry carved miniature scenes of farm life among thousands of glass beads, sewn and whittled by the men themselves from spring onward. The Wüeschte, the ugly ones, are coated in fir twigs, straw and moss, with horned and toothed masks. A third kind turns those rough materials into ornament.\n\nUrnäsch has about thirty Schuppel. They gather on the village square in the dark, around five, then scatter by routes nobody publishes. At each farmhouse they jump until the heavy bells on their bodies ring, fall still, and sing a Zäuerli, a slow yodel without words in several voices. The household gives each man a drink, taken through a straw beneath the mask, and some money. Then the group walks on across the fields. Onlookers follow at a distance and stay quiet. After nightfall the Chläuse move through the village inns, singing until midnight. The custom was first recorded in 1663, when the church tried to ban it.",
+   "wonderMoment": "At first light six glittering figures cross a field in single file toward a farmhouse, and the bells reach you long before you can make out the headdresses.",
+   "lat": 47.3167,
+   "lng": 9.2833,
+   "addedAt": "2026-11-25T02:44:09Z",
+   "images": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=I3O15lHTsbk",
+     "title": "Silvesterchlausen Urnäsch 2025 | Neuer Silvester | Appenzeller Brauchtum 4K",
+     "channel": "LuegemolTV",
+     "kind": "film",
+     "minutes": null,
+     "note": "A New Silvester morning in Urnäsch, filmed in 4K",
+     "titleEn": "Silvesterchlausen Urnäsch 2025 | New Silvester | Appenzell customs in 4K",
+     "lang": "German",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=5qwqZHYgEE0",
+     "title": "Silvesterchlausen in Switzerland's Appenzell Region | Unique Swiss New Year's Eve Tradition [Part 1]",
+     "channel": "2 on Route",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Travellers follow the groups on Old Silvester, in English",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=4g-lzTqCSwc",
+     "title": "Silvesterklausen in Urnäsch / Appenzell Ausserrhoden / Switzerland",
+     "channel": "Jürg Vollmer",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The Urnäsch Chläuse and their two New Years",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=B9nlhExCckE",
+     "title": "Silvesterchlausen Trailer",
+     "channel": "Andrew Norman Wilson",
+     "kind": "short",
+     "minutes": null,
+     "note": "Trailer for the 12-minute film that premiered at Rotterdam in 2025",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/shorts/YFBBvYsh2tQ",
+     "title": "Silvesterchlausen🇨🇭 Unique Swiss Tradition in the Appenzell Region to wish a Happy New Year 🎭 🎶 🔔 🫶",
+     "channel": "2 on Route",
+     "kind": "short",
+     "minutes": null,
+     "note": "A quick taste of the costumes and the yodelling",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "streaming": [
+    {
+     "title": "Silvesterchlausen (Andrew Norman Wilson, 2025)",
+     "platform": "European Film Awards",
+     "url": "https://www.europeanfilmawards.eu/vimeo-movie/silvesterchlausen/",
+     "note": "12-minute film without dialogue, first shown at Rotterdam; listed to play on this page. Check availability",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#silvesterchlausen on Instagram",
+     "url": "https://www.instagram.com/explore/tags/silvesterchlausen/",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "label": "#silvesterchlausen on TikTok",
+     "url": "https://www.tiktok.com/tag/silvesterchlausen",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "nameOriginal": "Silvesterchlausen"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-21 (vote-matched)",
+   "region": "Europe",
+   "country": "Italy",
+   "id": "macchina-di-santa-rosa",
+   "name": "Macchina di Santa Rosa (Machine of Saint Rose)",
+   "location": "Viterbo, Lazio, Italy",
+   "month": 9,
+   "monthName": "September",
+   "start2027": "2027-09-03",
+   "end2027": "2027-09-03",
+   "category": "Procession",
+   "dateConfidence": "Fixed annual date (September 3); 2027 program not yet published",
+   "dateDetails": "Always the evening of September 3, the eve of Santa Rosa's feast; in 2027 a Friday. The tower is lifted at Porta Romana at about 9 pm and takes well over an hour to reach the Sanctuary of Santa Rosa. A costumed historical procession crosses the old town on September 2, and the Macchina stays on view beside the sanctuary for a few days afterwards.",
+   "booking": "Watching from the street is free, and the route fills from mid-afternoon. Numbered seats in the squares, Piazza del Plebiscito among them, are sold online from August; the 2024 allocation sold out before the day. Bars, restaurants and hotels along the route sometimes offer windows and terraces, so ask when you book a room.",
+   "why": "At nine on the night of September 3, about a hundred men lift a five-tonne, thirty-metre tower of light onto their shoulders and carry it through the blacked-out streets of a medieval town.",
+   "artPairing": "The Park of Monsters at Bomarzo, a 16th-century wood of giant stone ogres and beasts half an hour away; the water gardens of Villa Lante at Bagnaia; in Viterbo, the Palazzo dei Papi and the Museo dei Facchini in the medieval San Pellegrino quarter, with models of earlier towers.",
+   "landscapePairing": "Lake Bolsena, a volcanic crater lake ringed by fishing villages; Civita di Bagnoregio on its crumbling spur of tufa; the hot springs outside Viterbo for a long soak the morning after.",
+   "laterYears": "2028: Sun Sep 3; 2029: Mon Sep 3   [fixed date; the tower design changes every five years, and Dies Natalis debuted in 2024]",
+   "officialUrl": "https://www.visitlazio.com/en/the-machine-of-santa-rosa-unesco-heritage",
+   "tagline": "A hundred men shoulder a thirty-metre tower of light through a darkened medieval town",
+   "story": "Viterbo, a walled papal town north of Rome, commemorates the day in 1258 when the body of its patron, Rosa, was carried to the convent that now bears her name. What began as a small canopy has grown into the Macchina: a spire about thirty metres high and five tonnes in weight, with the saint's statue at its tip. A new design is chosen every five years. The present one, Dies Natalis by the architect Raffaele Ascenzi, first went out in 2024, covered in hundreds of electric lights and live flames. UNESCO lists the carrying as intangible heritage.\n\nThe bearers are the Facchini di Santa Rosa, about a hundred men in white with red sashes. Before the lift they receive the blessing given to those in danger of death. At nine the town's lights go out. On the command 'Sollevate e fermi' the tower rises at Porta Romana and starts through streets so narrow that at some corners it clears the walls by a hand's width, swaying above a crowd that goes quiet as it passes and roars once it is through. The men rest in the squares along the way. The route is just over a kilometre and ends with a steep climb to the sanctuary.",
+   "wonderMoment": "The street lamps die, the bearers straighten their legs as one, and the whole lit spire rises over the rooftops and begins to walk.",
+   "lat": 42.4168,
+   "lng": 12.105,
+   "addedAt": "2026-11-25T02:44:09Z",
+   "images": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=vl_Mr2XwLOI",
+     "title": "🌹 Trasporto della Macchina di Santa Rosa Dies Natalis 2026 🌹 Diretta Streaming",
+     "channel": "Comune di Viterbo",
+     "kind": "full-event",
+     "minutes": null,
+     "note": "The city's own live broadcast of the whole 2026 carrying",
+     "titleEn": "Carrying of the Macchina di Santa Rosa, Dies Natalis 2026: live stream",
+     "lang": "Italian",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=9iZLV1K9Fa0",
+     "title": "\"In attesa della Gloria\" di Roberto Cipriani",
+     "channel": "Roberto Cipriani",
+     "kind": "documentary",
+     "minutes": null,
+     "note": "Roberto Cipriani's 27-minute documentary on the bearers and the last outing of the tower Gloria",
+     "titleEn": "\"Waiting for Gloria\" by Roberto Cipriani",
+     "lang": "Italian",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=_Rc41mL-32g",
+     "title": "Macchina di Santa Rosa 2025 a Viterbo",
+     "channel": "Cormano82",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The 2025 carrying of Dies Natalis",
+     "titleEn": "Macchina di Santa Rosa 2025 in Viterbo",
+     "lang": "Italian",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=iLkNsIARwho",
+     "title": "Il trasporto della macchina di Santa Rosa",
+     "channel": "ProjectTuscia",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The 2022 carrying, filmed by a local travel project",
+     "titleEn": "The carrying of the Macchina di Santa Rosa",
+     "lang": "Italian",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=J1MMWuj0NeA",
+     "title": "Viterbo - Ecco la nascita di Dies Natalis - Voce narrante Piermaria Cecchini",
+     "channel": "Etruria News",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The winning design for the current tower, presented with narration",
+     "titleEn": "Viterbo: the birth of Dies Natalis, narrated by Piermaria Cecchini",
+     "lang": "Italian",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#macchinadisantarosa on Instagram",
+     "url": "https://www.instagram.com/explore/tags/macchinadisantarosa/",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "label": "#macchinadisantarosa on TikTok",
+     "url": "https://www.tiktok.com/tag/macchinadisantarosa",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "nameOriginal": "Macchina di Santa Rosa"
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-21 (vote-matched)",
+   "region": "Oceania",
+   "country": "New Zealand",
+   "id": "world-of-wearableart",
+   "name": "World of WearableArt (WOW)",
+   "location": "Wellington, New Zealand",
+   "month": 9,
+   "monthName": "September",
+   "start2027": "2027-09-16",
+   "end2027": "2027-10-03",
+   "category": "Spectacle",
+   "dateConfidence": "Officially confirmed",
+   "dateDetails": "The 2027 season runs September 16 to October 3 at TSB Arena on Wellington's waterfront, as listed by WOW and by Wellington's tourism office. It is the 40th-anniversary year: an exhibition of more than 50 rarely seen garments opens at the Tākina convention centre in mid-August and runs to October.",
+   "booking": "Tickets are sold through worldofwearableart.com. The 2026 season went on sale on March 24; the 2027 date has not been announced, and the site takes sign-ups for an alert. Prices vary by performance, with no child or concession rates. Great Journeys New Zealand's WOW Train packages (scenic train to Wellington, Gold seats, hotel) sold out in 2024 and 2025.",
+   "why": "The world's leading wearable-art competition staged as arena theatre: sculpture built to be worn, shown with dancers, aerialists and live music to more than 60,000 people over three weeks.",
+   "artPairing": "The 40th-anniversary WOW exhibition at Tākina, where the garments can be seen at arm's length; Te Papa, the national museum, a few minutes along the waterfront; a tour of Wētā Workshop in Miramar, where film creatures and armour are made.",
+   "landscapePairing": "The Northern Explorer train from Auckland across the volcanic Central Plateau; native birds at the Zealandia sanctuary and on Kapiti Island; Wellington's harbour and the ferry crossing of Cook Strait. Late September is early spring there: cool and often windy.",
+   "laterYears": "2028–2029: not yet announced   [the 2023 to 2027 seasons open between Sept 16 and Sept 26 and run just under three weeks]",
+   "officialUrl": "https://www.worldofwearableart.com/",
+   "tagline": "Art made to be worn, sent from around the world and staged as theatre",
+   "story": "World of WearableArt started in 1987 near Nelson, on New Zealand's South Island, when the sculptor Suzie Moncrieff set out to take art off the wall and put it on the body, as a way to draw visitors to a country gallery. It moved to Wellington in 2005 and is now an international design competition. Entrants spend months, sometimes years, on a single garment in whatever material serves the idea.\n\nNone of it is shown on a catwalk. For about three weeks each spring the TSB Arena on the waterfront holds a full stage production in which every garment appears inside a choreographed scene with dancers, aerialists and live music. The work is grouped in six sections: Aotearoa, Avant-garde and Open return each year, and 2027 adds Rococo, Black White and a children's section called Figments of Imagination. In this 40th year a companion exhibition at Tākina, a short walk away, puts more than fifty rarely shown pieces within arm's reach, so you can see how they were built.",
+   "wonderMoment": "The lights drop, a single figure is lit, and it takes a moment to work out that the creature crossing the stage is a person inside a sculpture.",
+   "lat": -41.2853,
+   "lng": 174.779,
+   "addedAt": "2026-11-25T02:44:09Z",
+   "images": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=6zuO31jtHHo",
+     "title": "2025 World of WearableArt Show: RISE Highlights",
+     "channel": "WorldofWearableArt",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Official highlights of the 2025 show",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=0KWaPlSzgEQ",
+     "title": "2024 World of WearableArt Show: DREAM AWAKE Highlights",
+     "channel": "WorldofWearableArt",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Official highlights of 2024, creature carnival included",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=AzbaU92ZLdQ",
+     "title": "2026 Supreme WOW Award Winner Interview - World of WearableArt",
+     "channel": "WorldofWearableArt",
+     "kind": "clip",
+     "minutes": null,
+     "note": "2026 Supreme Award winner Kayla Christensen on her process",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=b4tlKhWkmZA",
+     "title": "World of Wearable Art showcases extraordinary designs | The Morning Show",
+     "channel": "The Morning Show",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Australia's Channel 7 explains the competition",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=tq4zZyluHVw",
+     "title": "The Coolest Art Show in the World? (WoW, Weta Workshop & Wellington vlog)",
+     "channel": "Ash Bentley",
+     "kind": "film",
+     "minutes": null,
+     "note": "A visitor's trip to the show, Wētā Workshop and Wellington",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/shorts/oB75Omya2_A",
+     "title": "2026 Kinetic Section award winners at the 2026 World of WearableArt Show.",
+     "channel": "WorldofWearableArt",
+     "kind": "short",
+     "minutes": null,
+     "note": "The moving garments that won the 2026 Kinetic section",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#worldofwearableart on Instagram",
+     "url": "https://www.instagram.com/explore/tags/worldofwearableart/",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "label": "#worldofwearableart on TikTok",
+     "url": "https://www.tiktok.com/tag/worldofwearableart",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ]
+  },
+  {
+   "priority": "High interest",
+   "status": "Wishlist",
+   "sourceType": "Scout 2026-11-21 (vote-matched)",
+   "region": "Europe",
+   "country": "Austria",
+   "id": "narzissenfest-ausseerland",
+   "name": "Narzissenfest (Narcissus Festival)",
+   "location": "Grundlsee and Bad Aussee, Styria, Austria",
+   "month": 5,
+   "monthName": "May",
+   "start2027": "2027-05-27",
+   "end2027": "2027-05-30",
+   "category": "Parade",
+   "dateConfidence": "Officially confirmed",
+   "dateDetails": "The 67th Narzissenfest runs Thursday, May 27 to Sunday, May 30, 2027, with Grundlsee as host village. Thursday, 7 pm: crowning of the Narcissus Queen. Friday: children's May dance and Narcissus Night in Bad Aussee. Saturday: public pinning of the figures. Sunday: grounds open at 9 am with the figures on show all day, the boat parade on the lake in the afternoon and the judging at 3 pm.",
+   "booking": "Sunday day tickets were €19 in 2026, sold for cash as wristbands at the entrances, with children up to 15 free; 2027 prices are still to come. Free shuttle buses meet every train at Bad Aussee station and parking is free. The Ausseerland is small and the festival draws close to 20,000 people, so book a lakeside room early.",
+   "why": "Villagers pin hundreds of thousands of wild white narcissi onto giant sculpted figures, then send them across an Alpine lake on flat wooden boats.",
+   "artPairing": "The Altaussee salt mine, where the Ghent Altarpiece and Michelangelo's Bruges Madonna were hidden during the Second World War; the Kammerhof museum in Bad Aussee for local costume and carnival dress; hand-block-printed Ausseer fabrics, still made in town.",
+   "landscapePairing": "The narcissus meadows in bloom, on a guided walk from Altaussee; the three-lake boat trip across Grundlsee and Toplitzsee to the tiny Kammersee; the level path around the Altausseer See beneath the Loser and the Trisselwand.",
+   "laterYears": "2028–2029: not yet announced   [always Thursday to Sunday around the end of May; the host rotates, which points to Altaussee in 2028 and Bad Aussee in 2029]",
+   "officialUrl": "https://www.narzissenfest.at/index.php/en",
+   "tagline": "Giant figures made of wild narcissi, carried by boat across a mountain lake",
+   "story": "From mid-May to mid-June the hay meadows of the Ausseerland, a pocket of lakes between the Dachstein and the Totes Gebirge in the Styrian Salzkammergut, turn white with wild star narcissi. Since 1960 the villages have marked the bloom with Austria's largest flower festival. Around 3,000 volunteers pick the flowers by hand, and on the Saturday teams push them, head by head, into wire-mesh frames shaped as animals and cartoon characters several metres high. A big figure can take up to 300,000 blossoms.\n\nThe festival opens on Thursday with the crowning of the Narcissus Queen and builds to Sunday. The host village rotates; in 2027 it is Grundlsee, on the long lake Styrians call their sea. The finished figures stand along the shore from nine in the morning, so you can walk right up to them and catch the scent before the crowd thickens. In the afternoon each is loaded onto a Plätte, the flat wooden boat of the Salzkammergut, and taken slowly past the bank while brass bands play and a jury picks the winner.",
+   "wonderMoment": "A figure taller than the boatmen, white from head to foot with blossoms, glides out onto the green water of the Grundlsee with the mountains behind it.",
+   "lat": 47.6258,
+   "lng": 13.8389,
+   "addedAt": "2026-11-25T02:44:09Z",
+   "images": [],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=NNhhHlGML2c",
+     "title": "Narzissenfest 2024",
+     "channel": "Helmut Hörmann",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Figures on the shore and on the boats at Grundlsee, the 2027 setting",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=YIfZZFfdwP0",
+     "title": "65. Narzissenfest 2025 - Orts- und Bootskorso in Altaussee",
+     "channel": "ARF - Ausseer Regionalfernsehen",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Local television's report on the 2025 parades",
+     "titleEn": "65th Narzissenfest 2025: village and boat parade in Altaussee",
+     "lang": "German",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=87ZJFpEW1Hs",
+     "title": "Ein Volksfest in Österreich für die Stern-Narzisse | DW Deutsch",
+     "channel": "DW Deutsch",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Deutsche Welle report: narcissus figures on the road and the lake",
+     "titleEn": "A folk festival in Austria for the star narcissus",
+     "lang": "German",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Ymj1qb6-Pw8",
+     "title": "Narzissenfest im Salzkammergut | Euromaxx",
+     "channel": "DW Deutsch",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Euromaxx on how the short-lived figures are made by hand",
+     "titleEn": "Narzissenfest in the Salzkammergut",
+     "lang": "German",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=u3nQgxYsOFo",
+     "title": "Narzissenfest im Ausseerland - Salzkammergut",
+     "channel": "Ausseerland - Salzkammergut",
+     "kind": "clip",
+     "minutes": null,
+     "note": "The tourism office's overview, from picking to parade",
+     "titleEn": "Narzissenfest in the Ausseerland-Salzkammergut",
+     "lang": "German",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#narzissenfest on Instagram",
+     "url": "https://www.instagram.com/explore/tags/narzissenfest/",
+     "addedAt": "2026-11-25T02:44:09Z"
+    },
+    {
+     "label": "#narzissenfest on TikTok",
+     "url": "https://www.tiktok.com/tag/narzissenfest",
+     "addedAt": "2026-11-25T02:44:09Z"
+    }
+   ],
+   "nameOriginal": "Narzissenfest"
   }
  ]
 }
