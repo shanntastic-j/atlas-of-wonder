@@ -1,7 +1,17 @@
 {
- "generatedAt": "2026-11-26T17:41:58Z",
+ "generatedAt": "2026-11-26T18:40:07Z",
  "baselineAt": "2026-11-14T09:00:00Z",
  "updates": [
+  {
+   "date": "2026-11-26T18:40:07Z",
+   "summary": "3 motoring experiences added for David: Goodwood Revival, the centenary 1000 Miglia and the Concorso d'Eleganza Villa d'Este, with photos.",
+   "newExperiences": [
+    "goodwood-revival",
+    "mille-miglia",
+    "concorso-deleganza-villa-deste"
+   ],
+   "newMedia": 9
+  },
   {
    "date": "2026-11-26T17:41:58Z",
    "summary": "1 experience added at your request: the waved albatross courtship on Española, Galápagos, with photos.",
@@ -13288,6 +13298,289 @@
      "label": "#wavedalbatross on TikTok",
      "url": "https://www.tiktok.com/tag/wavedalbatross",
      "addedAt": "2026-11-26T17:41:58Z"
+    }
+   ]
+  },
+  {
+   "priority": "High interest",
+   "status": "Wishlist",
+   "sourceType": "Requested 2026-11-26 (car events)",
+   "region": "Europe",
+   "country": "United Kingdom",
+   "id": "goodwood-revival",
+   "name": "Goodwood Revival",
+   "location": "Goodwood Motor Circuit, Chichester, West Sussex, England",
+   "month": 9,
+   "monthName": "September",
+   "start2027": "2027-09-17",
+   "end2027": "2027-09-19",
+   "category": "Motoring pageant",
+   "dateConfidence": "Officially confirmed",
+   "dateDetails": "Goodwood has set Friday, September 17 to Sunday, September 19, 2027. Racing runs all three days; Saturday and Sunday carry the fullest programmes.",
+   "booking": "Tickets are sold only in advance through goodwood.com and are not available at the gate. Ticket holders from the previous year and Goodwood club members book first; general sale follows later in the autumn, and weekend days sell out. Period dress is expected of everyone, so plan an outfit from the 1940s, 50s or 60s.",
+   "why": "A whole motor circuit set back in time: priceless racing cars from before 1966 driven flat out while tens of thousands of spectators, mechanics and marshals wear the clothes of the era.",
+   "artPairing": "Goodwood House, with its Canalettos and Stubbs horse paintings; Pallant House Gallery in Chichester for modern British art; the Chagall window in Chichester Cathedral.",
+   "landscapePairing": "The chalk hills of the South Downs right behind the circuit; the dunes and wide sands of West Wittering; the tidal creeks of Chichester Harbour.",
+   "laterYears": "2028–2029: not yet announced; held on a September weekend, Friday to Sunday",
+   "officialUrl": "https://www.goodwood.com/motorsport/goodwood-revival/",
+   "tagline": "Wheel-to-wheel racing in priceless old cars, with the entire crowd in period dress",
+   "story": "Goodwood's circuit, laid out on the perimeter road of a wartime airfield, held races from 1948 to 1966 and then fell quiet. Since 1998 the Revival has reopened it for one weekend a year exactly as it was. Nothing built after the track closed is allowed on show: the cars, the motorcycles, the aircraft overhead, the advertising hoardings and the tractors that tow the breakdowns all belong to the period.\n\nSo do the people. Spectators come as land girls, mods, RAF officers and film stars, the mechanics wear white or green overalls, and the shops along the paddock sell from period storefronts. The racing itself is serious. Ferraris, Cobras, Jaguars and Maseratis worth millions are driven hard, door to door, often by professionals, and the grids for the main races are among the most valuable anywhere. Between races there are Spitfires in the air, a vintage funfair, and dancing to live bands.",
+   "wonderMoment": "Thirty sports cars from the early 1960s take the start together and howl into the first corner, watched by a grandstand of people dressed as if it were still 1962.",
+   "lat": 50.8594,
+   "lng": -0.7594,
+   "addedAt": "2026-11-26T18:40:07Z",
+   "images": [
+    {
+     "file": "File:Cooper Formula 2 Being Pushed Back to Paddock - Supermac1961.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Cooper_Formula_2_Being_Pushed_Back_to_Paddock_-_Supermac1961.jpg/1280px-Cooper_Formula_2_Being_Pushed_Back_to_Paddock_-_Supermac1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Cooper_Formula_2_Being_Pushed_Back_to_Paddock_-_Supermac1961.jpg",
+     "author": "Supermac1961 from CHAFFORD HUNDRED, England",
+     "license": "CC BY 2.0",
+     "caption": "Mechanics in period overalls push a Cooper back to the paddock, 2011",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/goodwood-revival-37830045.jpg",
+     "thumb": "img/t/goodwood-revival-37830045.jpg"
+    },
+    {
+     "file": "File:1959 Cooper Climax T49 Monaco (48914351673).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/1959_Cooper_Climax_T49_Monaco_%2848914351673%29.jpg/1280px-1959_Cooper_Climax_T49_Monaco_%2848914351673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1959_Cooper_Climax_T49_Monaco_(48914351673).jpg",
+     "author": "David Merrett from Daventry, England",
+     "license": "CC BY 2.0",
+     "caption": "A 1959 Cooper Monaco is readied in the paddock, 2019",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/goodwood-revival-f8769b5e.jpg"
+    },
+    {
+     "file": "File:Paddock at Goodwood Revival - geograph.org.uk - 4661020.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Paddock_at_Goodwood_Revival_-_geograph.org.uk_-_4661020.jpg/1280px-Paddock_at_Goodwood_Revival_-_geograph.org.uk_-_4661020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Paddock_at_Goodwood_Revival_-_geograph.org.uk_-_4661020.jpg",
+     "author": "Oast House Archive",
+     "license": "CC BY-SA 2.0",
+     "caption": "Single-seaters under the paddock shelters, 2015",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/goodwood-revival-825fcd18.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=oG354j1KeYk",
+     "title": "Saturday Full Highlights | Goodwood Revival 2025",
+     "channel": "Goodwood Road & Racing",
+     "kind": "film",
+     "minutes": null,
+     "note": "The organizers' highlights of a full race day",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=OGfDfRD4DB8",
+     "title": "Goodwood Revival Highlights 2014",
+     "channel": "Goodwood Road & Racing",
+     "kind": "clip",
+     "minutes": null,
+     "note": "An official overview of the racing and the dressing-up",
+     "addedAt": "2026-11-26T18:40:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#goodwoodrevival on Instagram",
+     "url": "https://www.instagram.com/explore/tags/goodwoodrevival/",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "label": "#goodwoodrevival on TikTok",
+     "url": "https://www.tiktok.com/tag/goodwoodrevival",
+     "addedAt": "2026-11-26T18:40:07Z"
+    }
+   ]
+  },
+  {
+   "priority": "High interest",
+   "status": "Wishlist",
+   "sourceType": "Requested 2026-11-26 (car events)",
+   "region": "Europe",
+   "country": "Italy",
+   "id": "mille-miglia",
+   "name": "1000 Miglia (Mille Miglia)",
+   "nameOriginal": "1000 Miglia",
+   "location": "Brescia to Rome and back, Italy",
+   "month": 5,
+   "monthName": "May",
+   "start2027": "2027-05-24",
+   "end2027": "2027-05-29",
+   "category": "Motoring pageant",
+   "dateConfidence": "Officially confirmed",
+   "dateDetails": "The centenary edition runs Monday, May 24 to Saturday, May 29, 2027: six days instead of the usual five, on an anticlockwise loop that follows the 1927 original. The published route goes from Brescia through Parma, Florence and Rome, then to Cervia on the Adriatic, across to Verona and back to Brescia. Passage times for each town are published in the spring.",
+   "booking": "Free to watch anywhere along the route; no tickets. The best places are the old town centres where cars stop for a time stamp and crowds can walk among them, and the start and finish in Brescia. Pick one or two towns and book rooms early, since the centenary will draw more people than a normal year.",
+   "why": "About four hundred cars of the models that raced between 1927 and 1957 are driven a thousand miles on open roads through the piazzas of Italy, in the centenary year of the race.",
+   "artPairing": "The Museo Mille Miglia in a former monastery in Brescia; Brescia's Santa Giulia museum complex; whatever town you choose to watch in, since the route crosses Parma, Florence, Rome and Verona.",
+   "landscapePairing": "Lake Garda and the smaller Lake Iseo, each half an hour from Brescia; the Apennine passes between Parma and Florence, where the cars climb through hill villages.",
+   "laterYears": "2028–2029: not yet announced; recent editions have run in May or June",
+   "officialUrl": "https://1000miglia.it/en/",
+   "tagline": "A rolling museum of pre-1957 racing cars, driven through Italy's piazzas for six days",
+   "story": "The Mille Miglia began in 1927, when four men from Brescia organized a race of a thousand Roman miles to Rome and back on public roads. It ran until 1957 and made the names of Alfa Romeo, Ferrari and Mercedes. The modern event is a regularity trial, a test of precise timing, open only to models that took part in the original. Around four hundred are accepted each year, and many are the very cars that raced.\n\nFor a spectator it is unlike a concours. Bugattis, open Alfa Romeos and gull-wing Mercedes arrive in a town a few minutes apart for hours, engines hot, crews in goggles and leather helmets, and thread through medieval streets to a stamp table in the main square while the whole place turns out to wave them through. 2027 marks one hundred years since the first start, and the route returns to the anticlockwise direction of that year.",
+   "wonderMoment": "A blood-red 1930s Alfa Romeo, open to the sky, noses into a packed Renaissance piazza, collects its stamp, and accelerates out under the bell tower.",
+   "lat": 45.5416,
+   "lng": 10.2118,
+   "addedAt": "2026-11-26T18:40:07Z",
+   "images": [
+    {
+     "file": "File:Various (Mille Miglia 2018).jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Various_%28Mille_Miglia_2018%29.jpg/1280px-Various_%28Mille_Miglia_2018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Various_(Mille_Miglia_2018).jpg",
+     "author": "Franco Vannini from Sansepolcro (AR), Italy",
+     "license": "CC BY 2.0",
+     "caption": "A Bugatti leads pre-war cars through the hills, 2018",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/mille-miglia-d26d787e.jpg",
+     "thumb": "img/t/mille-miglia-d26d787e.jpg"
+    },
+    {
+     "file": "File:1937 BMW 328 at 2019 Mille Miglia.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/1937_BMW_328_at_2019_Mille_Miglia.jpg/1280px-1937_BMW_328_at_2019_Mille_Miglia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1937_BMW_328_at_2019_Mille_Miglia.jpg",
+     "author": "Città di Parma",
+     "license": "CC BY-SA 2.0",
+     "caption": "A 1937 BMW 328 at the Palazzo del Giardino in Parma, 2019",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/mille-miglia-4aed6e85.jpg"
+    },
+    {
+     "file": "File:1930 Alfa Romeo 6C 1750 GS at 2019 2019 Mille Miglia.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/1930_Alfa_Romeo_6C_1750_GS_at_2019_2019_Mille_Miglia.jpg/1280px-1930_Alfa_Romeo_6C_1750_GS_at_2019_2019_Mille_Miglia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:1930_Alfa_Romeo_6C_1750_GS_at_2019_2019_Mille_Miglia.jpg",
+     "author": "Città di Parma",
+     "license": "CC BY-SA 2.0",
+     "caption": "A 1930 Alfa Romeo 6C on a wet country road, 2019",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/mille-miglia-6259e503.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=RMphYQScC1M",
+     "title": "1000 Miglia 2026 - Day 2, Castelvetro di Modena - Alfa Romeo 6C, Mercedes 300 SL, Ferrari 750 Monza",
+     "channel": "Italiansupercarvideo",
+     "kind": "film",
+     "minutes": null,
+     "note": "The cars passing through one hill town in 2026",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=kV-QrDmVBp4",
+     "title": "Maserati at the 1000 Miglia 2026. The most beautiful race of the world",
+     "channel": "Maserati",
+     "kind": "clip",
+     "minutes": null,
+     "note": "A carmaker's film from inside the 2026 run",
+     "addedAt": "2026-11-26T18:40:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#1000miglia on Instagram",
+     "url": "https://www.instagram.com/explore/tags/1000miglia/",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "label": "#1000miglia on TikTok",
+     "url": "https://www.tiktok.com/tag/1000miglia",
+     "addedAt": "2026-11-26T18:40:07Z"
+    }
+   ]
+  },
+  {
+   "priority": "Explore",
+   "status": "Wishlist",
+   "sourceType": "Requested 2026-11-26 (car events)",
+   "region": "Europe",
+   "country": "Italy",
+   "id": "concorso-deleganza-villa-deste",
+   "name": "Concorso d'Eleganza Villa d'Este",
+   "location": "Cernobbio, Lake Como, Italy",
+   "month": 5,
+   "monthName": "May",
+   "start2027": "2027-05-21",
+   "end2027": "2027-05-23",
+   "category": "Motoring pageant",
+   "dateConfidence": "Listed by one events calendar; not yet confirmed by the organizers",
+   "dateDetails": "One motoring calendar lists May 21 to 23, 2027, which fits the pattern of 2025 (May 23 to 25) and 2026 (May 15 to 17). BMW Group Classic and the hotel had not published 2027 dates when this was written. The public day at Villa Erba has fallen on the Sunday, 9:30 am to 6 pm.",
+   "booking": "The judging day in the gardens of the Grand Hotel Villa d'Este is by invitation and a small number of costly tickets. Most visitors go to the public day next door at Villa Erba, where all the cars are shown and paraded; those tickets are sold online in the spring. Stay in Cernobbio or Como and arrive by lake boat.",
+   "why": "Around fifty of the rarest coachbuilt cars in the world, shown as works of design in the gardens of two villas on the shore of Lake Como.",
+   "artPairing": "Villa Erba itself, the family villa of the film director Luchino Visconti; Villa Carlotta at Tremezzo for its Canova sculptures; Como's silk museum.",
+   "landscapePairing": "Lake Como by public boat, to Bellagio and the terraced gardens of Villa del Balbianello; the funicular from Como up to Brunate for the view down the lake.",
+   "laterYears": "2028–2029: not yet announced; held on a weekend in the second half of May",
+   "officialUrl": "https://concorsodeleganzavilladeste.com/",
+   "tagline": "Coachbuilt cars judged as sculpture in villa gardens on Lake Como",
+   "story": "The Concorso was first held in 1929, when a car's body was still ordered from a coachbuilder the way a suit is ordered from a tailor, and it remains a beauty contest and nothing else. Entry is by invitation. About fifty historic cars are chosen, most of them one of a handful made, along with a small class of new concept cars and prototypes. The oldest prize, the Coppa d'Oro, is decided by a vote of the people present.\n\nOn the Saturday the cars stand on the lawns of the Villa d'Este hotel among cypress and plane trees. On the Sunday they move a few hundred metres up the shore to the park of Villa Erba, which opens to the public, and each is driven slowly past the crowd and introduced. With the mountains across the water behind them, the long bonnets and swept tails of the 1930s cars look less like machines than like something poured.",
+   "wonderMoment": "A black Alfa Romeo from 1938, all curves, rolls across the lawn at walking pace with the lake and the mountains behind it.",
+   "lat": 45.8436,
+   "lng": 9.0747,
+   "addedAt": "2026-11-26T18:40:07Z",
+   "images": [
+    {
+     "file": "File:Alfa Romeo 8C 2900B at Villa d'Este.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Alfa_Romeo_8C_2900B_at_Villa_d%27Este.jpg/1280px-Alfa_Romeo_8C_2900B_at_Villa_d%27Este.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_8C_2900B_at_Villa_d%27Este.jpg",
+     "author": "Yanko Malinov",
+     "license": "CC BY-SA 4.0",
+     "caption": "The Alfa Romeo 8C 2900B that won the Coppa d'Oro in 2019",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/concorso-deleganza-villa-deste-5bb33ae7.jpg",
+     "thumb": "img/t/concorso-deleganza-villa-deste-5bb33ae7.jpg"
+    },
+    {
+     "file": "File:Villa d'Este 1.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Villa_d%27Este_1.jpg/1280px-Villa_d%27Este_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_d%27Este_1.jpg",
+     "author": "LarryStevens",
+     "license": "CC0",
+     "caption": "Cars gathered in the hotel courtyard, 2016",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/concorso-deleganza-villa-deste-fec3136a.jpg"
+    },
+    {
+     "file": "File:Villa Erba, Cernobbio - Concorso eleganza Villa d'Este.jpg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Villa_Erba%2C_Cernobbio_-_Concorso_eleganza_Villa_d%27Este.jpg/1280px-Villa_Erba%2C_Cernobbio_-_Concorso_eleganza_Villa_d%27Este.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "pageUrl": "https://commons.wikimedia.org/wiki/File:Villa_Erba,_Cernobbio_-_Concorso_eleganza_Villa_d%27Este.jpg",
+     "author": "Etienne (Li)",
+     "license": "CC BY-SA 3.0",
+     "caption": "Villa Erba during the public day, 2009",
+     "addedAt": "2026-11-26T18:40:07Z",
+     "src": "img/concorso-deleganza-villa-deste-22cd1239.jpg"
+    }
+   ],
+   "videos": [
+    {
+     "url": "https://www.youtube.com/watch?v=ub280x1PLv4",
+     "title": "Concorso d'Eleganza Villa d'Este 2026 Sunday Parade - 250GTO, CLK GTR, W12 Nardo, K39, Miura SV",
+     "channel": "Automotive Mike",
+     "kind": "film",
+     "minutes": null,
+     "note": "The 2026 parade, car by car",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ddq631K5FTQ",
+     "title": "Concorso d'Eleganza Villa d'Este 2026- Sunday Street Parade- Kimera K39, Mercedes CLK GTR & More!!!",
+     "channel": "sportcrash71",
+     "kind": "clip",
+     "minutes": null,
+     "note": "Entrants driving through Cernobbio to Villa Erba, 2026",
+     "addedAt": "2026-11-26T18:40:07Z"
+    }
+   ],
+   "social": [
+    {
+     "label": "#concorsodeleganzavilladeste on Instagram",
+     "url": "https://www.instagram.com/explore/tags/concorsodeleganzavilladeste/",
+     "addedAt": "2026-11-26T18:40:07Z"
+    },
+    {
+     "label": "#concorsodeleganzavilladeste on TikTok",
+     "url": "https://www.tiktok.com/tag/concorsodeleganzavilladeste",
+     "addedAt": "2026-11-26T18:40:07Z"
     }
    ]
   }
